@@ -27,7 +27,9 @@ a {
 }
 
 main {
-    background-color: #cbcccd;
+/*    background-color: #cbcccd;*/
+    background-color: #fff;
+    
 }
 
 .navbar-brand {
@@ -349,6 +351,7 @@ address>a:hover {
 }
 
 .content_main {
+/*    background-color: #fff;*/
     background-color: #cbcccd;
     padding-bottom: 15px;
     min-height: 730px;
@@ -464,7 +467,7 @@ img {
 }
 
 body {
-    background-color: #cbcccd;
+/*    background-color: #cbcccd;*/
 }
 
 .gallery_col a {
