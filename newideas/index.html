@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
     <title>AOAT | Home</title>
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 </head>
 
 <body>
@@ -26,19 +27,12 @@
            current +=  $(window).scrollTop();
            current +=  "px)";
            console.log(current);
-/*
-           $(".aboutAOAT").css("transform",current);
-*/
-           /*$(".aboutAOAT").animate({
-               transform: current
-           }, {
-               step: function (hr) {
-                   $(this).css('-webkit-transform', current);
-               },
-               duration: 1
-           }, 'linear');*/
+           
+
            if($(window).scrollTop() + $(window).height() == $(document).height()) {
-               /*alert("bottom!");*/
+/*
+               alert("bottom!");
+*/
            }else{
                $(".main").animate({
                    transform: current
@@ -51,6 +45,13 @@
            }
            
        });
+       function runclick() {
+           $('html, body').animate({
+               scrollTop: "400"
+           }, 1000);
+           return false;
+       }
+       
     </script>
     <header>
         <nav class="navbar navbar-default home_nav transparent_nav">
@@ -105,6 +106,10 @@
         <div class="absolute-text" id="aboutAOAT_AT">
             <h1>About AOAT</h1>
             <p> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor.</p>
+            <div class="arrow bounce">
+                <button class="fa fa-arrow-down fa-2x " onClick="runclick();" href="#"></button>
+                
+            </div>
         </div>
     </div>
     <main>
