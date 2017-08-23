@@ -356,7 +356,10 @@ address>a:hover {
     padding-bottom: 15px;
     min-height: 730px;
 }
-
+.navbar{
+    border-radius:0;
+    
+}
 @media screen and (max-width: 1440px) {
     .lockcontent {
         max-width: 1440px;
