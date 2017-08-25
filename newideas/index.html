@@ -75,7 +75,7 @@
     </div>
     <main>
 
-<!--
+        <!--
         <div class="homeimage aboutAOAT">
             <img src="images/home/AboutAOAT.jpg">
             <div class="absolute-text" id="aboutAOAT_AT">
@@ -331,10 +331,34 @@
         </div>
     </footer>-->
     <!--Javascrpits-->
-    
+
     <script>
-        
+        var current_load;
+        $(document).ready(function() {
+            var height = $(".main").height() + $(".landing").height();
+            height += "px;";
+
+            $("body").css("height", height);
+
+
+            current_load = $(window).scrollTop() + $(".landing").height();
+
+            $(".main").animate({
+                top: current_load
+            }, {
+                step: function() {
+                    $(this).css('top', current_load);
+                },
+                duration: 1
+            }, 'ease');
+
+        });
+
+
         $(window).scroll(function(event) {
+
+            /*
+             alert();*/
             var scroll = $(window).scrollTop();
             if (scroll > 200) {
                 $(".navbar").removeClass("transparent_nav");
@@ -342,22 +366,42 @@
             if (scroll < 200) {
                 $(".navbar").addClass("transparent_nav");
             }
-            var current = "translateY(-";
+            /*var current = "translateY(-";*/
+            var current; /*= "-";*/
             current += $(window).scrollTop();
-            current += "px)";
+            if ($(window).scrollTop() == 0) {
+                current = $(window).scrollTop() + $(".landing").height();
+                var current_log = $(window).scrollTop() + $(".landing").height();
+
+            } else {
+                /*
+                                current = "-";
+                */
+                current = parseInt($(".main").css("top"), 10); - $(window).scrollTop();
+            }
+
+            /*current += "px)";*/
             console.log(current);
-            
+
             $(".main").animate({
-                    transform: current
-                }, {
-                    step: function() {
-                        $(this).css('-webkit-transform', current);
-                    },
-                    duration: 1
-                }, 'ease');
+                top: current
+            }, {
+                step: function() {
+                    $(this).css('top', current);
+                },
+                duration: 1
+            }, 'ease');
+            /*    $(".main").animate({
+                            transform: current
+                        }, {
+                            step: function() {
+                                $(this).css('-webkit-transform', current);
+                            },
+                            duration: 1
+                        }, 'ease');*/
 
             if ($(window).scrollTop() + $(window).height() != $(document).height()) {
-                
+
             }
 
         });
