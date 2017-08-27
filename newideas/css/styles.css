@@ -75,6 +75,8 @@ main {
 
 .homeimage:hover .homeimage_effect {
     opacity: .7;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .homeimage img {
@@ -140,6 +142,16 @@ main {
 
 .transparent_nav {
     background-color: transparent!important;
+}
+
+.transparent_nav .active a {
+    background-color: rgba(231, 231, 231, 0.8) !important;
+    border-radius: 2px;
+}
+
+.active a {
+    -webkit-transition: 1;
+    transition: 1;
 }
 
 .arrow {
@@ -250,8 +262,67 @@ main {
 }
 
 #about {
+    /*
     background: url(../images/banners/BannerPlaceholderLG.png);
-    background-position: center;
+*/
+    /*background-position: center;*/
+    overflow: hidden;
+}
+
+#about div {
+    background: rgba(72, 70, 156, 0.75);
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#about h2 {
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    z-index: 3;
+}
+
+#about img {
+    width: 100%;
+    /*
+    height: 100%;
+*/
+    z-index: 0;
+    -webkit-transform: translateY(-255px) scaleY(0.9);
+    transform: translateY(-255px) scaleY(0.9);
+    /*-webkit-filter: blur(3px);
+    filter: blur(3px);*/
+}
+
+.email {
+    position: relative;
+    font-size: 16px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: solid 1px #383838;
+    color: #383838;
+    
+    -webkit-transition: all 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+.email:valid, 
+.email:focus {
+    background-position: 0 0;
+    outline: none;
+}
+
+
+.email::after {
+    position: absolute;
+    content: "  ";
+    width: 100%;
+    height: 50px;
+    background: red;
+    bottom: 0;
 }
 
 #aboutEvents {
@@ -296,7 +367,7 @@ main {
 
 .banner {
     width: 100%;
-    height: 240px;
+    height: 300px;
     color: #fff;
     position: relative;
     margin-bottom: 10px;
@@ -375,6 +446,7 @@ address>a:hover {
 .partnership img {
     height: 50px;
     margin-top: 4px;
+    margin-left: 5px;
 }
 
 .footer-nav li:not(:first-child):before {
