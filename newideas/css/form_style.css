@@ -126,7 +126,7 @@
 #first_name {
     -webkit-transform: translate(-45px);
     transform: translate(-45px);
-    top: 0;
+    top: 8px;
 }
 
 #last_name {
@@ -134,7 +134,16 @@
     -webkit-transform: translateX(-45px);
     transform: translateX(-45px);
 }
-
+#email{
+        top: 104px;
+    -webkit-transform: translateX(-45px);
+    transform: translateX(-45px);
+}
+#numb{
+        top: 148px;
+    -webkit-transform: translateX(-45px);
+    transform: translateX(-45px);
+}
 .visable {
     opacity: 1 !important;
     -webkit-transform: translate(0) !important;

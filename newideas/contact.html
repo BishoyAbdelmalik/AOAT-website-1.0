@@ -71,10 +71,10 @@
         <form class="form" name="contactform" action="send_form_email.php" method="post" target="my_iframe" enctype="multipart/form-data">
             <div class="part1 flex wrap column">
                 <!--class="email_label"-->
-                <input type="text" class="email" placeholder="First Name:" name="first_name"><label id="first_name" class="label_form" for="first_name"><span  >First Name:</span></label>
+                <input type="text" class="email" placeholder="First Name:" name="first_name"><label id="first_name" class="label_form" for="first_name"><span>First Name:</span></label>
                 <input type="text" class="email" placeholder="Last Name:" name="last_name"><label class="label_form" id="last_name" for="last_name"><span>Last Name:</span></label>
-                <input type="text" class="email" name="email"><label class="label_form" for="email"><span>E-mail:</span></label>
-                <input type="text" class="email" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" name="numb"><label class="label_form" for="numb"><span>Phone Number:</span></label>
+                <input type="text" class="email" placeholder="E-mail:" name="email"><label id="email" class="label_form" for="email"><span>E-mail:</span></label>
+                <input type="text" class="email" placeholder="Phone Number:" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" name="numb"><label id="numb" class="label_form" for="numb"><span>Phone Number:</span></label>
             </div>
             <div>
                 <span>Are you ?</span>
@@ -194,6 +194,24 @@
         $("input[name=last_name]").focusout(function() {
             if (!hasValue("input[name=last_name]")) {
                 $("#last_name").removeClass("visable");
+            }
+
+        });
+         $("input[name=email]").focus(function() {
+            $("#email").addClass("visable");
+        });
+         $("input[name=email]").focusout(function() {
+            if (!hasValue("input[name=email]")) {
+                $("#email").removeClass("visable");
+            }
+
+        });
+        $("input[name=numb]").focus(function() {
+            $("#numb").addClass("visable");
+        });
+         $("input[name=numb]").focusout(function() {
+            if (!hasValue("input[name=numb]")) {
+                $("#numb").removeClass("visable");
             }
 
         });
