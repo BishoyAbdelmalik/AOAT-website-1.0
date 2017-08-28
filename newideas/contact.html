@@ -70,10 +70,11 @@
     <div class="mainform">
         <form class="form" name="contactform" action="send_form_email.php" method="post" target="my_iframe" enctype="multipart/form-data">
             <div class="part1 flex wrap column">
-                <label for="first_name"><span>First Name:</span></label><input type="text" class="email" name="first_name">
-                <label for="last_name"><span>Last Name:</span></label><input type="text" class="email" name="last_name">
-                <label for="email"><span>E-mail:</span></label><input type="text" class="email" name="email">
-                <label for="numb"><span>Phone Number:</span></label><input type="text" class="email" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" name="numb">
+                <!--class="email_label"-->
+                <input type="text" class="email" placeholder="First Name:" name="first_name"><label id="first_name" class="label_form" for="first_name"><span  >First Name:</span></label>
+                <input type="text" class="email" placeholder="Last Name:" name="last_name"><label class="label_form" id="last_name" for="last_name"><span>Last Name:</span></label>
+                <input type="text" class="email" name="email"><label class="label_form" for="email"><span>E-mail:</span></label>
+                <input type="text" class="email" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" name="numb"><label class="label_form" for="numb"><span>Phone Number:</span></label>
             </div>
             <div>
                 <span>Are you ?</span>
@@ -178,6 +179,31 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
+        $("input[name=first_name]").focus(function() {
+            $("#first_name").addClass("visable");
+        });
+        $("input[name=first_name]").focusout(function() {
+            if (!hasValue("input[name=first_name]")) {
+                $("#first_name").removeClass("visable");
+            }
+
+        });
+        $("input[name=last_name]").focus(function() {
+            $("#last_name").addClass("visable");
+        });
+        $("input[name=last_name]").focusout(function() {
+            if (!hasValue("input[name=last_name]")) {
+                $("#last_name").removeClass("visable");
+            }
+
+        });
+
+        function hasValue(elem) {
+            return $(elem).filter(function() {
+                return $(this).val();
+            }).length > 0;
+        }
+
         $(window).scroll(function(event) {
 
             var scroll = $(window).scrollTop();

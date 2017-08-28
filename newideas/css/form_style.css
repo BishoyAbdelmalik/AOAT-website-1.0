@@ -96,3 +96,47 @@
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+
+.email {
+    position: relative;
+    font-size: 16px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: solid 1px #383838;
+    color: #383838;
+    -webkit-transition: all 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+    margin-top: 20px;
+}
+
+.email:valid,
+.email:focus {
+    background-position: 0 0;
+    outline: none;
+}
+
+.label_form {
+    position: absolute;
+    z-index: 99;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#first_name {
+    -webkit-transform: translate(-45px);
+    transform: translate(-45px);
+    top: 0;
+}
+
+#last_name {
+    top: 56px;
+    -webkit-transform: translateX(-45px);
+    transform: translateX(-45px);
+}
+
+.visable {
+    opacity: 1 !important;
+    -webkit-transform: translate(0) !important;
+    transform: translate(0) !important;
+}

@@ -297,33 +297,7 @@ main {
     filter: blur(3px);*/
 }
 
-.email {
-    position: relative;
-    font-size: 16px;
-    padding: 10px 0;
-    border: none;
-    border-bottom: solid 1px #383838;
-    color: #383838;
-    
-    -webkit-transition: all 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
-    transition: all 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
-}
 
-.email:valid, 
-.email:focus {
-    background-position: 0 0;
-    outline: none;
-}
-
-
-.email::after {
-    position: absolute;
-    content: "  ";
-    width: 100%;
-    height: 50px;
-    background: red;
-    bottom: 0;
-}
 
 #aboutEvents {
     background: url(../images/banners/BannerPlaceholderLG.png);
