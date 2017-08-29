@@ -71,30 +71,34 @@
         <form class="form" name="contactform" action="send_form_email.php" method="post" target="my_iframe" enctype="multipart/form-data">
             <div class="part1 flex wrap column">
                 <!--class="email_label"-->
-                <input type="text" class="email" placeholder="First Name:" name="first_name"><label id="first_name" class="label_form" for="first_name"><span>First Name:</span></label>
-                <input type="text" class="email" placeholder="Last Name:" name="last_name"><label class="label_form" id="last_name" for="last_name"><span>Last Name:</span></label>
-                <input type="text" class="email" placeholder="E-mail:" name="email"><label id="email" class="label_form" for="email"><span>E-mail:</span></label>
-                <input type="text" class="email" placeholder="Phone Number:" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" name="numb"><label id="numb" class="label_form" for="numb"><span>Phone Number:</span></label>
+                <input type="text" class="email" placeholder="First Name:" name="first_name">
+                <label id="first_name" class="label_form" for="first_name"><span>First Name:</span></label>
+                <input type="text" class="email" placeholder="Last Name:" name="last_name">
+                <label class="label_form" id="last_name" for="last_name"><span>Last Name:</span></label>
+                <input type="text" class="email" placeholder="E-mail:" name="email">
+                <label id="email" class="label_form" for="email"><span>E-mail:</span></label>
+                <input type="text" class="email" placeholder="Phone Number:" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" name="numb">
+                <label id="numb" class="label_form" for="numb"><span>Phone Number:</span></label>
             </div>
             <div>
-                <span>Are you ?</span>
+                <label><span class="are_you">Are you ?</span></label>
             </div>
             <div class="part2 flex wrap">
                 <div>
                     <input type="checkbox" id="teach" name="teacher" value="1">
-                    <label for="teach">teacher</label>
+                    <label class="part2_label" for="teach">teacher</label>
                 </div>
                 <div>
                     <input type="checkbox" id="student" name="student" value="1">
-                    <label for="student">Student</label>
+                    <label class="part2_label" for="student">Student</label>
                 </div>
                 <div>
                     <input type="checkbox" id="parent" name="parent" value="1">
-                    <label for="parent">Parent </label>
+                    <label class="part2_label" for="parent">Parent </label>
                 </div>
                 <div class="other flex row">
-                    <span>Other: </span>
-                    <input type="text" id="other" name="other">
+                    <label for="other"><span>Other: </span></label>
+                    <input type="text" class="email" id="other" name="other">
                 </div>
 
             </div>
@@ -180,36 +184,53 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
         $("input[name=first_name]").focus(function() {
+            $("input[name=first_name]").addClass("active");
             $("#first_name").addClass("visable");
         });
         $("input[name=first_name]").focusout(function() {
             if (!hasValue("input[name=first_name]")) {
+                $("input[name=first_name]").removeClass("active");
                 $("#first_name").removeClass("visable");
             }
 
         });
         $("input[name=last_name]").focus(function() {
+            $("input[name=last_name]").addClass("active");
             $("#last_name").addClass("visable");
         });
         $("input[name=last_name]").focusout(function() {
+
+            $("input[name=last_name]").removeClass("active");
+
             if (!hasValue("input[name=last_name]")) {
+
                 $("#last_name").removeClass("visable");
             }
 
         });
-         $("input[name=email]").focus(function() {
+        $("input[name=email]").focus(function() {
+            $("input[name=email]").addClass("active");
+
             $("#email").addClass("visable");
         });
-         $("input[name=email]").focusout(function() {
+        $("input[name=email]").focusout(function() {
+
+            $("input[name=email]").removeClass("active");
+
             if (!hasValue("input[name=email]")) {
                 $("#email").removeClass("visable");
             }
 
         });
         $("input[name=numb]").focus(function() {
+            $("input[name=numb]").addClass("active");
+
             $("#numb").addClass("visable");
         });
-         $("input[name=numb]").focusout(function() {
+        $("input[name=numb]").focusout(function() {
+
+            $("input[name=numb]").removeClass("active");
+
             if (!hasValue("input[name=numb]")) {
                 $("#numb").removeClass("visable");
             }
@@ -235,6 +256,13 @@
         });
 
         $('input[type="checkbox"]').on('change', function() {
+            if (hasValue("input[name=other]")) {
+                $("input[name=other]").val('');
+
+            }
+            $('input[type="checkbox"]').not(this).prop('checked', false);
+        });
+        $("input[name=other]").focus(function() {
             $('input[type="checkbox"]').not(this).prop('checked', false);
         });
 
