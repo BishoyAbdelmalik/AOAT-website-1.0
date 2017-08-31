@@ -297,8 +297,6 @@ main {
     filter: blur(3px);*/
 }
 
-
-
 #aboutEvents {
     background: url(../images/banners/BannerPlaceholderLG.png);
     background-position: center;
@@ -455,7 +453,7 @@ address>a:hover {
     margin-top: 2px;
     color: #009cd5;
     text-align: center;
-/*    font-family: 'RalewayBlack', sans-serif;*/
+    /*    font-family: 'RalewayBlack', sans-serif;*/
     border-bottom: 4px solid #8a0add;
     font-weight: 600;
     font-size: 35px;
