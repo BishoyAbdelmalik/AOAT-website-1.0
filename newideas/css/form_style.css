@@ -199,3 +199,7 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked {
     background: red;
 }
+
+textarea {
+    resize: none;
+}
