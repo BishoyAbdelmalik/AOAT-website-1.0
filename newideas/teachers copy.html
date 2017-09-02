@@ -8,6 +8,45 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles_for%20teacherpage.css">
     <title>AOAT | Teachers</title>
+    <style>
+        .middle {
+            max-width: 1500px;
+        }
+        
+        .arrow {
+            background: transparent;
+            border: none;
+            outline: none;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+        
+        .arrow:focus,
+        .arrow:active {
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+        
+        .arrow img {
+            width: 30px;
+            height: auto;
+            cursor: pointer;
+        }
+        
+        .line div:nth-child(2) {
+            position: relative;
+        }
+        
+        @media (min-width: 920px) {
+            .line div:nth-child(2) {
+                width: 172px;
+                position: relative;
+            }
+        }
+
+    </style>
 </head>
 
 <body>
@@ -64,34 +103,30 @@
             <div class="banner" id="teachers">
                 <h2>Teachers</h2>
             </div>
-            <div class="container-fluid teachers_columns">
-
+            <div class="middle container-fluid teachers_columns">
                 <div class="bio_block">
                     <div class="line">
                         <div class="polaroid" data-toggle="collapse">
-                            <a href="#au" data-toggle="collapse">
-                                <img src="images/teachers/au.jpg">
-
+                            <a href="#rosillo" data-toggle="collapse">
+                                <img src="images/teachers/rosillo.jpg">
                             </a>
                         </div>
                         <div>
-                            <a href="#au" data-toggle="collapse">
-                                <h4>Cindy Au</h4>
+                            <a href="#rosillo" data-toggle="collapse">
+                                <h4>Gabriela Rosillo</h4>
                             </a>
-                            <p><i>English</i><br> Grade: 9</p>
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#au">View Porfile</button>
+                            <p><i>Coordinator, Art and Design</i><br> Grade: 10, 11, and 12</p>
+                            <button class="arrow" type="button" data-toggle="collapse" data-target="#rosillo"><img src="images/teachers/down_arrow.svg" /></button>
 
                         </div>
                     </div>
-                    <div id="au" class="collapse">
+                    <div id="rosillo" class="collapse">
                         <p>
-                            9th and 10th grade English teacher, graduated from UCSD with a BA in Communications, attended San Jose State University for her teaching credential and five years ago earned her M.Ed in Education from UCLA. She worked She joined the Cleveland HS staff in 2015 and was in the GAIMS community before moving over to help with both the STEM and AOAT academies in 2016-17. Her passion for clear communication and the desire to provide the gift of creative expression with language drives her efforts to provide a solid foundation of English skills for her classes. She is Mastery Learning practitioner and seeks to collaborate with all subjects to improve students’ English skills.
-                        </p>
-                        <p>
-                            Website: <a href="http://thelandmrsau.weebly.com/" target="_blank">http://thelandmrsau.weebly.com/</a>
+                            Coordinator, design teacher, graduated with a degree in Art and Design, concentration in graphic design, from Cal Poly State University, San Luis Obispo. Having worked as a freelance graphic designer and art director, she has experience in conceptual design, production, photography, photo retouching, and web design. She received her teaching credential from Cal State University, Northridge, and her CTE training at UCLA. She connects with students both in design classes and in her award-winning Yearbook program.
                         </p>
                     </div>
                 </div>
+
                 <div class="bio_block">
                     <div class="line">
                         <div class="polaroid" data-toggle="collapse">
@@ -104,7 +139,7 @@
                                 <h4>Louis Barreto</h4>
                             </a>
                             <p><i>Art and Design</i><br> Grade: 9, 10, 11, 12</p>
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#barreto">View Porfile</button>
+                            <button class="arrow" type="button" data-toggle="collapse" data-target="#barreto"><img src="images/teachers/down_arrow.svg" /></button>
                         </div>
                     </div>
                     <div id="barreto" class="collapse">
@@ -125,7 +160,7 @@
                                 <h4>Benett Berkowitz</h4>
                             </a>
                             <p><i>English</i><br> Grade: 10 and 12</p>
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#berkowitz">View Porfile</button>
+                            <button class="arrow" type="button" data-toggle="collapse" data-target="#berkowitz"><img src="images/teachers/down_arrow.svg" /></button>
                         </div>
                     </div>
                     <div id="berkowitz" class="collapse">
@@ -146,7 +181,7 @@
                                 <h4>Wesley DeGracia</h4>
                             </a>
                             <p><i>Social Studies</i><br> Grade: 10 and 12</p>
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#degracia">View Porfile</button>
+                            <button class="arrow" type="button" data-toggle="collapse" data-target="#degracia"><img src="images/teachers/down_arrow.svg" /></button>
                         </div>
                     </div>
                     <div id="degracia" class="collapse">
@@ -167,9 +202,7 @@
                                 <h4>David Fitzmorris</h4>
                             </a>
                             <p><i>English</i><br> Grade: 11</p>
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#fitzmorris">
-													View Porfile
-												</button>
+                            <button class="arrow" type="button" data-toggle="collapse" data-target="#fitzmorris"><img src="images/teachers/down_arrow.svg" /></button>
 
                         </div>
                     </div>
@@ -189,7 +222,7 @@
                                 <h4>Ami McColl</h4>
                             </a>
                             <p><i>Counselor</i><br> Grade: 10, 11, and 12</p>
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#mccoll">View Porfile</button>
+                            <button class="arrow" type="button" data-toggle="collapse" data-target="#mccoll"><img src="images/teachers/down_arrow.svg" /></button>
                         </div>
                     </div>
                     <div id="mccoll" class="collapse">
@@ -210,9 +243,8 @@
                                 <h4>Laura Neustaedter</h4>
                             </a>
                             <p><i>Social Studies</i><br> Grade: 10 and 11</p>
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#neustaedter">
-															View Porfile
-														</button>
+                            <button class="arrow" type="button" data-toggle="collapse" data-target="#neustaedter"><img src="images/teachers/down_arrow.svg" /></button>
+
                         </div>
                     </div>
                     <div id="neustaedter" class="collapse">
@@ -233,9 +265,8 @@
                                 <h4>Maura Penders</h4>
                             </a>
                             <p><i>English</i><br> Grade: 10</p>
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#penders">
-																View Porfile
-															</button>
+                            <button class="arrow" type="button" data-toggle="collapse" data-target="#penders"><img src="images/teachers/down_arrow.svg" /></button>
+
                         </div>
                     </div>
                     <div id="penders" class="collapse">
@@ -256,9 +287,8 @@
                                 <h4>Paola Prato</h4>
                             </a>
                             <p><i>Photography</i><br> Grade: 10</p>
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#prato">
-																	View Porfile
-																</button>
+                            <button class="arrow" type="button" data-toggle="collapse" data-target="#prato"><img src="images/teachers/down_arrow.svg" /></button>
+
                         </div>
                     </div>
                     <div id="prato" class="collapse">
@@ -280,9 +310,8 @@
                                 <h4>Runa Ray</h4>
                             </a>
                             <p><i>Chemistry</i><br> Grade: 11</p>
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#ray">
-																		View Porfile
-																	</button>
+                            <button class="arrow" type="button" data-toggle="collapse" data-target="#ray"><img src="images/teachers/down_arrow.svg" /></button>
+
                         </div>
                     </div>
                     <div id="ray" class="collapse">
@@ -294,25 +323,27 @@
                 <div class="bio_block">
                     <div class="line">
                         <div class="polaroid" data-toggle="collapse">
-                            <a href="#rosillo" data-toggle="collapse">
-                                <img src="images/teachers/rosillo.jpg">
-                                <p>Gabriela Rosillo</p>
+                            <a href="#broger-macky" data-toggle="collapse">
+                                <img src="images/teachers/placeholder.jpg">
                             </a>
                         </div>
                         <div>
-                            <a href="#rosillo" data-toggle="collapse">
-                                <h4>Gabriela Rosillo</h4>
+                            <a href="#broger-macky" data-toggle="collapse">
+                                <h4>Bruce Broger-Macky</h4>
                             </a>
-                            <p><i>Coordinator, Art and Design</i><br> Grade: 10, 11, and 12</p>
-                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#rosillo">View Porfile</button>
+                            <p><i>Biology</i><br> Grade: 10</p>
+
+                            <button class="arrow" type="button" data-toggle="collapse" data-target="#broger-macky"><img src="images/teachers/down_arrow.svg" /></button>
+
                         </div>
                     </div>
-                    <div id="rosillo" class="collapse">
+                    <div id="broger-macky" class="collapse">
                         <p>
-                            Coordinator, design teacher, graduated with a degree in Art and Design, concentration in graphic design, from Cal Poly State University, San Luis Obispo. Having worked as a freelance graphic designer and art director, she has experience in conceptual design, production, photography, photo retouching, and web design. She received her teaching credential from Cal State University, Northridge, and her CTE training at UCLA. She connects with students both in design classes and in her award-winning Yearbook program.
+                            need bio
                         </p>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -321,19 +352,8 @@
             <div class="row">
                 <div class="col-sm-6">
                     <img class="AOATfooter" src="images/logos/AOAT_Logo.svg">
-                    <address>
-																	<b>
-																		Academy of Art and Technology <br>
-																	</b>
-																	<a href="https://www.google.com/maps/place/Cleveland+High+School/@34.2178337,-118.5492982,17z/data=!3m1!4b1!4m5!3m4!1s0x80c29bb860e42031:0xa5324b726eca9e1e!8m2!3d34.2178337!4d-118.5474577?hl=en">
-																		<b>   
-																			Grover Cleveland Charter High School<br>
-																		</b>
-																		
-																		8140 Vanalden Avenue, Reseda, CA 91335 <br>
-																		(818) 888.2300
-																	</a>
-																</address>
+                    <address><b>Academy of Art and Technology <br></b>
+					<a href="https://www.google.com/maps/place/Cleveland+High+School/@34.2178337,-118.5492982,17z/data=!3m1!4b1!4m5!3m4!1s0x80c29bb860e42031:0xa5324b726eca9e1e!8m2!3d34.2178337!4d-118.5474577?hl=en"><b>   Grover Cleveland Charter High School<br></b>8140 Vanalden Avenue, Reseda, CA 91335 <br>(818) 888.2300</a></address>
                 </div>
                 <div class="col-sm-6">
                     <b>Follow AOAT</b>
@@ -380,11 +400,9 @@
         </div>
 
 
-        </div>
     </footer>
-    <script src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
 </body>
 
 </html>
