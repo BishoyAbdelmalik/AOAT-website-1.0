@@ -47,6 +47,7 @@
     max-width: 200px;
     min-width: 100px;
     height: 20px;
+    padding: 0px;
 }
 
 .part2_label {
@@ -72,6 +73,7 @@
     width: 150px;
     height: 20px;
     margin-top: 0 !important;
+    padding: 0px;
 }
 
 .other span {
@@ -184,6 +186,13 @@
     opacity: 0;
     -webkit-transform: translateX(-45px);
     transform: translateX(-45px);
+}
+
+input {
+    /*Increase height as required*/
+    margin-bottom: 30px;
+    padding: 0 20px;
+    /* Now only left & right padding*/
 }
 
 input[type="checkbox"] {
