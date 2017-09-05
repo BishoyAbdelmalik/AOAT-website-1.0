@@ -262,9 +262,7 @@ main {
 }
 
 #about {
-    /*
     background: url(../images/banners/BannerPlaceholderLG.png);
-*/
     /*background-position: center;*/
     overflow: hidden;
 }
