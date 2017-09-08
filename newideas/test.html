@@ -9,14 +9,20 @@
     <style>
         .rotate {
             transition: all 1s;
+            width: 140px;
+            position: relative;
         }
         
-        .rotate:hover {
-            transform: rotateY(180deg) scale(3) translateX(55%);
+        .animate {
+            transform: rotateY(-180deg) scale(3) translate(-100%);
         }
         
-        .rotate:hover .cover {
+        .animate .cover {
             opacity: 1
+        }
+        
+        .content_main {
+            z-index: 99;
         }
         
         .cover {
@@ -27,6 +33,21 @@
             height: 160px;
             transition: all 1s;
             opacity: 0;
+        }
+        
+        .black_cover {
+            top: 0;
+            bottom: 0;
+            position: absolute;
+            width: 5000px;
+            height: 5000px;
+            background: black;
+            opacity: 0;
+            transition: all 0.3s;
+        }
+        
+        .black_cover_show {
+            opacity: 0.5;
         }
 
     </style>
@@ -90,74 +111,84 @@
                 <div class="rotate" data-toggle="collapse">
                     <a href="#rosillo" data-toggle="collapse">
                         <div class="cover"></div>
+
                         <img src="images/teachers/rosillo.jpg">
                     </a>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="black_cover"></div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+        $(".rotate").hover(function() {
+            $(".rotate").addClass("animate");
+            $(".black_cover").addClass("black_cover_show");
+        });
+
+    </script>
 
 
 
 
 
 
-
-        <footer>
-            <div class="lockcontent container-fluid">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img class="AOATfooter" src="images/logos/AOAT_Logo.svg">
-                        <address><b>Academy of Art and Technology <br></b>
+    <footer>
+        <div class="lockcontent container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="AOATfooter" src="images/logos/AOAT_Logo.svg">
+                    <address><b>Academy of Art and Technology <br></b>
 					<a href="https://www.google.com/maps/place/Cleveland+High+School/@34.2178337,-118.5492982,17z/data=!3m1!4b1!4m5!3m4!1s0x80c29bb860e42031:0xa5324b726eca9e1e!8m2!3d34.2178337!4d-118.5474577?hl=en"><b>   Grover Cleveland Charter High School<br></b>8140 Vanalden Avenue, Reseda, CA 91335 <br>(818) 888.2300</a></address>
-                    </div>
-                    <div class="col-sm-6">
-                        <b>Follow AOAT</b>
-                        <div class="socialmedia">
-                            <a href="https://www.facebook.com/AoatGroverClevelandHighSchool/">
-                                <img src="images/logos/facebookSM_Icon.svg">
-                            </a>
-                            <a href="https://www.flickr.com/photos/109236765@N05/">
-                                <img src="images/logos/flickrSM_Icon.svg">
-                            </a>
-                            <a href="https://theaoat.wordpress.com/">
-                                <img src="images/logos/wordpressSM_Icon.svg">
-                            </a>
-                        </div>
-
-                    </div>
                 </div>
-
-                <ul class="footer-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="academics.html">Academics</a></li>
-                    <li><a href="teachers.html">Teachers</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="#">Student Work</a></li>
-                    <li><a href="#">Alumni</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="http://www.clevelandhs.org/">Cleveland High School</a></li>
-                </ul>
-            </div>
-            <div class="bottom-footer footer_color">
-                <div class="lockcontent container-fluid">
-                    <div class="text-right">
-                        <div class="copyrights">Copyright ©2017 The Academy of Art and Technology</div>
-                        <div class="partnership ">
-                            California Partnership Academy
-                            <a href="http://www.cde.ca.gov/ci/gs/hs/cpagen.asp">
-                                <img src="images/logos/temp_lighthouse.png">
-                                <img src="images/logos/CPA.png">
-                            </a>
-                        </div>
+                <div class="col-sm-6">
+                    <b>Follow AOAT</b>
+                    <div class="socialmedia">
+                        <a href="https://www.facebook.com/AoatGroverClevelandHighSchool/">
+                            <img src="images/logos/facebookSM_Icon.svg">
+                        </a>
+                        <a href="https://www.flickr.com/photos/109236765@N05/">
+                            <img src="images/logos/flickrSM_Icon.svg">
+                        </a>
+                        <a href="https://theaoat.wordpress.com/">
+                            <img src="images/logos/wordpressSM_Icon.svg">
+                        </a>
                     </div>
+
                 </div>
             </div>
 
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="#">Student Work</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="http://www.clevelandhs.org/">Cleveland High School</a></li>
+            </ul>
+        </div>
+        <div class="bottom-footer footer_color">
+            <div class="lockcontent container-fluid">
+                <div class="text-right">
+                    <div class="copyrights">Copyright ©2017 The Academy of Art and Technology</div>
+                    <div class="partnership ">
+                        California Partnership Academy
+                        <a href="http://www.cde.ca.gov/ci/gs/hs/cpagen.asp">
+                            <img src="images/logos/temp_lighthouse.png">
+                            <img src="images/logos/CPA.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        </footer>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 
