@@ -13,6 +13,10 @@
             position: relative;
         }
         
+        * {
+            transition: all 0.5s;
+        }
+        
         .animate {
             z-index: 99;
             transform: rotateY(-180deg) scale(3) translate(-100%);
@@ -57,7 +61,11 @@
             z-index: 3;
             opacity: 0.6;
         }
-
+        
+        .hide {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
     </style>
 </header>
 
@@ -129,7 +137,7 @@
 
                         <img src="images/teachers/rosillo.jpg">
                     </a>
-                    <div>
+                    <div class="info_r">
                         <a href="#" onclick="myFunction()" data-toggle="collapse">
                             <h4>Gabriela Rosillo</h4>
                         </a>
@@ -144,7 +152,7 @@
                     <a href="#rosillo_" data-toggle="collapse">
                         <div class="cover"></div>
 
-                        <img src="images/teachers/rosillo.jpg">
+                        <img src="images/teachers/placeholder.jpg">
                     </a>
 
                 </div>
@@ -163,16 +171,16 @@
 
         function myFunction() {
 
-            console.log("Ran");
             $(".rotate").addClass("animate");
+            $(".info_r").addClass("hide");
             $(".black_cover").addClass("black_cover_show");
+
         }
         $(".black_cover").click(function() {
             $(".rotate").removeClass("animate");
             $(".black_cover").removeClass("black_cover_show");
 
         });
-
     </script>
 
 
