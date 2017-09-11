@@ -14,6 +14,7 @@
         }
         
         .animate {
+            z-index: 99;
             transform: rotateY(-180deg) scale(3) translate(-100%);
         }
         
@@ -39,15 +40,17 @@
             top: 0;
             bottom: 0;
             position: absolute;
-            width: 5000px;
-            height: 5000px;
+            width: 100%;
+            height: 100%;
             background: black;
             opacity: 0;
             transition: all 0.3s;
+            z-index: -1;
         }
         
         .black_cover_show {
-            opacity: 0.5;
+            z-index: 3;
+            opacity: 0.6;
         }
 
     </style>
@@ -116,8 +119,18 @@
                     </a>
                 </div>
             </div>
+            <div class="bio_block">
+                <div class="" data-toggle="collapse">
+                    <a href="#rosillo" data-toggle="collapse">
+                        <div class="cover"></div>
+
+                        <img src="images/teachers/rosillo.jpg">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
+
     <div class="black_cover"></div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
