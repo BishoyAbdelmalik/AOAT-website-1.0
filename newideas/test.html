@@ -29,11 +29,15 @@
         .cover {
             z-index: 99;
             position: absolute;
-            background: red;
+            background: #48469c;
+            color: white;
             width: 140px;
             height: 160px;
-            transition: all 1s;
+            transition: all 0.5s;
             opacity: 0;
+            transform: rotateY(-180deg);
+            font-size: 5px;
+            padding: 5px;
         }
         
         .black_cover {
@@ -41,11 +45,12 @@
             bottom: 0;
             position: absolute;
             width: 100%;
-            height: 100%;
+            height: 800px;
             background: black;
             opacity: 0;
             transition: all 0.3s;
             z-index: -1;
+            min-height: 100%;
         }
         
         .black_cover_show {
@@ -111,21 +116,37 @@
                 <h2>Teachers</h2>
             </div>
             <div class="bio_block">
-                <div class="rotate" data-toggle="collapse">
-                    <a href="#rosillo" data-toggle="collapse">
-                        <div class="cover"></div>
+                <div id="rosillo" class="rotate" data-toggle="collapse">
+                    <a onclick="myFunction()" href="#rosillo_" data-toggle="collapse">
+                        <div class="cover">
+                            <h4>Gabriela Rosillo</h4>
+
+                            <p><i>Coordinator, Art and Design</i><br> Grade: 10, 11, and 12</p>
+                            <p>
+                                Coordinator, design teacher, graduated with a degree in Art and Design, concentration in graphic design, from Cal Poly State University, San Luis Obispo. Having worked as a freelance graphic designer and art director, she has experience in conceptual design, production, photography, photo retouching, and web design. She received her teaching credential from Cal State University, Northridge, and her CTE training at UCLA. She connects with students both in design classes and in her award-winning Yearbook program.
+                            </p>
+                        </div>
 
                         <img src="images/teachers/rosillo.jpg">
                     </a>
+                    <div>
+                        <a href="#" onclick="myFunction()" data-toggle="collapse">
+                            <h4>Gabriela Rosillo</h4>
+                        </a>
+                        <p><i>Coordinator, Art and Design</i><br> Grade: 10, 11, and 12</p>
+
+                    </div>
                 </div>
+
             </div>
             <div class="bio_block">
                 <div class="" data-toggle="collapse">
-                    <a href="#rosillo" data-toggle="collapse">
+                    <a href="#rosillo_" data-toggle="collapse">
                         <div class="cover"></div>
 
                         <img src="images/teachers/rosillo.jpg">
                     </a>
+
                 </div>
             </div>
         </div>
@@ -136,8 +157,20 @@
 
     <script>
         $(".rotate").hover(function() {
+
+        });
+        //        $("#rosillo").click(function() { // $(".rotate").addClass("animate"); // $(".black_cover").addClass("black_cover_show"); // });
+
+        function myFunction() {
+
+            console.log("Ran");
             $(".rotate").addClass("animate");
             $(".black_cover").addClass("black_cover_show");
+        }
+        $(".black_cover").click(function() {
+            $(".rotate").removeClass("animate");
+            $(".black_cover").removeClass("black_cover_show");
+
         });
 
     </script>
