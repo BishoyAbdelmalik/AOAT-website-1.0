@@ -309,13 +309,23 @@ main {
     height: 100%;
 }
 
-.pages_title {}
-
 #teachers img {
     width: 100%;
     z-index: 0;
-    -webkit-transform: translateY(-194px) scaleY(0.9);
-    transform: translateY(-194px) scaleY(0.9);
+}
+
+@media (max-width: 1236px) {
+    #teachers img {
+        -webkit-transform: translateY(-194px) scaleY(0.9);
+        transform: translateY(-194px) scaleY(0.9);
+    }
+}
+
+@media screen and (min-width: 1236px) {
+    #teachers img {
+        -webkit-transform: translateY(-304px) scaleY(0.9);
+        transform: translateY(-304px) scaleY(0.9);
+    }
 }
 
 #academics {
