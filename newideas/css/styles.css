@@ -5,7 +5,8 @@ a {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #fff;
+    color: #096099;
+    /*    color: #fff;*/
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -21,7 +22,8 @@ a {
 }
 
 .navbar-default {
-    background-color: #48469c;
+    background-color: #096099;
+    /*    background-color: #48469c;*/
     border: none;
     margin-bottom: 0px;
 }
@@ -105,7 +107,8 @@ main {
 }
 
 .aboutAOAT {
-    background-color: #b69cc9;
+    /*    background-color: #b69cc9;*/
+    background-color: whitesmoke;
     top: 0;
     -webkit-transition: 1s;
     transition: 1s;
@@ -385,7 +388,8 @@ main {
 
 footer {
     padding-top: 20px;
-    background-color: #48469c;
+    background-color: #096099;
+    /*    background-color: #48469c;*/
     color: #fff;
     text-align: left;
     font-family: 'Raleway', sans-serif;
@@ -414,7 +418,8 @@ footer {
 
 .footer-nav li {
     color: #9dd1d9;
-    background-color: #48469c;
+    /*    background-color: #48469c;
+    */
     display: inline;
 }
 
