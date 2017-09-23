@@ -1,0 +1,69 @@
+#about {
+    background: url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+}
+
+#aboutEvents {
+    background: url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+}
+
+#teachers {
+    background: url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+}
+
+#academics {
+    background: url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+}
+
+#graphicDesign {
+    background: url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+}
+
+#digitalPhotography {
+    background: url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+}
+
+#digitalIllustration {
+    background: url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+}
+
+#digitalImaging {
+    background: url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+}
+
+#calendar {
+    background: url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+}
+
+#alumni {
+    background: url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+}
+
+#contact {
+    background: url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+}
+
+.banner {
+    width: 100%;
+    height: 240px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.banner h2 {
+    position: absolute;
+    left: 15px;
+    bottom: -3px;
+    font-weight: 500;
+}

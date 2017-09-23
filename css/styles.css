@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Kalam|Raleway');
+
+@import url(banner.css);
+
 a {
     -webkit-text-decoration-style: none;
     text-decoration-style: none;
@@ -118,8 +121,7 @@ main {
 }
 
 #studentwork_AT {
-    bottom: 110px;
-    
+    bottom: 110px; 
     width: inherit;
 }
 
@@ -135,65 +137,6 @@ main {
     float: left;
 }
 
-#about {
-    background: url(../images/banners/BannerPlaceholderLG.png);
-    background-position: center;
-}
-
-#aboutEvents {
-    background: url(../images/banners/BannerPlaceholderLG.png);
-    background-position: center;
-}
-
-#teachers {
-    background: url(../images/banners/BannerPlaceholderLG.png);
-    background-position: center;
-}
-
-#academics {
-    background: url(../images/banners/BannerPlaceholderLG.png);
-    background-position: center;
-}
-
-#graphicDesign {
-    background: url(../images/banners/BannerPlaceholderLG.png);
-    background-position: center;
-}
-
-#digitalPhotography {
-    background: url(../images/banners/BannerPlaceholderLG.png);
-    background-position: center;
-}
-
-#digitalIllustration {
-    background: url(../images/banners/BannerPlaceholderLG.png);
-    background-position: center;
-}
-
-#digitalImaging {
-    background: url(../images/banners/BannerPlaceholderLG.png);
-    background-position: center;
-}
-
-#calendar {
-    background: url(../images/banners/BannerPlaceholderLG.png);
-    background-position: center;
-}
-
-.banner {
-    width: 100%;
-    height: 240px;
-    color: #fff;
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.banner h2 {
-    position: absolute;
-    left: 15px;
-    bottom: -3px;
-    font-weight: 500;
-}
 
 .news {
     background-color: #009cd5;
