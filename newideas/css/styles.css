@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Kalam|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Muli');
 a {
     -webkit-text-decoration-style: none;
     text-decoration-style: none;
+}
+
+.aoatfont {
+    font-family: 'Muli', sans-serif;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -88,8 +93,19 @@ main {
 }
 
 .homeimage h1 {
-    color: white;
     z-index: 9999;
+}
+
+.landing h1 {
+    color: #0484d8;
+}
+
+.landing div {
+    color: #3a6582;
+}
+
+.landing p {
+    color: #014775;
 }
 
 .homeimage:hover .homeimage_effect {
@@ -256,6 +272,7 @@ main {
 }
 
 #news_AT {
+    color: white;
     bottom: 40%;
 }
 
@@ -322,7 +339,8 @@ main {
 }
 
 #teachers div {
-    background: rgba(72, 70, 156, 0.75);
+    /*   background: rgba(72, 70, 156, 0.75);*/
+    background: rgba(255, 189, 189, 0.61);
     z-index: 2;
     position: absolute;
     width: 100%;
@@ -413,6 +431,15 @@ footer {
     padding-bottom: 15px;
 }
 
+footer b,
+footer span {
+    cursor: default;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
 .bottom-footer {
     border-top: 1px solid #fff;
     color: #fff;
@@ -475,7 +502,10 @@ address>a:hover {
 
 .content_main {
     /*    background-color: #fff;*/
+    background-color: #e8e8e8;
+    /*
     background-color: #cbcccd;
+*/
     padding-bottom: 15px;
     min-height: 730px;
 }
@@ -563,15 +593,15 @@ address>a:hover {
     position: relative;
     text-align: center;
     margin: 5px 15px 12px 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 }
 
 .polaroid:hover {
-    -webkit-box-shadow: 6px 6px 5px #666;
-    box-shadow: 6px 6px 5px #666;
-    -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
-    transition: -webkit-box-shadow 0.3s ease-in-out;
-    transition: box-shadow 0.3s ease-in-out;
-    transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+    -webkit-box-shadow: 0 9px 14px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 9px 14px rgba(0, 0, 0, 0.3);
 }
 
 .polaroid img {
