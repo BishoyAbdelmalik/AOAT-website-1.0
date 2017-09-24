@@ -5,8 +5,25 @@ a {
 }
 
 .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.transparent_nav .navbar-nav>li>a {
     color: #096099;
-    /*    color: #fff;*/
+}
+
+.navbar-default .navbar-brand>img:nth-child(2) {
+    display: none;
+}
+
+.transparent_nav .navbar-brand>img:nth-child(1) {
+    display: none;
+}
+
+.transparent_nav .navbar-brand>img:nth-child(2) {
+    display: block;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
