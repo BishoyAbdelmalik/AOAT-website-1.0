@@ -9,37 +9,37 @@ a {
     font-family: 'Muli', sans-serif;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     color: #fff;
     -webkit-transition: 0.2s;
     transition: 0.2s;
 }
 
-.transparent_nav .navbar-nav>li>a {
+.transparent_nav .navbar-nav > li > a {
     color: #096099;
 }
 
-.navbar-default .navbar-brand>img:nth-child(2) {
+.navbar-default .navbar-brand > img:nth-child(2) {
     display: none;
 }
 
-.transparent_nav .navbar-brand>img:nth-child(1) {
+.transparent_nav .navbar-brand > img:nth-child(1) {
     display: none;
 }
 
-.transparent_nav .navbar-brand>img:nth-child(2) {
+.transparent_nav .navbar-brand > img:nth-child(2) {
     display: block;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav > li > a:hover {
     color: #5bc0de;
 }
 
-.navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav > li > a:focus {
     color: #5bc0de;
 }
 
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: black;
 }
 
@@ -367,7 +367,11 @@ main {
 }
 
 #academics {
-    background: url(../images/banners/BannerPlaceholderLG.png);
+   
+    background: -webkit-gradient( linear,      left top, left bottom,      from(rgba(255, 255, 255, 0.45)),      to(rgba(182, 156, 201, 0.45))),      url(../images/banners/academic.jpg);
+   
+    background: linear-gradient( rgba(255, 255, 255, 0.45),      rgba(182, 156, 201, 0.45)),      url(../images/banners/academic.jpg);
+    background-size: cover;
     background-position: center;
 }
 
@@ -456,7 +460,7 @@ footer a:hover {
     font-size: 12px
 }
 
-.footer-nav li>a {
+.footer-nav li > a {
     color: #9dd1d9;
 }
 
@@ -471,11 +475,11 @@ address {
     line-height: 1.2;
 }
 
-address>a {
+address > a {
     color: #fff;
 }
 
-address>a:hover {
+address > a:hover {
     color: #9dd1d9;
 }
 
@@ -663,7 +667,7 @@ main {
         width: 100%;
         height: auto;
     }
-    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #9dd1d9;
     }
 }
