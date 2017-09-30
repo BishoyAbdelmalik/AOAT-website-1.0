@@ -1,19 +1,24 @@
 <div class="lockcontent container-fluid">
     <div class="row">
-        <div class="col-sm-6 aoatfont">
+        <div itemscope itemtype="http://schema.org/EducationalOrganization" class="col-sm-6 aoatfont">
             <img class="AOATfooter" src="images/logos/aoat%20final%20logo%20-%20Copy.svg">
-            <address><b>Academy of Art and Technology <br>
-</b>
+            <address><b itemprop="department">Academy of Art and Technology <br></b>
 <b></b><a href="https://www.google.com/maps/place/Cleveland+High+School/@34.2178337,-118.5492982,17z/data=!3m1!4b1!4m5!3m4!1s0x80c29bb860e42031:0xa5324b726eca9e1e!8m2!3d34.2178337!4d-118.5474577?hl=en" target="_blank">
-<b>   
+                <span itemprop="name">Grover Cleveland Charter High School</span>
+                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">8140 Vanalden Avenue</span>
+                    <span itemprop="addressLocality">Reseda</span>,
+                    <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">91335</span>
+                </div>
+<!--<b>   
 Grover Cleveland Charter High School <br>
 </b>
                
-8140 Vanalden Avenue, Reseda, CA 91335 <br>
+8140 Vanalden Avenue, Reseda, CA 91335 <br>-->
 </a>
-<a href="tel:+1 (818) 888-2300">(818) 888.2300</a>
+                <a href="tel:+1 (818) 888-2300"><span itemprop="telephone">(818) 888.2300</span></a>
                     
-</address>
+            </address>
         </div>
         <div class="col-sm-6">
             <b>Follow AOAT</b>

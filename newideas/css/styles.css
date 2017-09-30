@@ -367,10 +367,10 @@ main {
 }
 
 #academics {
-   
-    background: -webkit-gradient( linear,      left top, left bottom,      from(rgba(255, 255, 255, 0.45)),      to(rgba(182, 156, 201, 0.45))),      url(../images/banners/academic.jpg);
-   
-    background: linear-gradient( rgba(255, 255, 255, 0.45),      rgba(182, 156, 201, 0.45)),      url(../images/banners/academic.jpg);
+
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(182, 156, 201, 0.45))), url(../images/banners/academic.jpg);
+
+    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(182, 156, 201, 0.45)), url(../images/banners/academic.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -433,6 +433,10 @@ footer {
     text-align: left;
     font-family: 'Raleway', sans-serif;
     padding-bottom: 15px;
+}
+
+.aoatfont span {
+    cursor: pointer;
 }
 
 footer b,
