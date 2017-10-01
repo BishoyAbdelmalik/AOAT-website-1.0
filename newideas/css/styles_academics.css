@@ -96,8 +96,8 @@
 }
 
 #mock_imgs img:nth-child(3) {
-    left: -50px;
-    top: -22px;
+    left: -51px;
+    top: -11px;
 }
 
 @media screen and (max-width: 1010px) {
