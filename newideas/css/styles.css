@@ -9,6 +9,16 @@ a {
     font-family: 'Muli', sans-serif;
 }
 
+.blue_background {
+    background: #50addd;
+    color: white;
+}
+
+.purple_background {
+    background: #5e238a;
+    color: white;
+}
+
 .navbar-default .navbar-nav > li > a {
     color: #fff;
     -webkit-transition: 0.2s;
@@ -700,11 +710,33 @@ main {
     opacity: .65;
 }
 
-.flex {
+.flex_b {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
+
+
+.wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex_column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.flex_row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+
 
 @media screen and (min-width: 768px) {
     .teachers_columns {
