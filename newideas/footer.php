@@ -45,7 +45,7 @@ Grover Cleveland Charter High School <br>
         <li><a href="events.html">Events</a></li>
         <li><a href="#">Student Work</a></li>
         <li><a href="#">Alumni</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact.php">Contact</a></li>
         <li><a href="http://www.clevelandhs.org/" target="_blank">Cleveland Charter High School</a></li>
     </ul>
 </div>

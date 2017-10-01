@@ -33,5 +33,10 @@ function home() {
     echo $home;
     
 }
+function form() {
+    $form ='<script type="text/javascript" src="js/contact_form.js"></script>';
+    echo $form;
+    
+}
 
 ?>

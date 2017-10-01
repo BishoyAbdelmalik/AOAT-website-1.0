@@ -37,7 +37,7 @@
                     </ul>
                 </li>
                 <li><a href="alumni.html">Alumni</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
