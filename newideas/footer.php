@@ -39,7 +39,7 @@ Grover Cleveland Charter High School <br>
 
     <ul class="footer-nav">
         <li><a href="index.php">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.php">About</a></li>
         <li><a href="academics.php">Academics</a></li>
         <li><a href="teachers.php">Teachers</a></li>
         <li><a href="events.html">Events</a></li>
