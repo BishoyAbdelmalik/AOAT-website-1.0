@@ -9,6 +9,15 @@ a {
     font-family: 'Muli', sans-serif;
 }
 
+.gray_txt {
+    color: #979797;
+}
+
+#first_section {
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
 .blue_background {
     background: #50addd;
     color: white;
@@ -309,9 +318,10 @@ main {
 }
 
 #about {
-    /*    background: url(../images/banners/BannerPlaceholderLG.png);
-    */
-    /*background-position: center;*/
+
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(182, 156, 201, 0.45))), url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
+    background-size: cover;
     overflow: hidden;
 }
 
