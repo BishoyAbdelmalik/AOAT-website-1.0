@@ -51,7 +51,6 @@
 
                             <div id="mock_imgs">
                                 <img src="images/academics/mock/mock1.jpg" />
-                                <img src="images/academics/mock/mock2.jpg" />
                                 <img src="images/academics/mock/mock3.jpg" />
                             </div>
                         </div>
@@ -100,7 +99,7 @@
                     </div>
 
                 </section>
-                <section class="purple_background">
+                <section class="blue_background">
                     <div class=" container-fluid lockcontent">
                         <div class="flex_b  flex_row">
                             <div id="mentor_left">
