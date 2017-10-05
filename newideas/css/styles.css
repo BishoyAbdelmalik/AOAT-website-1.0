@@ -499,13 +499,17 @@ address {
     line-height: 1.2;
 }
 
+address > a:focus,
 address > a {
     color: #fff;
+    text-decoration: none;
 }
 
 address > a:hover {
     color: #9dd1d9;
 }
+
+
 
 .socialmedia img {
     height: 30px;
