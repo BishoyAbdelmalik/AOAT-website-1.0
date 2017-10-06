@@ -38,7 +38,6 @@ require_once('calendar_builder.php');
             </div>
         </div>
 
-        <!--end lockcontent-->
     </main>
     <footer>
         <?php 
