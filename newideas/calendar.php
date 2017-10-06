@@ -12,13 +12,13 @@ require_once('calendar_builder.php');
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/calender.css">
     <title>AOAT | Calendar</title>
-  
+
 </head>
 
 <body>
     <header>
         <?php
-        require 'header.php';
+ require 'header.php';
 
         ?>
     </header>
@@ -26,11 +26,18 @@ require_once('calendar_builder.php');
         <div class="banner" id="calendar">
             <h2>Calendar</h2>
         </div>
+
         <div class="lockcontent">
-          
-            <?php getcalander(date("n"),date("Y") ,date("F"));?>
+            <div class="calender">
+
+
+                <?php
+                echo getcalander(date("n"),date("Y") ,date("F"));
+
+                ?>
+            </div>
         </div>
-        
+
         <!--end lockcontent-->
     </main>
     <footer>
@@ -46,7 +53,6 @@ require_once('calendar_builder.php');
         calender();
     ?>
 
-   
 </body>
 
 </html>

@@ -202,13 +202,11 @@ function getcalander($month_numerical, $year , $month){
                 $table .= "<th class='days'><span>".$x."</span></th>";
             }
         }
-        if (date("w", mktime(0, 0, 0, $month_numerical, $x, $year))==6){$table .= '</tr><tr>';}
+        if (date("w", mktime(0, 0, 0, $month_numerical, $x, $year))==6){$table .= '</tr>';}
     } 
 
-    $table .='</tr>';
-    $table .='</table>';
-    
-    return $table;
+
+    echo $table;
 
 }
 

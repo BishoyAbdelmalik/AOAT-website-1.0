@@ -38,7 +38,7 @@
     flex-direction: row;
 }
 
-#before{
+#before {
     margin: 5px;
     margin-top: 0;
     margin-bottom: 0;
@@ -47,13 +47,18 @@
     font-size: 20px;
     cursor: pointer;
     color: blue;
-   
 
-   
-    
-   
 }
-#after{
+
+.calender {
+    margin-bottom: 20px;
+}
+
+tbody tr:nth-child(1) th {
+    text-align: center;
+}
+
+#after {
     margin-bottom: 0;
     background: transparent;
     margin-top: 0;
@@ -62,64 +67,71 @@
     font-size: 20px;
     cursor: pointer;
     color: blue;
-    
-    
-   
-}
-.calendar{
-    width:100%;
-}
-.calendar tbody tr:nth-child(odd){
-    background: #D8D8D8	;
-    
-}
-.calendar tbody tr:nth-child(even){
-    background: #F8F8F8	;
+
+
 
 }
 
-.calendar tbody tr:nth-child(1){
+.calendar {
+    width: 100%;
+}
+
+.calendar tbody tr:nth-child(odd) {
+    background: #D8D8D8;
+
+}
+
+.calendar tbody tr:nth-child(even) {
+    background: #F8F8F8;
+
+}
+
+.calendar tbody tr:nth-child(1) {
     height: 50px;
     line-height: 50px;
 
 }
 
-#date{
+#date {
     margin: auto;
     text-align: center;
     margin-bottom: 20px;
     font-weight: 800;
     font-size: 20px;
-    
+
 }
-.days{
+
+.days {
     padding: 0;
-    
+
     margin: 0;
     width: 100px;
     height: 150px;
     position: relative;
     cursor: pointer;
-    
-	
-}
-.days:hover{
-    background: #808080	;
-    
+
 
 }
-.other_month:hover{
+
+.days:hover {
+    background: #808080;
+
+
+}
+
+.other_month:hover {
     background: inherit;
 }
-.other_month{
+
+.other_month {
     opacity: 0.3;
 }
 
-.days span{
+.days span {
     position: absolute;
     right: 5px;
     /*-webkit-transform: translateX(-100%);
     transform: translateX(-100%);*/
     top: 0;
-	
+
 }

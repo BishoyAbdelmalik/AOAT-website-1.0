@@ -34,7 +34,7 @@ function before() {
             if (xhttp.status === 200) {
                 /*console.log(xhttp.response);
                 console.log(xhttp.responseText);*/
-                $("#container").html(xhttp.responseText);
+                $(".calender").html(xhttp.responseText);
 
 
             }
@@ -65,7 +65,7 @@ function after() {
             if (xhttp.status === 200) {
                 /*console.log(xhttp.response);
                 console.log(xhttp.responseText);*/
-                $("#container").html(xhttp.responseText);
+                $(".calender").html(xhttp.responseText);
 
             }
         }
