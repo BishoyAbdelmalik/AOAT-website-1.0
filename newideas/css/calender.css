@@ -50,6 +50,11 @@
 
 }
 
+#after:focus,
+#before:focus {
+    outline: none;
+}
+
 .calender {
     margin-bottom: 20px;
 }
