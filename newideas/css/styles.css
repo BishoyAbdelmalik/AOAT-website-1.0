@@ -416,7 +416,9 @@ main {
 }
 
 #calendar {
-    background: url(../images/banners/BannerPlaceholderLG.png);
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(76, 185, 212, 0.2))), url(../images/calender/banner2.jpg);
+    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.2)), url(../images/calender/banner2.jpg);
+    background-size: cover;
     background-position: center;
 }
 
@@ -499,13 +501,17 @@ address {
     line-height: 1.2;
 }
 
+address > a:focus,
 address > a {
     color: #fff;
+    text-decoration: none;
 }
 
 address > a:hover {
     color: #9dd1d9;
 }
+
+
 
 .socialmedia img {
     height: 30px;

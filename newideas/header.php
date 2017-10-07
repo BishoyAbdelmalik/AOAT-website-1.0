@@ -23,7 +23,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false">Events<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="aboutevents.html">About Events</a></li>
-                        <li><a href="calendar.html">Calendar</a></li>
+                        <li><a href="calendar.php">Calendar</a></li>
                     </ul>
                 </li>
                 <li>

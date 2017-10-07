@@ -84,7 +84,7 @@
 
             </div>
         </section>
-        <section class="purple_background">
+        <section class="blue_background">
             <div class="container-fluid lockcontent">
                 <h3>Board of Advisory</h3>
                 <p>

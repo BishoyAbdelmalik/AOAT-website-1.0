@@ -37,6 +37,10 @@ function form() {
     $form ='<script type="text/javascript" src="js/contact_form.js"></script>';
     echo $form;
     
+}function calender() {
+    $calender ='<script type="text/javascript" src="js/calender.js"></script>';
+    echo $calender;
+    
 }
 
 ?>
