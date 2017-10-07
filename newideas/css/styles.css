@@ -334,30 +334,11 @@ main {
 
 
     background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.39)), url(../images/banners/about_banner2.jpg);
-    background-position: bottom center;
+    background-position: bottom right;
     background-size: cover;
     overflow: hidden;
 }
 
-#about div {
-    background: rgba(72, 70, 156, 0.75);
-    z-index: 2;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-#about img {
-    width: 100%;
-    /*
-    height: 100%;
-*/
-    z-index: 0;
-    -webkit-transform: translateY(-255px) scaleY(0.9);
-    transform: translateY(-255px) scaleY(0.9);
-    /*-webkit-filter: blur(3px);
-    filter: blur(3px);*/
-}
 
 #aboutEvents {
     background: url(../images/banners/BannerPlaceholderLG.png);
