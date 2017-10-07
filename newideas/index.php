@@ -48,7 +48,7 @@
                                 Students from 10th and 11th grade enjoyed this major retrospective of Chicago artist Marshall, and of course the escape from school on a sunny spring day! The 2-hour bus ride to downtown was not fun, but experiencing such thought-provoking art with peers is always a treat. Chaperones had a relaxing lunch at the Grand Central Market, and all hope the Angels’ Flight gets back in service soon: that’s a steep hill back up to meet the bus!!
                             </p>
                             <p>
-                                360 photos by teacher Paola Prato
+                                360 photos by teacher <a class="white_txt" href="teachers.php?t=prato">Paola Prato</a>
                             </p>
                         </article>
                     </div>

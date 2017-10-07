@@ -23,6 +23,16 @@ a {
     color: white;
 }
 
+.white_txt {
+
+    color: white;
+}
+
+.white_txt:hover {
+
+    color: white;
+}
+
 .purple_background {
     background: #5e238a;
     color: white;
@@ -355,20 +365,22 @@ main {
 }
 
 #teachers {
-    overflow: hidden;
-    /*
-    background: url(../images/teachers/teacher_cover.jpg);
-    background-position: center;
-*/
+
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.63)), to(rgba(76, 185, 212, 0.39))), url(../images/teachers/teacher_cover2.jpg);
+
+    background: linear-gradient( rgba(255, 255, 255, 0.63), rgba(76, 185, 212, 0.39)), url(../images/teachers/teacher_cover2.jpg);
+
+    background-position: top center;
+    background-size: cover;
+
 }
 
 #teachers div {
-    /*   background: rgba(72, 70, 156, 0.75);*/
-    background: rgba(255, 189, 189, 0.61);
-    z-index: 2;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    /*background: rgba(255, 189, 189, 0.61);*/
+    /* z-index: 2;
+ position: absolute;
+ width: 100%;
+ height: 100%;*/
 }
 
 #teachers img {
