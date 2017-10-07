@@ -319,8 +319,12 @@ main {
 
 #about {
 
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(182, 156, 201, 0.45))), url(../images/banners/BannerPlaceholderLG.png);
-    background-position: center;
+
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(76, 185, 212, 0.39))), url(../images/banners/about_banner2.jpg);
+
+
+    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.39)), url(../images/banners/about_banner2.jpg);
+    background-position: bottom center;
     background-size: cover;
     overflow: hidden;
 }
