@@ -10,11 +10,7 @@
                     <span itemprop="addressLocality">Reseda</span>,
                     <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">91335</span>
                 </div>
-<!--<b>   
-Grover Cleveland Charter High School <br>
-</b>
-               
-8140 Vanalden Avenue, Reseda, CA 91335 <br>-->
+
 </a>
                 <a href="tel:+1 (818) 888-2300"><span itemprop="telephone">(818) 888.2300</span></a>
                     
@@ -42,7 +38,7 @@ Grover Cleveland Charter High School <br>
         <li><a href="about.php">About</a></li>
         <li><a href="academics.php">Academics</a></li>
         <li><a href="teachers.php">Teachers</a></li>
-        <li><a href="events.html">Events</a></li>
+        <li><a href="aboutevents.php">Events</a></li>
         <li><a href="#">Student Work</a></li>
         <li><a href="#">Alumni</a></li>
         <li><a href="contact.php">Contact</a></li>
