@@ -713,6 +713,7 @@ main {
 .teachers_columns {
     -webkit-column-count: 1;
     column-count: 1;
+    list-style-position: inside;
 }
 
 .two-col-li {
