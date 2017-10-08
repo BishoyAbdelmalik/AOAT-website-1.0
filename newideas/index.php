@@ -150,6 +150,8 @@
         jquery(0);
         nav();
         home();
+        bootstrap(0);
+
     ?>
 </body>
 
