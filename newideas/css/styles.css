@@ -18,6 +18,10 @@ a {
     margin-top: 25px;
 }
 
+.remove_max {
+    max-width: unset;
+}
+
 .blue_background {
     background: #50addd;
     color: white;
@@ -341,8 +345,12 @@ main {
 
 
 #aboutEvents {
-    background: url(../images/banners/BannerPlaceholderLG.png);
+    
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(76, 185, 212, 0.27))), url(../images/banners/aboutEvents.jpg);
+    
+    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.27)), url(../images/banners/aboutEvents.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 #teachers {

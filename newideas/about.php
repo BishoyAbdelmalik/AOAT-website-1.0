@@ -13,6 +13,25 @@
             margin-left: 10px;
         }
 
+        #CPA {
+            max-width: 79%;
+        }
+
+        #CPA~a {
+            margin: auto;
+        }
+
+        @media (max-width: 767px) {
+            #CPA {
+                max-width: 100%;
+            }
+
+            .wrap_about {
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            }
+        }
+
     </style>
 </head>
 
@@ -78,10 +97,14 @@
         <section class="gray_txt">
             <div class="container-fluid lockcontent">
                 <h3>CPA Lighthouse Academy</h3>
-                <p>
-                    The Academy of Art & Technology is designated a "Lighthouse Academy" by the California Department of Education and is part of an elite corps of only 14 distinguished programs out of 500 California Partnership Academies (CPA) in California. This highly coveted honor is a result of a rigorous selection process, including recommendation by the school district, an interview with the coordinator, and a review of student portfolios.<br> Lighthouse Academies provide mentoring and support to other academies, host regional meetings every fall, and participate as presenters at the annual conference. Lighthouse teams attend seminars in Sacramento twice a year, share best practices and are models for new or struggling programs.<br> AOAT is proud to be a leading member of the CPA community. <br>
-                </p>
-
+                <div class="flex_b wrap_about">
+                    <p id="CPA">
+                        The Academy of Art & Technology is designated a "Lighthouse Academy" by the California Department of Education and is part of an elite corps of only 14 distinguished programs out of 500 California Partnership Academies (CPA) in California. This highly coveted honor is a result of a rigorous selection process, including recommendation by the school district, an interview with the coordinator, and a review of student portfolios.<br> Lighthouse Academies provide mentoring and support to other academies, host regional meetings every fall, and participate as presenters at the annual conference. Lighthouse teams attend seminars in Sacramento twice a year, share best practices and are models for new or struggling programs.<br> AOAT is proud to be a leading member of the CPA community. <br>
+                    </p>
+                    <a target="_blank" href="http://www.cde.ca.gov/ci/gs/hs/cpagen.asp">
+                        <img width="200px" src="images/logos/temp_lighthouse.png">
+                        </a>
+                </div>
             </div>
         </section>
         <section class="blue_background">

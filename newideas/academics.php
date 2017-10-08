@@ -120,13 +120,13 @@
                         <h3>AOAT Curriculum</h3>
                         <section id="curriculum">
                             <section>
-                                <h4>Grade 9: Pre Academy</h4>
+                                <h4>Grade 9: Pre-Academy</h4>
                                 <h5>Team Leader: <a href="teachers.php?t=rosillo">Gabriela Rosillo</a></h5>
                                 <p>
 
                                 </p>
-                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#10th">View Classes</button>
-                                <div id="10th" class="collapse">
+                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#9th">View Classes</button>
+                                <div id="9th" class="collapse">
                                     <h5><b>Classes</b></h5>
                                     <ul>
                                         <li></li>
