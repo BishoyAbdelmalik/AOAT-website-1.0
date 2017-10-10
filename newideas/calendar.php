@@ -32,7 +32,10 @@ require_once('calendar_builder.php');
 
 
                 <?php
-                echo getcalander(date("n"),date("Y") ,date("F"));
+                $month_numerical=date("n");
+                $year=date("Y");
+                $month=date("F");
+                echo getcalander($month_numerical,$year ,$month);
 
                 ?>
             </div>
