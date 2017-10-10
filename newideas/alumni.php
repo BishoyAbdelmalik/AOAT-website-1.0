@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>AOAT | Alumni</title>
+    <style>
+        .reyes {
+            padding-top: 1px;
+            padding-bottom: 5px;
+        }
+
+        .face {
+            padding-top: 12px;
+            padding-bottom: 5px;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -31,7 +43,7 @@
             </div>
         </section>
         <section class="blue_background">
-            <div class="lockcontent">
+            <div class="reyes lockcontent">
 
                 <h3>Jose Reyes</h3>
                 <h4>Class of 2014</h4>
@@ -46,10 +58,10 @@
                 </p>
             </div>
         </section>
-        <div class="lockcontent">
+        <div class="face lockcontent">
 
             <p>
-                Keep up to date with our alumni on the <a href="https://www.facebook.com/aoat.alums/">AOAT Alumni Facebook Page</a>
+                Keep up to date with our alumni on the <a target="_blank" href="https://www.facebook.com/aoat.alums/">AOAT Alumni Facebook Page</a>
             </p>
         </div>
     </main>
