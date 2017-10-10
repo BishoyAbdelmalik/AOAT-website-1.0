@@ -21,9 +21,18 @@
         <div class="banner" id="alumni">
             <h2>Alumni</h2>
         </div>
-        <div class="lockcontent">
+        <section class="gray_txt">
+            <div class="lockcontent">
 
-            <section>
+                <h3>Danielle Rocha</h3>
+                <p>
+                    I am currently in my third year at California State University of Northridge. My major is Electronic Media Management and I’m minoring in Marketing. Just a little on my major, based on CSUN’s website, Electronic Media Management is the “Operational and management aspects of independent, research and regulation of the media industries.” I originally came into CSUN wanting to pursue a career in Deaf Studies. After my first day in an American Sign Language 3 (ASL 3) class, I decided I no longer wanted to pursue that field. Although, my love for the language is still there. After doing some research and following my passion for YouTube, I changed my major to Electronic Media Management. AOAT has made a huge impact on my life, by introducing me to the different aspects of the digital and design world. In my current courses at CSUN I am easily able to relate what I have learned in AOAT with the material I am learning today. This program has provided me with the professional skills necessary when applying and interviewing for a job. I definitely have the professional dress down pat, thanks to Dress for Success. Finally, AOAT created a family and lifelong friends.
+                </p>
+            </div>
+        </section>
+        <section class="blue_background">
+            <div class="lockcontent">
+
                 <h3>Jose Reyes</h3>
                 <h4>Class of 2014</h4>
                 <p>
@@ -35,13 +44,10 @@
                 <p>
                     I recently began to network with a production company called Coll Beans Comedy. The company focuses on hosting live stand-up shows, private events, and corporate training. The producer, Corey has allowed me to come on board to help increase the publicity of the company and take it to the next level. Our goal is to take Cool Been Comedy shows to many venues around the country. Through the opportunity granted to me by the producer and the preparation I received from AOAT and CSUN, I am learning about my future. After I graduate from CSUN. Knowing your purpose in life is the most important feature you can learn about yourself.
                 </p>
-            </section>
-            <section>
-                <h3>Danielle Rocha</h3>
-                <p>
-                    I am currently in my third year at California State University of Northridge. My major is Electronic Media Management and I’m minoring in Marketing. Just a little on my major, based on CSUN’s website, Electronic Media Management is the “Operational and management aspects of independent, research and regulation of the media industries.” I originally came into CSUN wanting to pursue a career in Deaf Studies. After my first day in an American Sign Language 3 (ASL 3) class, I decided I no longer wanted to pursue that field. Although, my love for the language is still there. After doing some research and following my passion for YouTube, I changed my major to Electronic Media Management. AOAT has made a huge impact on my life, by introducing me to the different aspects of the digital and design world. In my current courses at CSUN I am easily able to relate what I have learned in AOAT with the material I am learning today. This program has provided me with the professional skills necessary when applying and interviewing for a job. I definitely have the professional dress down pat, thanks to Dress for Success. Finally, AOAT created a family and lifelong friends.
-                </p>
-            </section>
+            </div>
+        </section>
+        <div class="lockcontent">
+
             <p>
                 Keep up to date with our alumni on the <a href="https://www.facebook.com/aoat.alums/">AOAT Alumni Facebook Page</a>
             </p>
