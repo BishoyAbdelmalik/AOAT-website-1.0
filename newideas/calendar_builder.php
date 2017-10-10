@@ -1,51 +1,68 @@
 <?php
-/*
-header('Content-Type:text/html');*/
+$events=array();
 
 
-/*$dbhost="localhost";
-$dbuser="AOAT";
-$dbpass="123456";
-$dbname="aoat";
-$connection= mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+function mysql_check($year , $month_numerical){
+    $dbhost="localhost";
+    $dbuser="AOAT";
+    $dbpass="123456";
+    $dbname="aoat";
+    $connection= mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+
+    global  $events;
 
 
-
-if(mysqli_connect_errno()){
-    die("Database connection failes: ".
-        mysqli_connect_error(). " (" . mysqli_connect_errno().")"
-       );
-}
-$query="SELECT * FROM `9`";
-
-$result=mysqli_query($connection,$query);
-
-
-while($row= mysqli_fetch_array($result)){
-    printf ( $row["Name"] );
+    if(mysqli_connect_errno()){
+        die("Database connection failes: ".
+            mysqli_connect_error(). " (" . mysqli_connect_errno().")"
+           );
+    }
+    $query="SELECT * FROM `Calender` where year=";
+    $query .=$year;
+    $query .=" and month=";
+    $query .=$month_numerical;
+    echo $query;
     echo "<br>";
-    printf ( $row["Day"]);
+    $result=mysqli_query($connection,$query);
+    
+
+    if (mysqli_num_rows($result)==0){
+        echo "false";
+    }
+    if(mysqli_num_rows($result)!=0){
+        echo "true";
+    }
+    while($row= mysqli_fetch_assoc($result)){
+        ${$row["day"]}=$row;
+        $events[$row["day"]]=$row["event"];
+        
+?>
+    <!--<pre><?php /* print_r($row);*/ ?></pre>-->
+    <?php
+        /*echo $row["id"];*/
+    }
+    mysqli_free_result($result);
+    mysqli_close($connection);    
     echo "<br>";
+    print_r($events);
+    
+    /*print_r(${1}); echo "<br>"; print_r(${9}); echo "<br>"; print_r(${10});*/
 }
-    */
+
     
 
 
 
 
-/*
-$year =date("Y") ; $month = date("F");*/
-
-/*
-$month_numerical =date("n");*/
 $day = date("d");
 function getcalander($month_numerical, $year , $month){
     
     $table ="";
     global  $day;
+    global  $events;
 
-    
-    
+    mysql_check($year,$month_numerical);
+
     $table .= '<div id="date">';
     $table .= '<button onclick="before()" id="before"><</button>';
     $table .= "<span>".$month.", " . $year."</span>";
@@ -97,20 +114,29 @@ function getcalander($month_numerical, $year , $month){
 
     $table .= '</tr>';
     $table .= '<tr>';
+    $day_sec=86400;
 
+    $y="";
 
-
-
-    for ($x = 1; $x <= date("j", mktime(0, 0, 0, $month_numerical+1, 1, $year)-86400); $x++) {
+    for ($x = 1; $x <= date("j", mktime(0, 0, 0, $month_numerical+1, 1, $year)-$day_sec); $x++) {
         if ($x==1){
             $position=date("w", mktime(0, 0, 0, $month_numerical, 1, $year));
             switch ($position){
                 case 0:
-                    $table .="<th class='days'><span>".$x."</span></th>";
+                    $table .="<th class='days'><span>".$x."</span>";
+                    if(array_key_exists($x,$events) ){
+                        $table.=$events[$x];
+                    }
+                    
+                    $table .="</th>";
                     break;
                 case 1:
-                    $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
-                    $table .="<th class='days'><span>".$x."</span></th>";
+                    $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span>";
+                    
+                    $table .="</th>";
+                    $table .="<th class='days'><span>".$x."</span>";
+                    
+                    $table .="</th>";
                     break;
                 case 2:
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-172800)."</span></th>";
