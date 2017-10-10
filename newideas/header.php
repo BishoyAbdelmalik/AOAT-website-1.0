@@ -36,7 +36,7 @@
                         <li><a href="studentworkwd.html">Web Design</a></li>
                     </ul>
                 </li>
-                <li><a href="alumni.html">Alumni</a></li>
+                <li><a href="alumni.php">Alumni</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
         </div>

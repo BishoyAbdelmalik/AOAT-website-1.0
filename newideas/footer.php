@@ -40,7 +40,7 @@
         <li><a href="teachers.php">Teachers</a></li>
         <li><a href="aboutevents.php">Events</a></li>
         <li><a href="#">Student Work</a></li>
-        <li><a href="#">Alumni</a></li>
+        <li><a href="alumni.php">Alumni</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="http://www.clevelandhs.org/" target="_blank">Cleveland Charter High School</a></li>
     </ul>
