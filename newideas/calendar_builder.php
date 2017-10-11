@@ -34,18 +34,18 @@ function mysql_check($year , $month_numerical){
     }
     while($row= mysqli_fetch_assoc($result)){
         ${$row["day"]}=$row;
-        $events[$row["day"]]=$row["event"];
+        if(!array_key_exists($row["day"],$events) ){
+            $events[$row["day"]]=array($row["event"]);
+        }else{
+            array_push($events[$row["day"]], $row["event"]);
+        }
         
-?>
-    <!--<pre><?php /* print_r($row);*/ ?></pre>-->
-    <?php
-        /*echo $row["id"];*/
     }
     mysqli_free_result($result);
     mysqli_close($connection);    
     echo "<br>";
     print_r($events);
-    
+   
     /*print_r(${1}); echo "<br>"; print_r(${9}); echo "<br>"; print_r(${10});*/
 }
 
@@ -59,7 +59,6 @@ function getcalander($month_numerical, $year , $month){
     
     $table ="";
     global  $day;
-    global  $events;
 
     mysql_check($year,$month_numerical);
 
@@ -124,18 +123,16 @@ function getcalander($month_numerical, $year , $month){
             switch ($position){
                 case 0:
                     $table .="<th class='days'><span>".$x."</span>";
-                    if(array_key_exists($x,$events) ){
-                        $table.=$events[$x];
-                    }
+                    $table.=event_checker($x);
+
                     
                     $table .="</th>";
                     break;
                 case 1:
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
                     $table .="<th class='days'><span>".$x."</span>";
-                    if(array_key_exists($x,$events) ){
-                        $table.=$events[$x];
-                    }
+                    $table.=event_checker($x);
+
                     
                     $table .="</th>";
                     break;
@@ -143,9 +140,8 @@ function getcalander($month_numerical, $year , $month){
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-172800)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
                     $table .="<th class='days'><span>".$x."</span>";
-                    if(array_key_exists($x,$events) ){
-                        $table.=$events[$x];
-                    }
+                    $table.=event_checker($x);
+
 
                     $table .="</th>";
                     break;
@@ -154,9 +150,8 @@ function getcalander($month_numerical, $year , $month){
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-172800)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
                     $table .="<th class='days'><span>".$x."</span>";
-                    if(array_key_exists($x,$events) ){
-                        $table.=$events[$x];
-                    }
+                    $table.=event_checker($x);
+
 
                     $table .="</th>";
                     break;
@@ -166,9 +161,8 @@ function getcalander($month_numerical, $year , $month){
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-172800)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
                     $table .="<th class='days'><span>".$x."</span>";
-                    if(array_key_exists($x,$events) ){
-                        $table.=$events[$x];
-                    }
+                    $table.=event_checker($x);
+
 
                     $table .="</th>";
                     break;
@@ -179,9 +173,8 @@ function getcalander($month_numerical, $year , $month){
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-172800)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
                     $table .="<th class='days'><span>".$x."</span>";
-                    if(array_key_exists($x,$events) ){
-                        $table.=$events[$x];
-                    }
+                    $table.=event_checker($x);
+
 
                     $table .="</th>";
                     break;
@@ -193,9 +186,8 @@ function getcalander($month_numerical, $year , $month){
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-172800)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
                     $table .="<th class='days'><span>".$x."</span>";
-                    if(array_key_exists($x,$events) ){
-                        $table.=$events[$x];
-                    }
+                    $table.=event_checker($x);
+
 
                     $table .="</th>";
                     break;
@@ -208,9 +200,7 @@ function getcalander($month_numerical, $year , $month){
                 switch ($position){
                     case 0:
                         $table .="<th class='days'><span>".$x."</span>";
-                        if(array_key_exists($x,$events) ){
-                            $table.=$events[$x];
-                        }
+                        $table.=event_checker($x);
 
                         $table .="</th>";
                         $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, $x, $year)+86400)."</span></th>";
@@ -223,9 +213,7 @@ function getcalander($month_numerical, $year , $month){
                         break;
                     case 1:
                         $table .="<th class='days'><span>".$x."</span>";
-                        if(array_key_exists($x,$events) ){
-                            $table.=$events[$x];
-                        }
+                        $table.=event_checker($x);
 
                         $table .="</th>";
                         $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, $x, $year)+86400)."</span></th>";
@@ -236,9 +224,8 @@ function getcalander($month_numerical, $year , $month){
                         break;
                     case 2:
                         $table .="<th class='days'><span>".$x."</span>";
-                        if(array_key_exists($x,$events) ){
-                            $table.=$events[$x];
-                        }
+                        $table.=event_checker($x);
+
 
                         $table .="</th>";
                         $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, $x, $year)+86400)."</span></th>";
@@ -248,9 +235,8 @@ function getcalander($month_numerical, $year , $month){
                         break;
                     case 3:
                         $table .="<th class='days'><span>".$x."</span>";
-                        if(array_key_exists($x,$events) ){
-                            $table.=$events[$x];
-                        }
+                        $table.=event_checker($x);
+
 
                         $table .="</th>";
                         $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, $x, $year)+86400)."</span></th>";
@@ -259,9 +245,8 @@ function getcalander($month_numerical, $year , $month){
                         break;
                     case 4:
                         $table .="<th class='days'><span>".$x."</span>";
-                        if(array_key_exists($x,$events) ){
-                            $table.=$events[$x];
-                        }
+                        $table.=event_checker($x);
+
 
                         $table .="</th>";
                         $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, $x, $year)+86400)."</span></th>";
@@ -269,27 +254,24 @@ function getcalander($month_numerical, $year , $month){
                         break;
                     case 5:
                         $table .="<th class='days'><span>".$x."</span>";
-                        if(array_key_exists($x,$events) ){
-                            $table.=$events[$x];
-                        }
+                        $table.=event_checker($x);
+
 
                         $table .="</th>";
                         $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, $x, $year)+86400)."</span></th>";
                         break;
                     case 6:
                         $table .="<th class='days'><span>".$x."</span>";
-                        if(array_key_exists($x,$events) ){
-                            $table.=$events[$x];
-                        }
+                        $table.=event_checker($x);
+
 
                         $table .="</th>";
                         break;
                 }
             }else{
                 $table .="<th class='days'><span>".$x."</span>";
-                if(array_key_exists($x,$events) ){
-                    $table.=$events[$x];
-                }
+                
+                $table.=event_checker($x);
 
                 $table .="</th>";
             }
@@ -304,7 +286,22 @@ function getcalander($month_numerical, $year , $month){
 
 }
 
+function event_checker($d){
+    global  $events;
 
+    if(array_key_exists($d,$events) ){
+        $event='<div id="cal_events">';
+        foreach ($events[$d] as $value){
+            $event.="<p>";
+            $event.=$value;
+            $event.="</p>";
+        }
+        $event.='</div>';
+        return $event;
+    }else{
+        return "";
+    }
+}
 
 
 

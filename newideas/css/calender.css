@@ -46,7 +46,8 @@
     border: 0px;
     font-size: 20px;
     cursor: pointer;
-    color: blue;
+    /*    color: blue;*/
+    color: #096099;
 
 }
 
@@ -58,6 +59,15 @@
 .calender {
     margin-bottom: 20px;
 }
+
+#cal_events {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: right;
+    color: #096099
+}
+
+
 
 tbody tr:nth-child(1) th {
     text-align: center;
@@ -71,7 +81,8 @@ tbody tr:nth-child(1) th {
     border: 0px;
     font-size: 20px;
     cursor: pointer;
-    color: blue;
+    /*color: blue;*/
+    color: #096099;
 
 
 
@@ -119,7 +130,13 @@ tbody tr:nth-child(1) th {
 }
 
 .days:hover {
-    background: #808080;
+    background: rgb(177, 177, 177);
+
+
+}
+
+.days:hover #cal_events {
+    color: blue;
 
 
 }
