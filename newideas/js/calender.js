@@ -58,7 +58,9 @@ function after() {
     xhttp.open("GET", "calendar_previous.php?month=" + today + "&&year=" + year, true);
     xhttp.send();
 
+/*
     console.log(xhttp);
+*/
 
     xhttp.onload = function () {
         if (xhttp.readyState === xhttp.DONE) {
