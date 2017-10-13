@@ -122,7 +122,7 @@ function getcalander($month_numerical, $year , $month){
             $position=date("w", mktime(0, 0, 0, $month_numerical, 1, $year));
             switch ($position){
                 case 0:
-                    $table .="<th class='days'><span>".$x."</span>";
+                    $table .="<th class='days current_m'><span>".$x."</span>";
                     $table.=event_checker($x);
 
                     
@@ -130,7 +130,7 @@ function getcalander($month_numerical, $year , $month){
                     break;
                 case 1:
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
-                    $table .="<th class='days'><span>".$x."</span>";
+                    $table .="<th class='days current_m'><span>".$x."</span>";
                     $table.=event_checker($x);
 
                     
@@ -139,7 +139,7 @@ function getcalander($month_numerical, $year , $month){
                 case 2:
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-172800)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
-                    $table .="<th class='days'><span>".$x."</span>";
+                    $table .="<th class='days current_m'><span>".$x."</span>";
                     $table.=event_checker($x);
 
 
@@ -149,7 +149,7 @@ function getcalander($month_numerical, $year , $month){
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-259200)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-172800)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
-                    $table .="<th class='days'><span>".$x."</span>";
+                    $table .="<th class='days current_m'><span>".$x."</span>";
                     $table.=event_checker($x);
 
 
@@ -160,7 +160,7 @@ function getcalander($month_numerical, $year , $month){
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-259200)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-172800)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
-                    $table .="<th class='days'><span>".$x."</span>";
+                    $table .="<th class='days current_m'><span>".$x."</span>";
                     $table.=event_checker($x);
 
 
@@ -172,7 +172,7 @@ function getcalander($month_numerical, $year , $month){
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-259200)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-172800)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
-                    $table .="<th class='days'><span>".$x."</span>";
+                    $table .="<th class='days current_m'><span>".$x."</span>";
                     $table.=event_checker($x);
 
 
@@ -185,7 +185,7 @@ function getcalander($month_numerical, $year , $month){
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-259200)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-172800)."</span></th>";
                     $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, 1, $year)-86400)."</span></th>";
-                    $table .="<th class='days'><span>".$x."</span>";
+                    $table .="<th class='days current_m'><span>".$x."</span>";
                     $table.=event_checker($x);
 
 
@@ -199,7 +199,7 @@ function getcalander($month_numerical, $year , $month){
                 $position=date("w", mktime(0, 0, 0, $month_numerical, $x, $year));
                 switch ($position){
                     case 0:
-                        $table .="<th class='days'><span>".$x."</span>";
+                        $table .="<th class='days current_m'><span>".$x."</span>";
                         $table.=event_checker($x);
 
                         $table .="</th>";
@@ -212,7 +212,7 @@ function getcalander($month_numerical, $year , $month){
                                                 
                         break;
                     case 1:
-                        $table .="<th class='days'><span>".$x."</span>";
+                        $table .="<th class='days current_m'><span>".$x."</span>";
                         $table.=event_checker($x);
 
                         $table .="</th>";
@@ -223,7 +223,7 @@ function getcalander($month_numerical, $year , $month){
                         $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, $x, $year)+432000)."</span></th>";
                         break;
                     case 2:
-                        $table .="<th class='days'><span>".$x."</span>";
+                        $table .="<th class='days current_m'><span>".$x."</span>";
                         $table.=event_checker($x);
 
 
@@ -234,7 +234,7 @@ function getcalander($month_numerical, $year , $month){
                         $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, $x, $year)+345600)."</span></th>";
                         break;
                     case 3:
-                        $table .="<th class='days'><span>".$x."</span>";
+                        $table .="<th class='days current_m'><span>".$x."</span>";
                         $table.=event_checker($x);
 
 
@@ -244,7 +244,7 @@ function getcalander($month_numerical, $year , $month){
                         $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, $x, $year)+259200)."</span></th>";
                         break;
                     case 4:
-                        $table .="<th class='days'><span>".$x."</span>";
+                        $table .="<th class='days current_m'><span>".$x."</span>";
                         $table.=event_checker($x);
 
 
@@ -253,7 +253,7 @@ function getcalander($month_numerical, $year , $month){
                         $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, $x, $year)+172800)."</span></th>";
                         break;
                     case 5:
-                        $table .="<th class='days'><span>".$x."</span>";
+                        $table .="<th class='days current_m'><span>".$x."</span>";
                         $table.=event_checker($x);
 
 
@@ -261,7 +261,7 @@ function getcalander($month_numerical, $year , $month){
                         $table .="<th class='days other_month'><span>".date("j", mktime(0, 0, 0, $month_numerical, $x, $year)+86400)."</span></th>";
                         break;
                     case 6:
-                        $table .="<th class='days'><span>".$x."</span>";
+                        $table .="<th class='days current_m'><span>".$x."</span>";
                         $table.=event_checker($x);
 
 
@@ -269,7 +269,7 @@ function getcalander($month_numerical, $year , $month){
                         break;
                 }
             }else{
-                $table .="<th class='days'><span>".$x."</span>";
+                $table .="<th class='days current_m'><span>".$x."</span>";
                 
                 $table.=event_checker($x);
 

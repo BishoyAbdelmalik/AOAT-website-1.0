@@ -10,6 +10,29 @@ if (today != 1) {
     var year = d.getFullYear();
 }
 
+
+var day;
+/*$(".current_m").click(function () {
+    day = $("this").children("span").html();
+    if ($(this).children("#cal_events").html()) {
+        alert(day + "/" + today + "/" + d.getFullYear());
+
+    }
+
+
+
+});*/
+$(document).on('click', '.current_m', function () {
+    day = $("this.element").children("span").html();
+
+    if ($(this).children("#cal_events").html()) {
+        alert(day + "/" + today + "/" + d.getFullYear());
+
+    }
+});
+
+
+
 function before() {
     if (today != 1) {
         today--;
@@ -58,9 +81,9 @@ function after() {
     xhttp.open("GET", "calendar_previous.php?month=" + today + "&&year=" + year, true);
     xhttp.send();
 
-/*
-    console.log(xhttp);
-*/
+    /*
+        console.log(xhttp);
+    */
 
     xhttp.onload = function () {
         if (xhttp.readyState === xhttp.DONE) {
