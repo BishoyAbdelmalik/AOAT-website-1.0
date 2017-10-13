@@ -23,7 +23,9 @@ a {
 }
 
 .blue_background {
-    background: #50addd;
+    /*    background: #50addd;
+    */
+    background: #3094d6;
     color: white;
 }
 
@@ -339,6 +341,28 @@ main {
 
     background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.39)), url(../images/banners/about_banner2.jpg);
     background-position: bottom right;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#contact {
+
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(76, 185, 212, 0.39))),
+    url(../images/contact/keyboard-2418525.jpg);
+
+    background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(76, 185, 212, 0.37)), url(../images/contact/keyboard-2418525.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#student_work {
+
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(76, 185, 212, 0.39))),
+    url(../images/banners/BannerPlaceholderLG.png);
+
+    background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(76, 185, 212, 0.37)), url(../images/banners/BannerPlaceholderLG.png);
+    background-position: center;
     background-size: cover;
     overflow: hidden;
 }

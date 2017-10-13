@@ -19,9 +19,8 @@
 
         ?>
     </header>
-    <div class="banner" id="about">
-        <div></div>
-        <img src="images/contact/keyboard-2418525.jpg">
+    <div class="banner" id="contact">
+
         <h2 class="pages_title">Contact US</h2>
     </div>
     <!-- contact form code-->
