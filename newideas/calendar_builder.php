@@ -61,7 +61,6 @@ function getcalander($month_numerical, $year , $month){
     global  $day;
 
     mysql_check($year,$month_numerical);
-
     $table .= '<div id="date">';
     $table .= '<button onclick="before()" id="before"><</button>';
     $table .= "<span>".$month.", " . $year."</span>";

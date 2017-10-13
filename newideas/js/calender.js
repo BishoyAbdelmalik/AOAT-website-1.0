@@ -12,23 +12,14 @@ if (today != 1) {
 
 
 var day;
-/*$(".current_m").click(function () {
-    day = $("this").children("span").html();
-    if ($(this).children("#cal_events").html()) {
-        alert(day + "/" + today + "/" + d.getFullYear());
 
-    }
-
-
-
-});*/
 $(document).on('click', '.current_m', function () {
-    day = $("this.element").children("span").html();
+    day = $(this).children("span").html();
 
-    if ($(this).children("#cal_events").html()) {
-        alert(day + "/" + today + "/" + d.getFullYear());
+    //   if ($(this).children("#cal_events").html()) {
+    alert(day + "/" + today + "/" + d.getFullYear());
 
-    }
+    //    }
 });
 
 
@@ -92,7 +83,9 @@ function after() {
                 console.log(xhttp.responseText);*/
                 $(".calender").html(xhttp.responseText);
 
+
             }
         }
     };
+
 }
