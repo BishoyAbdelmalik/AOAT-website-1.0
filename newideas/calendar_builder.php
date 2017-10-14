@@ -1,37 +1,42 @@
 <?php
 $events=array();
 
+function mysql_connection(){
+    global  $connection;
 
-function mysql_check($year , $month_numerical){
     $dbhost="localhost";
     $dbuser="AOAT";
     $dbpass="123456";
     $dbname="aoat";
     $connection= mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
-
-    global  $events;
-
-
     if(mysqli_connect_errno()){
         die("Database connection failes: ".
             mysqli_connect_error(). " (" . mysqli_connect_errno().")"
            );
     }
+}
+
+function mysql_check($year , $month_numerical){
+    mysql_connection();
+    global  $connection;
+
+    global  $events;
     $query="SELECT * FROM `Calender` where year=";
     $query .=$year;
     $query .=" and month=";
     $query .=$month_numerical;
-    echo $query;
-    echo "<br>";
+    /*echo $query;
+    echo "<br>";*/
     $result=mysqli_query($connection,$query);
-    
+
 
     if (mysqli_num_rows($result)==0){
-        echo "false";
+        /* echo "false"; */
     }
     if(mysqli_num_rows($result)!=0){
-        echo "true";
+        /* echo "true"; */
     }
+    
     while($row= mysqli_fetch_assoc($result)){
         ${$row["day"]}=$row;
         if(!array_key_exists($row["day"],$events) ){
@@ -43,8 +48,7 @@ function mysql_check($year , $month_numerical){
     }
     mysqli_free_result($result);
     mysqli_close($connection);    
-    echo "<br>";
-    print_r($events);
+    /*echo "<br>"; print_r($events);*/
    
     /*print_r(${1}); echo "<br>"; print_r(${9}); echo "<br>"; print_r(${10});*/
 }
