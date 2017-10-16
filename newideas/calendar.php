@@ -46,7 +46,7 @@ require_once('calendar_builder.php');
 
 
         <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal" id="myModal" role="dialog">
             <div class="modal-dialog">
 
                 <!-- Modal content-->

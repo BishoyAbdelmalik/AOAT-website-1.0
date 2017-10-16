@@ -24,9 +24,15 @@
     font-weight: 900;
 }
 
+.modal-header {
+    background: #096099;
+    color: white;
+}
+
 .modal-body {
 
-    height: 500px;
+    /*    height: 500px;
+    */
     font-size: 17px;
 }
 

@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>AOAT | Student Work</title>
     <style type="text/css">
+        #intro {
+            padding-top: 27px;
+            padding-bottom: 27px;
+        }
+
         .container {
             width: 75%;
             margin: auto;
@@ -25,7 +30,8 @@
             margin: 0;
             width: 100%;
             float: left;
-            background: #c4003e;
+            /* background: #c4003e;*/
+            background: #3094d6;
 
         }
 
@@ -43,7 +49,6 @@
             text-align: center;
             float: left;
             box-sizing: border-box;
-            font-family: Arial, sans-serif;
         }
 
         .studentwork article p {
@@ -52,6 +57,8 @@
 
         .studentwork article h3 {
             font-size: 2em;
+            margin-bottom: 10px;
+
         }
 
         .studentwork img {
@@ -91,6 +98,11 @@
     </div>
 
     <main>
+        <sevtion>
+            <div id="intro" class="lockcontent">
+                AOAT trains students in graphic design and photography for print and web, and develops their skills in design software such as Adobe Creative Suite. Many of their projects are connected to their AOAT academic classes such as science, English, and history/government.
+            </div>
+        </sevtion>
         <section class="studentwork">
             <article>
                 <h3>Digital Photography</h3>
