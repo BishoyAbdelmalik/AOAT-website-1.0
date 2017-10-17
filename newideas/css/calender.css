@@ -197,6 +197,16 @@ tbody tr:nth-child(1) th {
     /*-webkit-transform: translateX(-100%);
     transform: translateX(-100%);*/
     top: 0;
+    /*may be removed*/
+    background: #4cb9d4;
+    border-radius: 67%;
+    color: white;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+
 
 }
 
