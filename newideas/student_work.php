@@ -23,7 +23,9 @@
             margin-bottom: 0px;
         }
 
-
+        main section {
+            cursor: pointer;
+        }
 
         .studentwork {
             color: #fff;
@@ -77,8 +79,16 @@
         }
 
         .studentworkTile img {
+
+            transition: all 500ms;
             opacity: .4;
             width: 50%;
+        }
+
+        .studentworkTile img:hover {
+
+
+            opacity: 0.8;
         }
 
     </style>
@@ -96,19 +106,21 @@
 
         <h2 class="pages_title">Student Work</h2>
     </div>
-
+    <sevtion>
+        <div id="intro" class="lockcontent">
+            AOAT trains students in graphic design and photography for print and web, and develops their skills in design software such as Adobe Creative Suite. Many of their projects are connected to their AOAT academic classes such as science, English, and history/government.
+        </div>
+    </sevtion>
     <main>
-        <sevtion>
-            <div id="intro" class="lockcontent">
-                AOAT trains students in graphic design and photography for print and web, and develops their skills in design software such as Adobe Creative Suite. Many of their projects are connected to their AOAT academic classes such as science, English, and history/government.
-            </div>
-        </sevtion>
+
         <section class="studentwork">
             <article>
                 <h3>Digital Photography</h3>
+
                 <p>
                     AOAT trains students in graphic design and photography for print and web, and develops their skills in design software such as Adobe Creative Suite. Many of their projects are connected to their AOAT academic classes such as science, English, and history/government.
                 </p>
+
             </article>
             <img src="images/studentworkdpCover.jpg">
             <div class="studentworkTile">
