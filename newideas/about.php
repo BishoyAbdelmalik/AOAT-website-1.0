@@ -45,7 +45,9 @@
     <main>
 
         <div class="banner" id="about">
-            <h2>About</h2>
+            <div class="container-fluid lockcontent">
+                <h2>About</h2>
+            </div>
         </div>
 
         <section class="gray_txt" id="first_section">

@@ -114,15 +114,17 @@
     <main>
 
         <section class="studentwork">
-            <article>
-                <h3>Digital Photography</h3>
+            <a>
+                <article>
+                    <h3>Digital Photography</h3>
 
-                <p>
-                    AOAT trains students in graphic design and photography for print and web, and develops their skills in design software such as Adobe Creative Suite. Many of their projects are connected to their AOAT academic classes such as science, English, and history/government.
-                </p>
+                    <p>
+                        AOAT trains students in graphic design and photography for print and web, and develops their skills in design software such as Adobe Creative Suite. Many of their projects are connected to their AOAT academic classes such as science, English, and history/government.
+                    </p>
 
-            </article>
-            <img src="images/studentworkdpCover.jpg">
+                </article>
+                <img src="images/studentworkdpCover.jpg">
+            </a>
             <div class="studentworkTile">
                 <img src="images/studentworkdpTile1.jpg">
                 <img src="images/studentworkdpTile2.jpg">

@@ -468,11 +468,18 @@ main {
     margin-bottom: 10px;
 }
 
+.banner div {
+    position: absolute;
+
+}
+
 .banner h2 {
     position: absolute;
     /* left: 15px;
     bottom: -3px;
+    
 */
+    /*    left: 121px;*/
     left: 16px;
     z-index: 3;
     bottom: 0;
