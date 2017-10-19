@@ -347,8 +347,7 @@ main {
 
 #contact {
 
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(76, 185, 212, 0.39))),
-    url(../images/contact/keyboard-2418525.jpg);
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(76, 185, 212, 0.37))), url(../images/contact/keyboard-2418525.jpg);
 
     background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(76, 185, 212, 0.37)), url(../images/contact/keyboard-2418525.jpg);
     background-position: center;
@@ -358,8 +357,7 @@ main {
 
 #student_work {
 
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.85)), to(rgba(76, 185, 212, 0.67))),
-    url(../images/studentworkdillCover.jpg);
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.85)), to(rgba(76, 185, 212, 0.67))), url(../images/studentworkdillCover.jpg);
 
     background: linear-gradient( rgba(255, 255, 255, 0.85), rgba(76, 185, 212, 0.67)), url(../images/studentworkdillCover.jpg);
     background-position: center;
@@ -369,7 +367,6 @@ main {
 }
 
 #alumni {
-
     background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(76, 185, 212, 0.39))), url(../images/banners/BannerPlaceholderLG.png);
     background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.39)), url(../images/banners/BannerPlaceholderLG.png);
     background-position: bottom right;
@@ -381,6 +378,7 @@ main {
 #aboutEvents {
 
     background: -webkit-gradient( rgba(255, 255, 255, 0.64), rgba(76, 185, 212, 0.22)), url(../images/banners/events.jpg);
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.64)), to(rgba(76, 185, 212, 0.22))), url(../images/banners/events.jpg);
     background: linear-gradient( rgba(255, 255, 255, 0.64), rgba(76, 185, 212, 0.22)), url(../images/banners/events.jpg);
     background-position: center;
     background-size: cover;
@@ -470,16 +468,13 @@ main {
 
 .banner div {
     position: absolute;
-
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
 }
 
 .banner h2 {
     position: absolute;
-    /* left: 15px;
-    bottom: -3px;
-    
-*/
-    /*    left: 121px;*/
     left: 16px;
     z-index: 3;
     bottom: 0;

@@ -26,10 +26,12 @@ require_once('calendar_builder.php');
     </header>
     <main>
         <div class="banner" id="calendar">
-            <h2>Calendar</h2>
+            <div class="container-fluid lockcontent">
+                <h2>Calendar</h2>
+            </div>
         </div>
 
-        <div class="lockcontent">
+        <div class="container-fluid  lockcontent">
             <div class="calender">
 
 

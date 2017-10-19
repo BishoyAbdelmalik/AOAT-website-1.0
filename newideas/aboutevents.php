@@ -24,7 +24,9 @@
     </header>
     <main>
         <div class="banner" id="aboutEvents">
-            <h2>About Events</h2>
+            <div class="container-fluid lockcontent">
+                <h2>About Events</h2>
+            </div>
         </div>
         <section class="gray_txt lockcontent container-fluid">
             <p>

@@ -31,10 +31,12 @@
     </header>
     <main>
         <div class="banner" id="alumni">
-            <h2>Alumni</h2>
+            <div class="container-fluid lockcontent">
+                <h2>Alumni</h2>
+            </div>
         </div>
         <section class="gray_txt">
-            <div class="lockcontent">
+            <div class="container-fluid lockcontent">
 
                 <h3>Danielle Rocha</h3>
                 <p>
@@ -43,7 +45,7 @@
             </div>
         </section>
         <section class="blue_background">
-            <div class="reyes lockcontent">
+            <div class="reyes container-fluid  lockcontent">
 
                 <h3>Jose Reyes</h3>
                 <h4>Class of 2014</h4>
@@ -58,7 +60,7 @@
                 </p>
             </div>
         </section>
-        <div class="face lockcontent">
+        <div class="face container-fluid  lockcontent">
 
             <p>
                 Keep up to date with our alumni on the <a target="_blank" href="https://www.facebook.com/aoat.alums/">AOAT Alumni Facebook Page</a>

@@ -23,7 +23,9 @@
         <div>
             <article>
                 <div class="banner" id="academics">
-                    <h2>Academics</h2>
+                    <div class="container-fluid lockcontent">
+                        <h2>Academics</h2>
+                    </div>
                 </div>
                 <!--end banner-->
                 <section id="first_section">

@@ -29,7 +29,9 @@ if($_GET){
         <div>
             <div class="content_main">
                 <div class="banner" id="teachers">
-                    <h2 class="pages_title">Teachers</h2>
+                    <div class="container-fluid lockcontent">
+                        <h2 class="pages_title">Teachers</h2>
+                    </div>
                 </div>
                 <div class="container-fluid teachers_columns lockcontent">
 
