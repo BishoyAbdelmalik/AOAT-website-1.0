@@ -55,6 +55,16 @@
     width: 100%;
 }
 
+.close {
+    color: white;
+    opacity: 1;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
+}
+
+.close:hover {
+    color: white;
+}
+
 .flex {
     display: -webkit-box;
     display: -ms-flexbox;

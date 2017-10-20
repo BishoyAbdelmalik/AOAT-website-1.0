@@ -33,7 +33,7 @@
     <main class="blue_background">
         <section class="studentwork flex_b wrap">
 
-            <article class="flex_b ">
+            <article class="flex_b dgPhotography">
                 <div>
                     <h3>Digital Photography</h3>
 
@@ -42,7 +42,7 @@
                     </p>
                 </div>
             </article>
-            <img class="center_img" src="images/studentworkdpCover.jpg">
+            <img class="center_img dgPhotography" src="images/studentworkdpCover.jpg">
             <div class="studentworkTile flex_b wrap">
                 <img src="images/studentworkdpTile1.jpg">
                 <img src="images/studentworkdpTile2.jpg">
@@ -57,8 +57,8 @@
                 <img src="images/studentworkdillTile3.jpg">
                 <img src="images/studentworkdillTile4.jpg">
             </div>
-            <img src="images/studentworkdillCover.jpg">
-            <article class="flex_b ">
+            <img class="dgIllustration" src="images/studentworkdillCover.jpg">
+            <article class="flex_b dgIllustration">
                 <div>
                     <h3>Digital Illustration</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -67,13 +67,13 @@
         </section>
         <section class="studentwork flex_b wrap">
 
-            <article class="flex_b">
+            <article class="flex_b dgImaging">
                 <div>
                     <h3>Digital Imaging</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </article>
-            <img src="images/album_cover.jpg">
+            <img class="dgImaging" src="images/album_cover.jpg">
             <div class="studentworkTile flex_b wrap">
                 <img src="images/studentworkTile1.jpg">
                 <img src="images/studentworkTile2.jpg">
@@ -89,8 +89,8 @@
                 <img src="images/studentworkgdTile4.jpg">
             </div>
 
-            <img src="images/studentworkgdCover.jpg">
-            <article class="flex_b">
+            <img class="graphic" src="images/studentworkgdCover.jpg">
+            <article class="flex_b graphic">
                 <div>
                     <h3>Graphic Design</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -100,13 +100,13 @@
         <section class="studentwork flex_b wrap">
 
 
-            <article class="flex_b">
+            <article class="flex_b web">
                 <div>
                     <h3>Web Design</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </article>
-            <img src="images/studentworkwdCover.jpg">
+            <img class="web" src="images/studentworkwdCover.jpg">
             <div class="studentworkTile flex_b wrap">
                 <img src="images/studentworkwdTile1.jpg">
                 <img src="images/studentworkwdTile2.jpg">
@@ -133,8 +133,9 @@
         nav();
         home();
         bootstrap(0);
-
+        student_work()
     ?>
+
 </body>
 
 </html>

@@ -125,6 +125,3 @@ function after() {
 $('.modal').on('show.bs.modal', function (e) {
     $('.modal .modal-dialog').attr('class', 'modal-dialog  zoomIn  animated');
 })
-$('.modal').on('hide.bs.modal', function (e) {
-    $('.modal .modal-dialog').attr('class', 'modal-dialog  rubberBand  animated');
-})

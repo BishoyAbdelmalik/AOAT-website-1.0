@@ -27,6 +27,8 @@
                     </ul>
                 </li>
                 <li>
+                    <a href="student_work.php">Student Work</a>
+                    <!--
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Student Work<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="studentworkdp.html">Digital Photography</a></li>
@@ -35,6 +37,7 @@
                         <li><a href="studentworkgd.html">Graphic Design</a></li>
                         <li><a href="studentworkwd.html">Web Design</a></li>
                     </ul>
+-->
                 </li>
                 <li><a href="alumni.php">Alumni</a></li>
                 <li><a href="contact.php">Contact</a></li>

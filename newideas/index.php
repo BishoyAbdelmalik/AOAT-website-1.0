@@ -98,7 +98,7 @@
                                 </li>
 
                             </ul>
-                            <a href="#">See all news and events</a>
+                            <a href="calendar.php">See all news and events</a>
                         </div>
                     </div>
                 </div>
@@ -112,9 +112,7 @@
                             <div class="absolute-text" id="teacher_AT">
                                 <h2>Get to Know Our Teachers</h2>
                                 <a href="teachers.html">
-                                    <button type="button" class="btn btn-primary">
-                                                                                    View More
-                                                                                    </button>
+                                    <button type="button" class="btn btn-primary"> View More </button>
                                 </a>
                             </div>
                         </div>
@@ -124,10 +122,8 @@
                             <img src="images/home/StudentWork.jpg">
                             <div class="absolute-text" id="studentwork_AT">
                                 <h2>Student Work</h2>
-                                <a href="studentworkgd.html">
-                                    <button type="button" class="btn btn-primary">
-                                                                                                                                       View More
-                                                                                                                                       </button>
+                                <a href="student_work.php">
+                                    <button type="button" class="btn btn-primary">View More</button>
                                 </a>
                             </div>
                         </div>
