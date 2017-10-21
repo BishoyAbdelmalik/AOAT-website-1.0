@@ -335,8 +335,4 @@ function event_checker($d){
         return "";
     }
 }
-
-
-
-
 ?>
