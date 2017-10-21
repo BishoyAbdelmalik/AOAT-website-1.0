@@ -25,11 +25,11 @@
             <h2 class="pages_title">Student Work</h2>
         </div>
     </div>
-    <sevtion>
+    <section>
         <div id="intro" class="container-fluid lockcontent">
             AOAT trains students in graphic design and photography for print and web, and develops their skills in design software such as Adobe Creative Suite. Many of their projects are connected to their AOAT academic classes such as science, English, and history/government.
         </div>
-    </sevtion>
+    </section>
     <main class="blue_background">
         <section class="studentwork flex_b wrap">
 

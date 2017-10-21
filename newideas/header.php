@@ -19,6 +19,7 @@
                 <li><a href="about.php">About</a></li>
                 <li><a href="academics.php">Academics</a></li>
                 <li><a href="teachers.php">Teachers</a></li>
+                <li><a href="aoat_clubs.php">AOAT Clubs</a></li>
                 <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false">Events<span class="caret"></span></a>
                     <ul class="dropdown-menu">
