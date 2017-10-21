@@ -28,7 +28,9 @@
     background: #096099;
     color: white;
 }
-
+.hidden {
+	display: none;
+}
 .modal-body {
 
     /*    height: 500px;

@@ -48,9 +48,7 @@ function mysql_check($year , $month_numerical){
     }
     mysqli_free_result($result);
     mysqli_close($connection);    
-    /*echo "<br>"; print_r($events);*/
-   
-    /*print_r(${1}); echo "<br>"; print_r(${9}); echo "<br>"; print_r(${10});*/
+    
 }
 
     
@@ -73,8 +71,44 @@ function getcalander($month_numerical, $year , $month){
 
 
     $day_name=array();
-
+    $table .='<table class="calendar">';
+    $table .='<tr>';
     for ($day_name_numaric =0; $day_name_numaric <= 7; $day_name_numaric++) {
+        switch ($day_name_numaric){
+            case 0 :
+                array_push($day_name, "Sun.");
+                break;
+            case 1 :
+                array_push($day_name, "Mon.");
+                break;
+            case 2 :
+                array_push($day_name, "Tues.");
+
+                break;
+            case 3 :
+                array_push($day_name, "Wed.");
+
+                break;
+            case 4 :
+                array_push($day_name, "Thur.");
+
+                break;
+            case 5 :
+                array_push($day_name, "Fri.");
+
+                break;
+            case 6 :
+                array_push($day_name, "Sat.");
+
+                break;
+
+
+        }
+    }
+    foreach ($day_name as $value){$table .= "<th class='abreviation hidden'>".$value."</th>";}
+    $day_name=array();
+   
+for ($day_name_numaric =0; $day_name_numaric <= 7; $day_name_numaric++) {
         switch ($day_name_numaric){
             case 0 :
                 array_push($day_name, "Sunday");
@@ -108,11 +142,7 @@ function getcalander($month_numerical, $year , $month){
     }
 
    
-
-    $table .='<table class="calendar">';
-    $table .='<tr>';
-    /*create day names*/
-    foreach ($day_name as $value){$table .= "<th>".$value."</th>";}
+    foreach ($day_name as $value){$table .= "<th class='full_day'>".$value."</th>";}
 
     $table .= '</tr>';
     $table .= '<tr>';

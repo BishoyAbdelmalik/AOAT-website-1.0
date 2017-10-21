@@ -125,3 +125,18 @@ function after() {
 $('.modal').on('show.bs.modal', function (e) {
     $('.modal .modal-dialog').attr('class', 'modal-dialog  zoomIn  animated');
 });
+
+$(window).resize(function () {
+
+    if ($(window).width() < 613) {
+        $(".abreviation").removeClass("hidden");
+        $(".full_day").addClass("hidden");
+
+    } else {
+        $(".abreviation").addClass("hidden");
+        $(".full_day").removeClass("hidden");
+
+    }
+
+
+});
