@@ -25,17 +25,11 @@ function mysql_check($year , $month_numerical){
     $query .=$year;
     $query .=" and month=";
     $query .=$month_numerical;
-    /*echo $query;
-    echo "<br>";*/
     $result=mysqli_query($connection,$query);
 
 
-    if (mysqli_num_rows($result)==0){
-        /* echo "false"; */
-    }
-    if(mysqli_num_rows($result)!=0){
-        /* echo "true"; */
-    }
+    if (mysqli_num_rows($result)==0){/* echo "false"; */}
+    if(mysqli_num_rows($result)!=0){/* echo "true"; */}
     
     while($row= mysqli_fetch_assoc($result)){
         ${$row["day"]}=$row;
