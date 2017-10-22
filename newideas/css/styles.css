@@ -208,8 +208,7 @@ main {
 .home_nav {
     position: fixed;
     width: 100%;
-    z-index: 99999;
-    -webkit-transition: 0.5s;
+    z-index: 100;    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 

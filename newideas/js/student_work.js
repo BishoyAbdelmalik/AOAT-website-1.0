@@ -1,5 +1,5 @@
  $(".dgPhotography").click(function () {
-     window.location.href = "studentworkdp.html";
+     window.location.href = "studentworkdp.php";
 
  });
 

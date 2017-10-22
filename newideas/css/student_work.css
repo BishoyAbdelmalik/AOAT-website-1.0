@@ -16,18 +16,7 @@ main section {
     cursor: pointer;
 }
 
-.studentwork {
-    color: #fff;
-    margin: 0;
-    width: 100%;
-    /*
-float: left;
-*/
-    /* background: #c4003e;*/
-    /*
-background: #3094d6;
-*/
-}
+.studentwork {}
 
 .studentwork a {
     color: #fff;
@@ -50,8 +39,6 @@ background: #3094d6;
     padding: 2em;
     width: 33.33%;
     text-align: center;
-    /*
-float: left;*/
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -71,6 +58,7 @@ float: left;*/
 float: left;*/
     width: 33.33%;
 }
+
 
 .studentwork a img {
     /*
@@ -98,4 +86,100 @@ float: left;*/
 
 
     opacity: 0.8;
+}
+
+.only_img:hover {
+    opacity: 0.8;
+}
+
+.only_img {
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+    background: white;
+    /*
+    width: auto !important;*/
+}
+
+.only_info {
+    width: 59.33% !important;
+}
+
+.center_ver {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+.modal-body img {
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 50%;
+
+}
+
+.modal-footer {
+    height: 100px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.modal-footer img {
+    height: 75px;
+    cursor: pointer;
+    width: auto !important;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+
+}
+
+img {
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.blue_background div:nth-child(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.modal-body span:first-child,
+.modal-body span:last-child {
+    color: #666;
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.modal-body span:last-child {
+    right: 15px;
+}
+
+.modal-dialog {
+    width: 73%;
+}
+
+.modal-header {
+    padding: 0;
+    padding-right: 5px;
+    border-bottom: 0px;
+}
+
+.modal-header .close {
+    margin-top: 0;
+    font-size: 31px;
+
+}
+
+.projects_grid img {
+    height: 200px;
+
 }
