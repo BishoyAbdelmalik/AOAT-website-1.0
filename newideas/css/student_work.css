@@ -57,6 +57,7 @@ main section {
     /*
 float: left;*/
     width: 33.33%;
+    height: 50%;
 }
 
 
@@ -96,6 +97,8 @@ float: left;*/
     -webkit-transition: all 500ms;
     transition: all 500ms;
     background: white;
+    height: auto !important;
+
     /*
     width: auto !important;*/
 }
@@ -180,6 +183,6 @@ img {
 }
 
 .projects_grid img {
-    height: 200px;
+    height: 206px;
 
 }

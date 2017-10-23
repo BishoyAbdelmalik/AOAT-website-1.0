@@ -13,7 +13,9 @@ a {
     color: #979797;
 }
 
-
+.pointer {
+    cursor: pointer;
+}
 
 #first_section {
     margin-bottom: 10px;
@@ -208,7 +210,8 @@ main {
 .home_nav {
     position: fixed;
     width: 100%;
-    z-index: 100;    -webkit-transition: 0.5s;
+    z-index: 100;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 
