@@ -162,7 +162,9 @@
                                 <div id="9th" class="collapse">
                                     <h5><b>Classes</b></h5>
                                     <ul>
-                                        <li></li>
+                                        <li>Intro Art.</li>
+                                        <li>English 9</li>
+                                        <li>Environmental Science</li>
                                     </ul>
                                 </div>
                             </section>
