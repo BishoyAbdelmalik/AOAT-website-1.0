@@ -1,3 +1,4 @@
+/*
 $(document).ready(function () {
 
     $(".landing").css("height", ($(".landing").height() - 100) + "px");
@@ -17,9 +18,10 @@ $(document).ready(function () {
         duration: 1
     }, 'ease');
 
-});
+});*/
 
 
+/*
 $(window).resize(function () {
 
     $(".landing").css("height", $(".landing_img").height() + "px");
@@ -40,6 +42,7 @@ $(window).resize(function () {
 
 
 });
+*/
 
 
 

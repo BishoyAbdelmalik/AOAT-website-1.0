@@ -20,7 +20,8 @@
         ?>
     </header>
     <div class="homeimage aboutAOAT landing">
-        <img class="landing_img" src="images/home/AboutAOAT.jpg">
+        <!--
+<img class="landing_img" src="images/home/AboutAOAT.jpg">-->
         <div class="absolute-text" id="aboutAOAT_AT">
             <h1>About AOAT</h1>
             <p> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor.</p>
@@ -30,7 +31,18 @@
             </div>
         </div>
     </div>
-    <main style="background: #009cd5">
+    <!-- <div class="homeimage aboutAOAT landing">
+        <img class="landing_img" src="images/home/AboutAOAT.jpg">
+        <div class="absolute-text" id="aboutAOAT_AT">
+            <h1>About AOAT</h1>
+            <p> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor.</p>
+            <div class="arrow bounce">
+                <button class="fa fa-arrow-down fa-2x " onClick="runclick();" href="#"></button>
+
+            </div>
+        </div>
+    </div>-->
+    <main style="background: #009cd5; ">
 
 
 
@@ -145,10 +157,11 @@
     <?php
         jquery(0);
         nav();
-        home();
+        home();      
         bootstrap(0);
 
     ?>
+
 </body>
 
 </html>

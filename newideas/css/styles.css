@@ -179,6 +179,8 @@ main {
 }
 
 .aboutAOAT {
+
+
     /*    background-color: #b69cc9;*/
     background-color: whitesmoke;
     top: 0;
@@ -199,12 +201,51 @@ main {
 }
 
 .landing {
-    position: fixed;
-    /*
-    position: absolute;
-*/
-    z-index: 1 !important;
+
+    height: 100vh;
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(216, 216, 216, 0.57)), to(rgba(216, 216, 216, 0.57))), url(../images/home/AboutAOAT.jpg);
+    background: linear-gradient( rgba(216, 216, 216, 0.57), rgba(216, 216, 216, 0.57)), url(../images/home/AboutAOAT.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
     overflow: hidden;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 1116px) {
+    .landing {
+        height: 60vh;
+        background-size: contain;
+    }
+
+}
+
+@media (max-width: 920px) {
+    .landing {
+        height: 50vh;
+    }
+
+}
+
+@media (max-width: 784px) {
+    .landing {
+        height: 45vh;
+    }
+    .landing div {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+}
+
+@media (max-width: 696px) {
+    .landing {
+        height: 35vh;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+
 }
 
 .home_nav {
@@ -289,6 +330,9 @@ main {
 
 #aboutAOAT_AT {
     bottom: 19%;
+
+
+
 }
 
 .copyrights {
@@ -344,7 +388,7 @@ main {
 
 
     background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.39)), url(../images/banners/about_banner2.jpg);
-    background-position: bottom right;
+
     background-size: cover;
     overflow: hidden;
 }
@@ -476,6 +520,8 @@ main {
     color: #fff;
     position: relative;
     margin-bottom: 10px;
+
+
 }
 
 .banner div {
