@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>AOAT | Academics</title>
+    <title>AOAT | Clubs</title>
     <style>
         .club_name {
             text-align: center;

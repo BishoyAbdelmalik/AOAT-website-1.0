@@ -382,20 +382,15 @@ main {
 }
 
 #about {
-
-
     background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(76, 185, 212, 0.39))), url(../images/banners/about_banner2.jpg);
-
-
     background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.39)), url(../images/banners/about_banner2.jpg);
-
     background-size: cover;
     overflow: hidden;
 }
 
 #clubs {
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(76, 185, 212, 0.39))), url(../images/banners/BannerPlaceholderLG.png);
-    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.39)), url(../images/banners/BannerPlaceholderLG.png);
+    background: -webkit-gradient( linear , left top, left bottom , from(rgba(255, 255, 255, 0.7)) , to(rgba(76, 185, 212, 0))), url(../images/banners/clubs.jpg);
+    background: linear-gradient( rgba(255, 255, 255, 0.7) , rgba(76, 185, 212, 0)), url(../images/banners/clubs.jpg);
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -441,11 +436,8 @@ main {
 }
 
 #teachers {
-
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.63)), to(rgba(76, 185, 212, 0.39))), url(../images/teachers/teacher_cover2.jpg);
-
-    background: linear-gradient( rgba(255, 255, 255, 0.63), rgba(76, 185, 212, 0.39)), url(../images/teachers/teacher_cover2.jpg);
-
+    background:-webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.69)), to(rgba(76, 185, 212, 0.06))), url(../images/teachers/teacher_cover2.jpg);
+    background:linear-gradient( rgba(255, 255, 255, 0.69), rgba(76, 185, 212, 0.06)), url(../images/teachers/teacher_cover2.jpg);
     background-position: top center;
     background-size: cover;
 
