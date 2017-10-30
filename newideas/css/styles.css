@@ -9,6 +9,10 @@ a {
     font-family: 'Muli', sans-serif;
 }
 
+.justify {
+    text-align: justify;
+}
+
 .gray_txt {
     color: #979797;
 }

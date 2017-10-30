@@ -56,9 +56,9 @@
             <section id="art_club" class="flex_b container-fluid lockcontent">
                 <article class="flex_b club_name">
                     <div>
-                        <h3>Art Club</h3>
+                        <h3>ART Club</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor viverra egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a eros vel velit fermentum fringilla. Fusce porttitor, nulla quis porta bibendum, metus mauris egestas sem, vel maximus risus est quis lacus.
+                            ART Club stands for Art Reaching Teens and our mission is to provide a place for students to share, discuss, and view art as well as their own artwork and to connect to each other and community by working on various projects
                         </p>
                     </div>
                 </article>
