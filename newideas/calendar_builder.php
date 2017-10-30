@@ -15,21 +15,30 @@ function mysql_connection(){
            );
     }
 }
-
-function mysql_check($year , $month_numerical){
+$no_events="";
+$ran_before="";
+function mysql_check($year , $month_numerical, $day){
     mysql_connection();
     global  $connection;
-
+    global  $no_events;
+    global  $ran_before;
+    
     global  $events;
     $query="SELECT * FROM `Calender` where year=";
     $query .=$year;
     $query .=" and month=";
     $query .=$month_numerical;
+    $query .=" and day >= ";
+    $query .=$day;
+    $query .=" ORDER BY day ASC";
     $result=mysqli_query($connection,$query);
 
 
-    if (mysqli_num_rows($result)==0){/* echo "false"; */}
-    if(mysqli_num_rows($result)!=0){/* echo "true"; */}
+    if (mysqli_num_rows($result)==0){if($ran_before==""){$no_events="There is No Upcoming Events";}}
+    if(mysqli_num_rows($result)!=0){
+        $ran_before=0;
+        $no_events="";
+    }
     
     while($row= mysqli_fetch_assoc($result)){
         ${$row["day"]}=$row;
@@ -56,7 +65,7 @@ function getcalander($month_numerical, $year , $month){
     $table ="";
     global  $day;
 
-    mysql_check($year,$month_numerical);
+    mysql_check($year,$month_numerical,0);
     $table .= '<div id="date">';
     $table .= '<button onclick="before()" id="before"><</button>';
     $table .= "<span>".$month.", " . $year."</span>";

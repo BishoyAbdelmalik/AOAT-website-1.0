@@ -687,8 +687,19 @@ address > a:hover {
     display: flex;
 }
 
+.no_event {
+    border-bottom: thin solid transparent !important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px !important;
+}
+
 .upcoming_events a {
-    color: #6fb845
+    color: #6fb845;
+    position: absolute;
+    bottom: 10px;
 }
 
 .event_month {
@@ -746,6 +757,7 @@ address > a:hover {
     bottom: -2px;
     position: absolute;
 }
+
 @media screen and (max-width: 425px) {
     .polaroid img {
         max-width: 104px;

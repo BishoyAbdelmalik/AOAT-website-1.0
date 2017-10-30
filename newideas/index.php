@@ -16,7 +16,6 @@
     <header>
         <?php
             require 'header.php';
-           
         ?>
     </header>
     <div class="homeimage aboutAOAT landing">
@@ -66,41 +65,11 @@
                         </div>
                         <div class="upcoming_events">
                             <h1>Upcoming Events</h1>
-                            <ul>
-                                <li>
-                                    <div class="date">
-                                        <div class="event_month">Feb</div>
-                                        <!--Month; write months as Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sept, Oct, Nov, Dec-->
-                                        <div class="num">16</div>
-                                        <!--Date; Write single digits as 01, 02, 03, etc.-->
-                                    </div>
-                                    <div class="event">Open House</div>
-                                    <!--Event-->
-                                </li>
-                                <li>
-                                    <div class="date">
-                                        <div class="event_month">Mar</div>
-                                        <div class="num">04</div>
-                                    </div>
-                                    <div class="event">SteamFest</div>
-                                </li>
-                                <li>
-                                    <div class="date">
-                                        <div class="event_month">June</div>
-                                        <div class="num">08</div>
-                                    </div>
-                                    <div class="event">Senior Graduation</div>
-                                </li>
-                                <li>
-                                    <div class="date">
-                                        <div class="event_month">July</div>
-                                        <div class="num">12</div>
-                                    </div>
-                                    <div class="event">Internship</div>
-                                </li>
+                            <?php
+                                include 'home_calender.php';
 
-                            </ul>
-                            <a href="calendar.php">See all news and events</a>
+                            ?>
+                                <a href="calendar.php">See all news and events</a>
                         </div>
                     </div>
                 </div>
@@ -151,6 +120,7 @@
         bootstrap(0);
 
     ?>
+
 
 </body>
 
