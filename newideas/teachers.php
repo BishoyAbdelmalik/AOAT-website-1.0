@@ -90,7 +90,7 @@ if($_GET){
                             <div class="polaroid" data-toggle="collapse">
                                 <a href="#fenno-bustos" data-toggle="collapse">
                                 <img src="images/teachers/placeholder.jpg">
-                                <p style="font-size: 16px;">Gregory Fenno-Bustos</p>
+                                <p >Gregory Fenno-Bustos</p>
                             </a>
                             </div>
                             <div>
