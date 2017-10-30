@@ -18,3 +18,12 @@ $(window).scroll(function (event) {
 
 
 });
+$('.navbar-toggle').click(function () {
+
+    var scroll = $(window).scrollTop();
+
+    if (scroll < 200) {
+        $(".navbar").toggleClass("transparent_nav");
+    }
+
+});

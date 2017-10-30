@@ -89,6 +89,8 @@ a {
     margin-bottom: 0px;
 }
 
+
+
 main {
     /*    background-color: #cbcccd;*/
     background-color: #fff;
@@ -189,15 +191,10 @@ main {
 }
 
 .main {
-    z-index: 9999 !important;
     position: relative;
-    /*
-        position: fixed;
-*/
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /*    top: 500px;*/
 }
 
 .landing {
@@ -667,6 +664,7 @@ address > a:hover {
 .upcoming_events:not(:first-child) {
     background-color: #fff;
     padding: 10px;
+    padding-bottom: 30px;
 }
 
 .upcoming_events ul {
@@ -694,6 +692,8 @@ address > a:hover {
     justify-content: center;
     margin-bottom: 20px;
     margin-top: 20px !important;
+
+
 }
 
 .upcoming_events a {
@@ -762,10 +762,11 @@ address > a:hover {
     .polaroid img {
         max-width: 104px;
     }
-    .polaroid p { 
+    .polaroid p {
         font-size: 94%;
     }
 }
+
 img {
     max-width: 100%;
     height: auto;
