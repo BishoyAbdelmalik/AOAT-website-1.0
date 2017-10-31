@@ -90,7 +90,7 @@ $course=$rows[0][course];
 */
                 $projects.='<div>';
                 $projects.='<h3>'.$value[project].'</h3>';
-                $projects.='<p>'.$value[description].'</p>';
+                $projects.='<p class="justify">'.$value[description].'</p>';
                 $projects.='</div>';
                 $projects.='</article>';
                 $projects.='<img id="$x" class="only_img" src='.$images[0].'>';
@@ -122,252 +122,235 @@ $course=$rows[0][course];
 
 
 
+<div class="modal center_ver" id="mygallery" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content flex_b flex_column">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <span id="back" class="fa fa-chevron-left fa-2x"></span>
+                <img class="gallery_viewing" src="images/student_work/digital_photography/hockney_calampiano-thumb.jpg">
+                <span id="forward" class="fa fa-chevron-right fa-2x"></span>
 
-                <section class="blue_background">
-                    <div class="container-fluid lockcontent studentwork flex_b wrap hockney">
-                        <article class="flex_b only_info dgPhotography">
-                            <div>
-                                <h3> Hockney Inspired Digital Photo Collage</h3>
-                                <p>
-                                    <b>Objective:</b> Study and analyze the style and method of David Hockney’s photographic work. Begin by researching the tools he used to make the images, his technique in organizing and executing the project, and his relationship to the subject he is photographing. Using 15-20 individual photographs taken with your cellphone, photograph a significant subject in your life. It may be a person, place, or thing. By the end of the project, you should know your subject matter better than you did before starting this project.
-                                </p>
-                            </div>
-                        </article>
-                        <img id="hockney_img" class="only_img" src="images/student_work/digital_photography/hockney_calampiano-thumb.jpg">
+            </div>
+            <div class="modal-footer flex_b">
+                <img class="gallery_items" src="images/student_work/digital_photography/hockney_calampiano-thumb.jpg">
+                <img class="gallery_items" src="images/student_work/digital_photography/hockney_soberanis-thumb.jpg">
+                <img class="gallery_items" src="images/student_work/digital_photography/hockney_correa-thumb.jpg">
+                <img class="gallery_items" src="images/student_work/digital_photography/hockney_martineza-thumb.jpg">
+                <img class="gallery_items" src="images/student_work/digital_photography/hockney_ngo-thumb.jpg">
+                <img class="gallery_items" src="images/student_work/digital_photography/hockney_parada-thumb.jpg">
+                <img class="gallery_items" src="images/student_work/digital_photography/hockney_pena-thumb.jpg">
+            </div>
+        </div>
 
-
-                    </div>
-                </section>
-
-                <div class="modal center_ver" id="mygallery" role="dialog">
-                    <div class="modal-dialog">
-                        <div class="modal-content flex_b flex_column">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                <span id="back" class="fa fa-chevron-left fa-2x"></span>
-                                <img class="gallery_viewing" src="images/student_work/digital_photography/hockney_calampiano-thumb.jpg">
-                                <span id="forward" class="fa fa-chevron-right fa-2x"></span>
-
-                            </div>
-                            <div class="modal-footer flex_b">
-                                <img class="gallery_items" src="images/student_work/digital_photography/hockney_calampiano-thumb.jpg">
-                                <img class="gallery_items" src="images/student_work/digital_photography/hockney_soberanis-thumb.jpg">
-                                <img class="gallery_items" src="images/student_work/digital_photography/hockney_correa-thumb.jpg">
-                                <img class="gallery_items" src="images/student_work/digital_photography/hockney_martineza-thumb.jpg">
-                                <img class="gallery_items" src="images/student_work/digital_photography/hockney_ngo-thumb.jpg">
-                                <img class="gallery_items" src="images/student_work/digital_photography/hockney_parada-thumb.jpg">
-                                <img class="gallery_items" src="images/student_work/digital_photography/hockney_pena-thumb.jpg">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+    </div>
+</div>
 
 
 
 
 
-                <div class="container-fluid">
+<div class="container-fluid">
 
-                    <h3>
-                        <a href="#hockney" data-toggle="collapse">
+    <h3>
+        <a href="#hockney" data-toggle="collapse">
 				Hockney Inspired Digital Photo Collage
 			</a>
-                    </h3>
-                    <div id="hockney" class="collapse">
-                        <p>
-                            Objective: Study and analyze the style and method of David Hockney’s photographic work. Begin by researching the tools he used to make the images, his technique in organizing and executing the project, and his relationship to the subject he is photographing. Using 15-20 individual photographs taken with your cellphone, photograph a significant subject in your life. It may be a person, place, or thing. By the end of the project, you should know your subject matter better than you did before starting this project.
-                        </p>
-                    </div>
-                    <div class="gallery_col">
-                        <a href="images/student_work/digital_photography/hockney_calampiano.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
+    </h3>
+    <div id="hockney" class="collapse">
+        <p>
+            Objective: Study and analyze the style and method of David Hockney’s photographic work. Begin by researching the tools he used to make the images, his technique in organizing and executing the project, and his relationship to the subject he is photographing. Using 15-20 individual photographs taken with your cellphone, photograph a significant subject in your life. It may be a person, place, or thing. By the end of the project, you should know your subject matter better than you did before starting this project.
+        </p>
+    </div>
+    <div class="gallery_col">
+        <a href="images/student_work/digital_photography/hockney_calampiano.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
 				<img src="images/student_work/digital_photography/hockney_calampiano-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/hockney_soberanis.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
+        <a href="images/student_work/digital_photography/hockney_soberanis.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
 				<img src="images/student_work/digital_photography/hockney_soberanis-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/hockney_correa.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
+        <a href="images/student_work/digital_photography/hockney_correa.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
 				<img src="images/student_work/digital_photography/hockney_correa-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/hockney_martineza.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
+        <a href="images/student_work/digital_photography/hockney_martineza.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
 				<img src="images/student_work/digital_photography/hockney_martineza-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/hockney_ngo.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
+        <a href="images/student_work/digital_photography/hockney_ngo.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
 				<img src="images/student_work/digital_photography/hockney_ngo-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/hockney_parada.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
+        <a href="images/student_work/digital_photography/hockney_parada.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
 				<img src="images/student_work/digital_photography/hockney_parada-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/hockney_pena.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
+        <a href="images/student_work/digital_photography/hockney_pena.jpg" data-lightbox="photography" data-title="Hockney Inspired Digital Photo Collage">
 				<img src="images/student_work/digital_photography/hockney_pena-thumb.jpg">
 			</a>
-                    </div>
+    </div>
 
 
-                    <h3>
-                        <a href="#kaleidescope" data-toggle="collapse">
+    <h3>
+        <a href="#kaleidescope" data-toggle="collapse">
                     Kaleidescope
 			</a>
-                    </h3>
-                    <div id="kaleidescope" class="collapse">
-                        <p>
-                            <b>Objective:</b> An extension to the Selective Focus Project students will refine their Photoshop skills by creating a kaleidoscope image. They will begin with a Single image and create a seamless rhythmic geometric pattern.
-                        </p>
-                    </div>
-                    <div class="gallery_col">
-                        <a href="images/student_work/digital_photography/kaleidescope_aguilar.jpg" data-lightbox="photography" data-title="kaleidescope">
+    </h3>
+    <div id="kaleidescope" class="collapse">
+        <p>
+            <b>Objective:</b> An extension to the Selective Focus Project students will refine their Photoshop skills by creating a kaleidoscope image. They will begin with a Single image and create a seamless rhythmic geometric pattern.
+        </p>
+    </div>
+    <div class="gallery_col">
+        <a href="images/student_work/digital_photography/kaleidescope_aguilar.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_aguilar-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kaleidescope_aguilera.jpg" data-lightbox="photography" data-title="kaleidescope">
+        <a href="images/student_work/digital_photography/kaleidescope_aguilera.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_aguilera-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kaleidescope_alavarado.jpg" data-lightbox="photography" data-title="kaleidescope">
+        <a href="images/student_work/digital_photography/kaleidescope_alavarado.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_alavarado-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kaleidescope_arceo.jpg" data-lightbox="photography" data-title="kaleidescope">
+        <a href="images/student_work/digital_photography/kaleidescope_arceo.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_arceo-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kaleidescope_morenoa.jpg" data-lightbox="photography" data-title="kaleidescope">
+        <a href="images/student_work/digital_photography/kaleidescope_morenoa.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_morenoa-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kaleidescope_obrego.jpg" data-lightbox="photography" data-title="kaleidescope">
+        <a href="images/student_work/digital_photography/kaleidescope_obrego.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_obrego-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kaleidescope_rafaelov.jpg" data-lightbox="photography" data-title="kaleidescope">
+        <a href="images/student_work/digital_photography/kaleidescope_rafaelov.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_rafaelov-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kaleidescope_sotelo.jpg" data-lightbox="photography" data-title="kaleidescope">
+        <a href="images/student_work/digital_photography/kaleidescope_sotelo.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_sotelo-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kaleidescope_gonzalez.jpg" data-lightbox="photography" data-title="kaleidescope">
+        <a href="images/student_work/digital_photography/kaleidescope_gonzalez.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_gonzalez-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kaleidescope_hernandez.jpg" data-lightbox="photography" data-title="kaleidescope">
+        <a href="images/student_work/digital_photography/kaleidescope_hernandez.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_hernandez-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kaleidescope_lapuz.jpg" data-lightbox="photography" data-title="kaleidescope">
+        <a href="images/student_work/digital_photography/kaleidescope_lapuz.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_lapuz-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kaleidescope_mendoza.jpg" data-lightbox="photography" data-title="kaleidescope">
+        <a href="images/student_work/digital_photography/kaleidescope_mendoza.jpg" data-lightbox="photography" data-title="kaleidescope">
 				<img src="images/student_work/digital_photography/kaleidescope_mendoza-thumb.jpg">
 			</a>
-                    </div>
-                    <h3>
-                        <a href="#kruger" data-toggle="collapse">
+    </div>
+    <h3>
+        <a href="#kruger" data-toggle="collapse">
 				Politics + Art: The Power of Words and Text
 			</a>
-                    </h3>
-                    <div id="kruger" class="collapse">
-                        <p>
-                            Objective: Reflecting on the issues that may impact your learning or lifestyle, create a work of art using text and image to make your viewer understand a problem in your school or community. Having studied the work of Barbara Kruger and Jenny Holzer, select an issue from your school or community that you feel is necessary for others to know about. Make an original photograph using your digital camera or cellphone and create an original five word slogan that will illustrate the image and the problem you’re addressing.
-                        </p>
-                    </div>
-                    <div class="gallery_col">
-                        <a href="images/student_work/digital_photography/kruger_aguilar.jpg" data-lightbox="photography" data-title="Whatever goes up must go down">
+    </h3>
+    <div id="kruger" class="collapse">
+        <p>
+            Objective: Reflecting on the issues that may impact your learning or lifestyle, create a work of art using text and image to make your viewer understand a problem in your school or community. Having studied the work of Barbara Kruger and Jenny Holzer, select an issue from your school or community that you feel is necessary for others to know about. Make an original photograph using your digital camera or cellphone and create an original five word slogan that will illustrate the image and the problem you’re addressing.
+        </p>
+    </div>
+    <div class="gallery_col">
+        <a href="images/student_work/digital_photography/kruger_aguilar.jpg" data-lightbox="photography" data-title="Whatever goes up must go down">
 				<img src="images/student_work/digital_photography/kruger_aguilar.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kruger_callaway.jpg" data-lightbox="photography" data-title="I BELONG TO ME... PLEASE?">
+        <a href="images/student_work/digital_photography/kruger_callaway.jpg" data-lightbox="photography" data-title="I BELONG TO ME... PLEASE?">
 				<img src="images/student_work/digital_photography/kruger_callaway-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kruger_villa.jpg" data-lightbox="photography" data-title="Stop the peer pressure">
+        <a href="images/student_work/digital_photography/kruger_villa.jpg" data-lightbox="photography" data-title="Stop the peer pressure">
 				<img src="images/student_work/digital_photography/kruger_villa-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kruger_ruano.jpg" data-lightbox="photography" data-title="DO NOT DRINK FROM FAUCET">
+        <a href="images/student_work/digital_photography/kruger_ruano.jpg" data-lightbox="photography" data-title="DO NOT DRINK FROM FAUCET">
 				<img src="images/student_work/digital_photography/kruger_ruano-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kruger_torres.jpg" data-lightbox="photography" data-title="Help Clean The Environment">
+        <a href="images/student_work/digital_photography/kruger_torres.jpg" data-lightbox="photography" data-title="Help Clean The Environment">
 				<img src="images/student_work/digital_photography/kruger_torres-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/kruger_tran.jpg" data-lightbox="photography" data-title="Pick what's best for you">
+        <a href="images/student_work/digital_photography/kruger_tran.jpg" data-lightbox="photography" data-title="Pick what's best for you">
 				<img src="images/student_work/digital_photography/kruger_tran-thumb.jpg">
 			</a>
-                    </div>
-                    <h3>
-                        <a href="#narrative" data-toggle="collapse">
+    </div>
+    <h3>
+        <a href="#narrative" data-toggle="collapse">
 				Photo Narrative - Story Telling in Five Photos
 			</a>
-                    </h3>
-                    <div id="narrative" class="collapse">
-                        <p>
-                            Objective: Use cellphone or digital camera to tell a story (myth, fairy tale, etc.) in five still images. Explain how visual artists and writers represent similar stories in different ways; how does cultural and language affect the way a story is told? Discuss universal story themes such as love, desire, death and immortality.
-                        </p>
-                    </div>
-                    <div class="gallery_col">
-                        <a href="images/student_work/digital_photography/narrative.LaLlorona_1.jpg" data-lightbox="photography" data-title="La Llorona Title">
+    </h3>
+    <div id="narrative" class="collapse">
+        <p>
+            Objective: Use cellphone or digital camera to tell a story (myth, fairy tale, etc.) in five still images. Explain how visual artists and writers represent similar stories in different ways; how does cultural and language affect the way a story is told? Discuss universal story themes such as love, desire, death and immortality.
+        </p>
+    </div>
+    <div class="gallery_col">
+        <a href="images/student_work/digital_photography/narrative.LaLlorona_1.jpg" data-lightbox="photography" data-title="La Llorona Title">
 				<img src="images/student_work/digital_photography/narrative.LaLlorona_1-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.LaLlorona_2.jpg" data-lightbox="photography" data-title="La Llorona 1 of 5">
+        <a href="images/student_work/digital_photography/narrative.LaLlorona_2.jpg" data-lightbox="photography" data-title="La Llorona 1 of 5">
 				<img src="images/student_work/digital_photography/narrative.LaLlorona_2-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.LaLlorona_3.jpg" data-lightbox="photography" data-title="La Llorona 2 of 5">
+        <a href="images/student_work/digital_photography/narrative.LaLlorona_3.jpg" data-lightbox="photography" data-title="La Llorona 2 of 5">
 				<img src="images/student_work/digital_photography/narrative.LaLlorona_3-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.LaLlorona_4.jpg" data-lightbox="photography" data-title="La Llorona 3 of 5">
+        <a href="images/student_work/digital_photography/narrative.LaLlorona_4.jpg" data-lightbox="photography" data-title="La Llorona 3 of 5">
 				<img src="images/student_work/digital_photography/narrative.LaLlorona_4-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.LaLlorona_5.jpg" data-lightbox="photography" data-title="La Llorona 4 of 5">
+        <a href="images/student_work/digital_photography/narrative.LaLlorona_5.jpg" data-lightbox="photography" data-title="La Llorona 4 of 5">
 				<img src="images/student_work/digital_photography/narrative.LaLlorona_5-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.LaLlorona_6.jpg" data-lightbox="photography" data-title="La Llorona 5 of 5">
+        <a href="images/student_work/digital_photography/narrative.LaLlorona_6.jpg" data-lightbox="photography" data-title="La Llorona 5 of 5">
 				<img src="images/student_work/digital_photography/narrative.LaLlorona_6-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.LaLlorona_7.jpg" data-lightbox="photography" data-title="La Llorona 1 of 5">
+        <a href="images/student_work/digital_photography/narrative.LaLlorona_7.jpg" data-lightbox="photography" data-title="La Llorona 1 of 5">
 				<img src="images/student_work/digital_photography/narrative.LaLlorona_7-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_1.jpg" data-lightbox="photography" data-title="Sleeping Beauty Title">
+        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_1.jpg" data-lightbox="photography" data-title="Sleeping Beauty Title">
 				<img src="images/student_work/digital_photography/narrative.SleepingBeauty_1-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_2.jpg" data-lightbox="photography" data-title="Sleeping Beauty 1 of 5">
+        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_2.jpg" data-lightbox="photography" data-title="Sleeping Beauty 1 of 5">
 				<img src="images/student_work/digital_photography/narrative.SleepingBeauty_2-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_3.jpg" data-lightbox="photography" data-title="Sleeping Beauty 2 of 5">
+        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_3.jpg" data-lightbox="photography" data-title="Sleeping Beauty 2 of 5">
 				<img src="images/student_work/digital_photography/narrative.SleepingBeauty_3-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_4.jpg" data-lightbox="photography" data-title="Sleeping Beauty 3 of 5">
+        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_4.jpg" data-lightbox="photography" data-title="Sleeping Beauty 3 of 5">
 				<img src="images/student_work/digital_photography/narrative.SleepingBeauty_4-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_5.jpg" data-lightbox="photography" data-title="Sleeping Beauty 4 of 5">
+        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_5.jpg" data-lightbox="photography" data-title="Sleeping Beauty 4 of 5">
 				<img src="images/student_work/digital_photography/narrative.SleepingBeauty_5-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_6.jpg" data-lightbox="photography" data-title="Sleeping Beauty 5 of 5">
+        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_6.jpg" data-lightbox="photography" data-title="Sleeping Beauty 5 of 5">
 				<img src="images/student_work/digital_photography/narrative.SleepingBeauty_6-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_7.jpg" data-lightbox="photography" data-title="Sleeping Beauty End">
+        <a href="images/student_work/digital_photography/narrative.SleepingBeauty_7.jpg" data-lightbox="photography" data-title="Sleeping Beauty End">
 				<img src="images/student_work/digital_photography/narrative.SleepingBeauty_7-thumb.jpg">
 			</a>
-                    </div>
-                    <h3>
-                        <a href="#composition" data-toggle="collapse">
+    </div>
+    <h3>
+        <a href="#composition" data-toggle="collapse">
 				Photo Composition
 			</a>
-                    </h3>
-                    <div id="composition" class="collapse">
-                        <p>
-                            Objective: Good composition is a key elements of good art, therefore, good photography. Instead of looking at photographic composition as a set of rules to follow, look at it like a set of ingredients, a recipe to follow, that you can modify and change as you become better skilled. Begin documenting what see see around you, at school or at home, while maintaining the idea of good photographic composition in mind.
-                        </p>
-                    </div>
-                    <div class="gallery_col">
-                        <a href="images/student_work/digital_photography/composition_bonilla.jpg" data-lightbox="photography" data-title="Photo Composition">
+    </h3>
+    <div id="composition" class="collapse">
+        <p>
+            Objective: Good composition is a key elements of good art, therefore, good photography. Instead of looking at photographic composition as a set of rules to follow, look at it like a set of ingredients, a recipe to follow, that you can modify and change as you become better skilled. Begin documenting what see see around you, at school or at home, while maintaining the idea of good photographic composition in mind.
+        </p>
+    </div>
+    <div class="gallery_col">
+        <a href="images/student_work/digital_photography/composition_bonilla.jpg" data-lightbox="photography" data-title="Photo Composition">
 				<img src="images/student_work/digital_photography/composition_bonilla-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/composition_butler.jpg" data-lightbox="photography" data-title="Photo Composition">
+        <a href="images/student_work/digital_photography/composition_butler.jpg" data-lightbox="photography" data-title="Photo Composition">
 				<img src="images/student_work/digital_photography/composition_butler-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/composition_diosdado.jpg" data-lightbox="photography" data-title="Photo Composition">
+        <a href="images/student_work/digital_photography/composition_diosdado.jpg" data-lightbox="photography" data-title="Photo Composition">
 				<img src="images/student_work/digital_photography/composition_diosdado-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/composition_lacson.jpg" data-lightbox="photography" data-title="Photo Composition">
+        <a href="images/student_work/digital_photography/composition_lacson.jpg" data-lightbox="photography" data-title="Photo Composition">
 				<img src="images/student_work/digital_photography/composition_lacson-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/composition_gonzalez.jpg" data-lightbox="photography" data-title="Photo Composition">
+        <a href="images/student_work/digital_photography/composition_gonzalez.jpg" data-lightbox="photography" data-title="Photo Composition">
 				<img src="images/student_work/digital_photography/composition_gonzalez-thumb.jpg">
 			</a>
-                        <a href="images/student_work/digital_photography/composition_pineda.jpg" data-lightbox="photography" data-title="Photo Composition">
+        <a href="images/student_work/digital_photography/composition_pineda.jpg" data-lightbox="photography" data-title="Photo Composition">
 				<img src="images/student_work/digital_photography/composition_pineda-thumb.jpg">
 			</a>
-                    </div>
+    </div>
                     <h3>
                         <a href="#mood" data-toggle="collapse">
 				Mood Portrait
