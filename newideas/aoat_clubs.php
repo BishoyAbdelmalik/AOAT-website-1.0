@@ -67,8 +67,27 @@
             <section class="gray_txt white_background">
                 <div id="art" class="collapse container-fluid lockcontent spacing">
                     <div class="spacing">
-
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor viverra egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a eros vel velit fermentum fringilla. Fusce porttitor, nulla quis porta bibendum, metus mauris egestas sem, vel maximus risus est quis lacus. Integer bibendum nibh urna, vel congue justo lobortis vel. Nulla ultrices pellentesque ante, a hendrerit mauris eleifend sed. Curabitur sed scelerisque nibh, non rhoncus ipsum. Duis ornare mauris in mi interdum, id sodales lectus aliquam. Nam commodo libero et quam feugiat sollicitudin. Etiam et neque leo. Donec dolor purus, laoreet sed dignissim nec, imperdiet condimentum mi. Nulla iaculis imperdiet mi a efficitur. Phasellus in fermentum ante, ac fermentum odio. Phasellus et magna est. Quisque tortor erat, interdum nec nulla sit amet, vestibulum auctor justo.
+                        <ul class="nobullet_points">
+                            <li>
+                                <h4>What does ART club do for the community?</h4>
+                                <ul>
+                                    <li>Participate in club/school activities like Homecoming Parade</li>
+                                    <li>Help with chalk festival</li>
+                                    <li>Recycling</li>
+                                    <li>Work with children at the Northridge hospital by making cards and donating gifts.</li>
+                                    <li>Help at Career Day</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nobullet_points">
+                            <li>
+                                <h4>What else should we know?</h4>
+                                <ul>
+                                    <li>Our pride – ART club won the Homecoming Parade float six years in a row</li>
+                                    <li>Its notonly for AOAT students</li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>

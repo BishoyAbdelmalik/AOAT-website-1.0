@@ -13,6 +13,10 @@ a {
     text-align: justify;
 }
 
+.nobullet_points {
+    list-style: none;
+}
+
 .gray_txt {
     color: #979797;
 }
@@ -262,8 +266,8 @@ main {
     /*
     background-color: transparent!important;
 */
-    background: -webkit-gradient( linear,left top, left bottom,from(rgba(255, 255, 255, 0.69)),color-stop(rgba(255, 255, 255, 0.48)),to(rgba(255, 255, 255, 0)));
-    background: linear-gradient( rgba(255, 255, 255, 0.69),rgba(255, 255, 255, 0.48),rgba(255, 255, 255, 0));
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.69)), color-stop(rgba(255, 255, 255, 0.48)), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient( rgba(255, 255, 255, 0.69), rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0));
 }
 
 .transparent_nav .active a {
