@@ -65,7 +65,7 @@ if($_GET){
                         <div class="line">
                             <div class="polaroid" data-toggle="collapse">
                                 <a href="#barreto" data-toggle="collapse">
-                                <img src="images/teachers/placeholder.jpg">
+                                    <img src="images/teachers/barreto.jpg">
                                 <p>Louis Barreto</p>
                             </a>
                             </div>
@@ -115,7 +115,7 @@ if($_GET){
                         <div class="line">
                             <div class="polaroid" data-toggle="collapse">
                                 <a href="#michael" data-toggle="collapse">
-                                <img src="images/teachers/placeholder.jpg">
+                                    <img src="images/teachers/michael.jpg">
                                 <p>Michael Trimarchi</p>
                             </a>
                             </div>
@@ -239,7 +239,7 @@ if($_GET){
                         <div class="line">
                             <div class="polaroid" data-toggle="collapse">
                                 <a href="#yuen" data-toggle="collapse">
-                                <img src="images/teachers/placeholder.jpg">
+                                    <img src="images/teachers/yuen.jpg">
                                 <p>Ellen Yuen</p>
                             </a>
                             </div>
@@ -387,7 +387,7 @@ if($_GET){
                         <div class="line">
                             <div class="polaroid" data-toggle="collapse">
                                 <a href="#broger-macky" data-toggle="collapse">
-                                <img src="images/teachers/placeholder.jpg">
+                                    <img src="images/teachers/broger-macky.jpg">
                                 <p>Bruce Broger-Macky</p>
                             </a>
                             </div>
@@ -412,7 +412,7 @@ if($_GET){
                         <div class="line">
                             <div class="polaroid" data-toggle="collapse">
                                 <a href="#hayes" data-toggle="collapse">
-                                <img src="images/teachers/placeholder.jpg">
+                                    <img src="images/teachers/hayes.jpg">
                                 <p>Casey Hayes</p>
                             </a>
                             </div>
@@ -465,7 +465,7 @@ if($_GET){
                         <div class="line">
                             <div class="polaroid" data-toggle="collapse">
                                 <a href="#sobel" data-toggle="collapse">
-                                <img src="images/teachers/placeholder.jpg">
+                                    <img src="images/teachers/sobel.jpg">
                                 <p>Kate Sobel</p>
 
                             </a>
