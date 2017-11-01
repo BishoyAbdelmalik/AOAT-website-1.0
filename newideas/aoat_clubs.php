@@ -64,18 +64,19 @@
                 </article>
                 <img src="images/studentworkdpCover.jpg">
             </section>
-            <section class="gray_txt white_background">
+
+            <section class="">
                 <div id="art" class="collapse container-fluid lockcontent spacing">
-                    <div class="spacing">
+                    <div class="spacing ">
                         <ul class="nobullet_points">
                             <li>
                                 <h4>What does ART club do for the community?</h4>
                                 <ul>
-                                    <li>Participate in club/school activities like Homecoming Parade</li>
-                                    <li>Help with chalk festival</li>
+                                    <li>Participates in club/school activities such as the Homecoming Parade</li>
+                                    <li>Helps with chalk festival</li>
                                     <li>Recycling</li>
-                                    <li>Work with children at the Northridge hospital by making cards and donating gifts.</li>
-                                    <li>Help at Career Day</li>
+                                    <li>Works with children at the Northridge hospital by making cards and donating gifts.</li>
+                                    <li>Helps in Career Day</li>
                                 </ul>
                             </li>
                         </ul>
@@ -84,24 +85,34 @@
                                 <h4>What else should we know?</h4>
                                 <ul>
                                     <li>Our pride – ART club won the Homecoming Parade float six years in a row</li>
-                                    <li>Its notonly for AOAT students</li>
+                                    <li>It's not only for AOAT students</li>
+                                    <li>ART club tries to do many bonding activities during and after school such as:
+                                        <ul>
+                                            <li>tie dying</li>
+                                            <li>Screen printing out own shirts</li>
+                                            <li>Potlucks</li>
+                                            <li>Bowling</li>
+                                            <li>Fundraisings</li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
                 </div>
             </section>
-            <section id="peer_mentor" class="flex_b flex_row_reverse container-fluid lockcontent">
-                <article class="flex_b club_name">
-                    <div>
-                        <h3>Peer Mentor</h3>
-                        <p class="justify">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor viverra egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a eros vel velit fermentum fringilla. Fusce porttitor, nulla quis porta bibendum, metus mauris egestas sem, vel maximus risus est quis lacus.
-                        </p>
-                    </div>
-                </article>
-                <img src="images/studentworkdpCover.jpg">
-
+            <section id="peer_mentor" class="gray_txt white_background">
+                <section class="flex_b flex_row_reverse container-fluid lockcontent ">
+                    <article class="flex_b club_name">
+                        <div>
+                            <h3>Peer Mentor</h3>
+                            <p class="justify">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor viverra egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a eros vel velit fermentum fringilla. Fusce porttitor, nulla quis porta bibendum, metus mauris egestas sem, vel maximus risus est quis lacus.
+                            </p>
+                        </div>
+                    </article>
+                    <img src="images/studentworkdpCover.jpg">
+                </section>
             </section>
             <section class="gray_txt white_background">
                 <div id="peer" class="collapse container-fluid lockcontent">
