@@ -60,6 +60,8 @@
                         <p class="justify">
                             ART Club stands for Art Reaching Teens and our mission is to provide a place for students to share, discuss, and view art as well as their own artwork and to connect to each other and community by working on various projects
                         </p>
+                        <button class="fa fa-arrow-down fa-2x " href="#">Click Here for more Info</button>
+
                     </div>
                 </article>
                 <img src="images/clubs/art%20club.jpg">
