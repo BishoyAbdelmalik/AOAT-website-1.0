@@ -62,12 +62,13 @@
                         </p>
                     </div>
                 </article>
-                <img src="images/studentworkdpCover.jpg">
+                <img src="images/clubs/art%20club.jpg">
             </section>
 
-            <section class="">
-                <div id="art" class="collapse container-fluid lockcontent spacing">
-                    <div class="spacing ">
+            <section class="modal" id="myModal" role="dialog">
+                <div id="art" class="modal-dialog">
+                    <!--                <div id="art" class="collapse container-fluid lockcontent spacing">-->
+                    <div class="modal-content">
                         <ul class="nobullet_points">
                             <li>
                                 <h4>What does ART club do for the community?</h4>
@@ -101,7 +102,7 @@
                     </div>
                 </div>
             </section>
-            <section id="peer_mentor" class="gray_txt white_background">
+            <section id="peer_mentor" class="blue_background">
                 <section class="flex_b flex_row_reverse container-fluid lockcontent ">
                     <article class="flex_b club_name">
                         <div>
@@ -137,7 +138,8 @@
         <script>
             $(document).ready(function() {
                 $("#art_club").click(function() {
-                    $("#art").collapse("toggle");
+                    // $("#art").collapse("toggle");  
+                    $("#myModal").modal();
                 });
                 $("#peer_mentor").click(function() {
                     $("#peer").collapse("toggle");
