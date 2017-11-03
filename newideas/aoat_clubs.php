@@ -17,17 +17,45 @@
             align-items: center;
         }
 
-        main section {
-            cursor: pointer;
+        .club_name div {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
         }
+
+        .center {
+            text-align: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .center h4 {
+            line-height: 54px;
+        }
+
+        .modal article {
+            width: 50%;
+        }
+
+        .modal-dialog {
+            /*position: relative; top: 50%; transform: translateY(-50%) !important;*/
+            width: 90%;
+        }
+
+        /* main section { cursor: pointer; }*/
 
         .white_background {
             background: white;
         }
 
-        .spacing {
+        /*.spacing {
             padding-bottom: 10px;
             padding-top: 16px;
+        }*/
+
+        .modal-body {
+            padding: 0;
         }
 
     </style>
@@ -67,42 +95,143 @@
                 <img src="images/clubs/art%20club.jpg">
             </section>
 
-            <section class="modal" id="myModal" role="dialog">
-                <div id="art" class="modal-dialog">
+            <section class="modal gray_txt" id="art" role="dialog">
+                <div class="modal-dialog">
                     <!--                <div id="art" class="collapse container-fluid lockcontent spacing">-->
                     <div class="modal-content">
-                        <ul class="nobullet_points">
-                            <li>
-                                <h4>What does ART club do for the community?</h4>
-                                <ul>
-                                    <li>Participates in club/school activities such as the Homecoming Parade</li>
-                                    <li>Helps with chalk festival</li>
-                                    <li>Recycling</li>
-                                    <li>Works with children at the Northridge hospital by making cards and donating gifts.</li>
-                                    <li>Helps in Career Day</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul class="nobullet_points">
-                            <li>
+                        <div class="modal-header center ">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                            <h4 class="modal-title">ART Club</h4>
+                        </div>
+                        <div class="modal-body">
+                            <section class="flex_b blue_background">
+
+                                <article class="flex_b club_name">
+                                    <div>
+                                        <p class="justify">
+                                            ART Club stands for Art Reaching Teens and our mission is to provide a place for students to share, discuss, and view art as well as their own artwork and to connect to each other and community by working on various projects
+                                        </p>
+                                    </div>
+
+                                </article>
+                                <img src="images/clubs/art%20club.jpg">
+                            </section>
+                            <section class="gray_txt center">
+                                <h4>ART club contributions in the community</h4>
+                            </section>
+                            <section class="flex_b blue_background">
+                                <article class="flex_b club_name">
+                                    <div>
+                                        <h3>School Events</h3>
+                                        <p class="justify">
+                                            ART club participates in club/school activities such as the Homecoming Parade
+                                        </p>
+                                    </div>
+                                </article>
+                                <img src="images/clubs/art%20club.jpg">
+                            </section>
+                            <section class="flex_b flex_row_reverse blue_background">
+                                <article class="flex_b club_name">
+                                    <div>
+                                        <h3>Campus Decorations</h3>
+                                        <p class="justify">
+                                            ART club Helps with chalk festival
+                                        </p>
+                                    </div>
+                                </article>
+                                <img src="images/clubs/art%20club.jpg">
+                            </section>
+                            <section class="flex_b blue_background">
+                                <article class="flex_b club_name">
+                                    <div>
+                                        <h3>Enviroment</h3>
+                                        <p class="justify">
+                                            ART club helps the enviroment by doing Recycling
+                                        </p>
+                                    </div>
+                                </article>
+                                <img src="images/clubs/art%20club.jpg">
+                            </section>
+                            <section class="flex_b flex_row_reverse blue_background">
+                                <article class="flex_b club_name">
+                                    <div>
+                                        <h3>Helping Children</h3>
+                                        <p class="justify">
+                                            ART club works with children at the Northridge hospital by making cards and donating gifts.
+                                        </p>
+                                    </div>
+                                </article>
+                                <img src="images/clubs/art%20club.jpg">
+                            </section>
+                            <section class="flex_b blue_background">
+                                <article class="flex_b club_name">
+                                    <div>
+                                        <h3>
+                                            ART club helps in Career Day
+                                        </h3>
+                                    </div>
+                                </article>
+                                <img src="images/clubs/art%20club.jpg">
+                            </section>
+                            <section class="gray_txt center">
                                 <h4>What else should we know?</h4>
-                                <ul>
-                                    <li>Our pride – ART club won the Homecoming Parade float six years in a row</li>
-                                    <li>It's not only for AOAT students</li>
-                                    <li>ART club tries to do many bonding activities during and after school such as:
-                                        <ul>
-                                            <li>tie dying</li>
-                                            <li>Screen printing out own shirts</li>
-                                            <li>Potlucks</li>
-                                            <li>Bowling</li>
-                                            <li>Fundraisings</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                            </section>
+                            <section class="flex_b blue_background">
+                                <article class="flex_b club_name">
+                                    <div>
+                                        <h3>Our pride</h3>
+                                        <p class="justify">
+                                            ART club won the Homecoming Parade float six years in a row
+                                        </p>
+                                    </div>
+                                </article>
+                                <img src="images/clubs/art%20club.jpg">
+                            </section>
+
+                            <ul class="nobullet_points">
+                                <li>
+                                    <h4>What else should we know?</h4>
+                                    <ul>
+                                        <li>Our pride – ART club won the Homecoming Parade float six years in a row</li>
+                                        <li>It's not only for AOAT students</li>
+                                        <li>ART club tries to do many bonding activities during and after school such as:
+                                            <ul>
+                                                <li>tie dying</li>
+                                                <li>Screen printing out own shirts</li>
+                                                <li>Potlucks</li>
+                                                <li>Bowling</li>
+                                                <li>Fundraisings</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+
                 </div>
+                <!--
+<ul class="nobullet_points">
+-->
+                <!--                                <li>
+
+<h4>What does ART club do for the community?</h4>                                    <ul>
+-->
+                <!--<li>Participates in club/school activities such as the Homecoming Parade</li>-->
+                <!--
+<li>Helps with chalk festival</li>
+-->
+                <!--<li>Recycling</li>-->
+                <!--
+<li>Works with children at the Northridge hospital by making cards and donating gifts.</li>
+-->
+                <!--
+<li>Helps in Career Day</li>
+-->
+                <!--</ul>
+</li>
+</ul>-->
             </section>
             <section id="peer_mentor" class="blue_background">
                 <section class="flex_b flex_row_reverse container-fluid lockcontent ">
@@ -141,7 +270,7 @@
             $(document).ready(function() {
                 $("#art_club").click(function() {
                     // $("#art").collapse("toggle");  
-                    $("#myModal").modal();
+                    $("#art").modal();
                 });
                 $("#peer_mentor").click(function() {
                     $("#peer").collapse("toggle");
