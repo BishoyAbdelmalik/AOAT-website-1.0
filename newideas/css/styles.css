@@ -17,6 +17,20 @@ a {
     list-style: none;
 }
 
+.removelinkstyle {
+    color: unset;
+
+}
+
+.removelinkstyle:hover {
+
+    text-decoration: none;
+}
+
+.hoverwhite:hover {
+    color: #ddd;
+}
+
 .gray_txt {
     color: #979797;
 }
