@@ -32,7 +32,7 @@
         </div>
     </section>
     <main class="blue_background">
-        <section data-aos="fade-up" class="studentwork flex_b wrap">
+        <section data-aos="fade-up" data-aos-easing="ease-in-out" class="studentwork flex_b wrap">
 
             <article class="flex_b dgPhotography">
                 <div>
@@ -51,7 +51,7 @@
                 <img src="images/studentworkdpTile4.jpg">
             </div>
         </section>
-        <section data-aos="fade-up" class="studentwork flex_b wrap">
+        <section data-aos="fade-up" data-aos-easing="ease-in-out" class="studentwork flex_b wrap">
             <div class="studentworkTile flex_b wrap">
                 <img src="images/studentworkdillTile1.jpg">
                 <img src="images/studentworkdillTile2.jpg">
@@ -66,7 +66,7 @@
                 </div>
             </article>
         </section>
-        <section data-aos="fade-up" class="studentwork flex_b wrap">
+        <section data-aos="fade-up" data-aos-easing="ease-in-out" class="studentwork flex_b wrap">
 
             <article class="flex_b dgImaging">
                 <div>
@@ -82,7 +82,7 @@
                 <img src="images/studentworkTile4.jpg">
             </div>
         </section>
-        <section data-aos="fade-up" class="studentwork flex_b wrap">
+        <section data-aos="fade-up" data-aos-easing="ease-in-out" class="studentwork flex_b wrap">
             <div class="studentworkTile flex_b wrap">
                 <img src="images/studentworkgdTile1.jpg">
                 <img src="images/studentworkgdTile2.jpg">
@@ -98,7 +98,7 @@
                 </div>
             </article>
         </section>
-        <section data-aos="fade-up" class="studentwork flex_b wrap">
+        <section data-aos="fade-up" data-aos-easing="ease-in-out" class="studentwork flex_b wrap">
 
 
             <article class="flex_b web">
