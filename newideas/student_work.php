@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/student_work.css" />
     <title>AOAT | Student Work</title>
 
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -31,7 +32,7 @@
         </div>
     </section>
     <main class="blue_background">
-        <section class="studentwork flex_b wrap">
+        <section data-aos="fade-up" class="studentwork flex_b wrap">
 
             <article class="flex_b dgPhotography">
                 <div>
@@ -50,7 +51,7 @@
                 <img src="images/studentworkdpTile4.jpg">
             </div>
         </section>
-        <section class="studentwork flex_b wrap">
+        <section data-aos="fade-up" class="studentwork flex_b wrap">
             <div class="studentworkTile flex_b wrap">
                 <img src="images/studentworkdillTile1.jpg">
                 <img src="images/studentworkdillTile2.jpg">
@@ -65,7 +66,7 @@
                 </div>
             </article>
         </section>
-        <section class="studentwork flex_b wrap">
+        <section data-aos="fade-up" class="studentwork flex_b wrap">
 
             <article class="flex_b dgImaging">
                 <div>
@@ -81,7 +82,7 @@
                 <img src="images/studentworkTile4.jpg">
             </div>
         </section>
-        <section class="studentwork flex_b wrap">
+        <section data-aos="fade-up" class="studentwork flex_b wrap">
             <div class="studentworkTile flex_b wrap">
                 <img src="images/studentworkgdTile1.jpg">
                 <img src="images/studentworkgdTile2.jpg">
@@ -97,7 +98,7 @@
                 </div>
             </article>
         </section>
-        <section class="studentwork flex_b wrap">
+        <section data-aos="fade-up" class="studentwork flex_b wrap">
 
 
             <article class="flex_b web">
@@ -135,7 +136,11 @@
         bootstrap(0);
         student_work()
     ?>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
 
+        </script>
 </body>
 
 </html>
