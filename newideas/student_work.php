@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/student_work.css" />
     <title>AOAT | Student Work</title>
 
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -136,11 +137,10 @@
         bootstrap(0);
         student_work()
     ?>
-        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-
-        </script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 
 </html>
