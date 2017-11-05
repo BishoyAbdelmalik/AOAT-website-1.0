@@ -62,6 +62,23 @@
             padding: 0;
         }
 
+        .modal .blue_background img {
+
+            position: relative;
+            right: -7%;
+        }
+
+        .modal .flex_row_reverse img {
+
+            position: relative;
+            right: 7%;
+        }
+
+        .modal-header .close {
+            font-size: 29px;
+            margin-top: 0;
+        }
+
     </style>
 </head>
 
@@ -102,17 +119,18 @@
             <section class="modal gray_txt" id="art" role="dialog">
                 <div class="modal-dialog">
                     <!--                <div id="art" class="collapse container-fluid lockcontent spacing">-->
-                    <div class="modal-content">
+                    <div class="modal-content ">
                         <div class="modal-header center ">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-                            <h4 class="modal-title">ART Club</h4>
+                            <h4 class="modal-title white_background">ART Club</h4>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body blue_background">
                             <section class="flex_b blue_background">
 
                                 <article class="flex_b club_name">
                                     <div>
+                                        <h3>Our Mission</h3>
                                         <p class="justify">
                                             ART Club stands for Art Reaching Teens and our mission is to provide a place for students to share, discuss, and view art as well as their own artwork and to connect to each other and community by working on various projects
                                         </p>
@@ -121,7 +139,7 @@
                                 </article>
                                 <img src="images/clubs/art%20club.jpg">
                             </section>
-                            <section class="gray_txt center">
+                            <section class="gray_txt white_background center">
                                 <h4>ART club contributions in the community</h4>
                             </section>
                             <section class="flex_b blue_background">
@@ -168,7 +186,7 @@
                                 </article>
                                 <img src="images/clubs/art%20club.jpg">
                             </section>
-                            <section class="gray_txt center">
+                            <section class="gray_txt white_background center">
                                 <h4>What else should we know?</h4>
                             </section>
                             <section class="flex_b blue_background">
