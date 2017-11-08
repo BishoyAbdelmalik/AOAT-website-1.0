@@ -17,6 +17,11 @@
             align-items: center;
         }
 
+        .lightbluetxt {
+            color: #c5e8ff;
+
+        }
+
         .club_name div {
             position: relative;
             left: 50%;
@@ -79,6 +84,10 @@
             margin-top: 0;
         }
 
+        .whitetxt {
+            color: white;
+        }
+
     </style>
 </head>
 
@@ -106,7 +115,7 @@
                 <article class="flex_b club_name">
                     <div>
                         <h3>ART Club</h3>
-                        <p class="justify">
+                        <p class="justify lightbluetxt">
                             ART Club stands for Art Reaching Teens and our mission is to provide a place for students to share, discuss, and view art as well as their own artwork and to connect to each other and community by working on various projects
                         </p>
                         <a class="pointer hoverwhite removelinkstyle">Click Here for more Info</a>
@@ -212,26 +221,6 @@
                                 <img src="images/clubs/art%20club.jpg">
                             </section>
 
-                            <!--
-<ul class="nobullet_points">
-    <li>
-        <h4>What else should we know?</h4>
-        <ul>
-            <li>Our pride – ART club won the Homecoming Parade float six years in a row</li>
-            <li>It's not only for AOAT students</li>
-            <li>ART club tries to do many bonding activities during and after school such as:
-                <ul>
-                    <li>tie dying</li>
-                    <li>Screen printing out own shirts</li>
-                    <li>Potlucks</li>
-                    <li>Bowling</li>
-                    <li>Fundraisings</li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-</ul>
--->
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default close_modal" data-dismiss="modal">Close</button>
@@ -240,34 +229,14 @@
 
                 </div>
 
-                <!--
-<ul class="nobullet_points">
--->
-                <!--                                <li>
 
-<h4>What does ART club do for the community?</h4>                                    <ul>
--->
-                <!--<li>Participates in club/school activities such as the Homecoming Parade</li>-->
-                <!--
-<li>Helps with chalk festival</li>
--->
-                <!--<li>Recycling</li>-->
-                <!--
-<li>Works with children at the Northridge hospital by making cards and donating gifts.</li>
--->
-                <!--
-<li>Helps in Career Day</li>
--->
-                <!--</ul>
-</li>
-</ul>-->
             </section>
             <section id="peer_mentor" class="blue_background">
                 <section class="flex_b flex_row_reverse container-fluid lockcontent ">
                     <article class="flex_b club_name">
                         <div>
                             <h3>Peer Mentor</h3>
-                            <p class="justify">
+                            <p class="justify lightbluetxt">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor viverra egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a eros vel velit fermentum fringilla. Fusce porttitor, nulla quis porta bibendum, metus mauris egestas sem, vel maximus risus est quis lacus.
                             </p>
                         </div>
@@ -308,5 +277,6 @@
 
         </script>
 </body>
+
 
 </html>
