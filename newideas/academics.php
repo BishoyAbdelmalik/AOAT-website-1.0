@@ -10,13 +10,7 @@
     <link rel="stylesheet" href="css/styles_academics.css">
     <title>AOAT | Academics</title>
     <style>
-        .club_name {
-            text-align: center;
-            padding: 20px;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-        }
+
 
     </style>
 </head>
@@ -54,7 +48,7 @@
                                 </p>
                             </div>
                         </article>
-                        <img src="images/academics/mock/mock1.jpg" />
+                        <img class="img" src="images/academics/mock/mock1.jpg" />
                     </section>
                     <section id="art_club" class="flex_b container-fluid lockcontent pointer flex_row_reverse">
                         <article class="flex_b club_name">
@@ -65,7 +59,7 @@
                                 </p>
                             </div>
                         </article>
-                        <img src="images/academics/mock/mock2.jpg" />
+                        <img class="reverse_img" src="images/academics/mock/mock2.jpg" />
                     </section>
                     <!--<div class="container-fluid lockcontent">
     <h3>Career Development</h3>
