@@ -43,7 +43,7 @@
                         <article class="flex_b club_name">
                             <div>
                                 <h3>Career Development</h3>
-                                <p class="justify">Students in grades 10, 11 and 12 participate in workshops every year that prepare them for careers. These workshops include topics such as transferrable skills, the hidden jobs within each profession, writing and revising resumes, etc. Each year students visit different businesses in the focus area of our Academy, learning about how their classes are connected to the real world of work.
+                                <p class="justify lightbluetxt">Students in grades 10, 11 and 12 participate in workshops every year that prepare them for careers. These workshops include topics such as transferrable skills, the hidden jobs within each profession, writing and revising resumes, etc. Each year students visit different businesses in the focus area of our Academy, learning about how their classes are connected to the real world of work.
 
                                 </p>
                             </div>
@@ -54,7 +54,7 @@
                         <article class="flex_b club_name">
                             <div>
                                 <h4>Mock Interviews</h4>
-                                <p class="justify">
+                                <p class="justify lightbluetxt">
                                     Our devoted Board of Advisory members take leadership roles in designing and delivering authentic mock interviews as preparation for internships for our 11th graders. The spring event included three days of interviews by professionals who volunteered their time to talk with the students both individually and as a group debrief afterwards. Students prepared by practicing in peer groups, and expressed feeling much more confident to go on internship interviews after this exercise.
                                 </p>
                             </div>
@@ -131,12 +131,12 @@
                         <div class="flex_b  flex_row">
                             <div id="mentor_left">
                                 <h3>Peer Mentors</h3>
-                                <p>
+                                <p class="justify lightbluetxt">
                                     Each year the 11th and 12th grade students are invited to participate in our Peer Mentor program, and are matched with a 9th or 10th grader who has self-selected to receive this support. The mentors and mentees meet during lunch once a week, and can either help with homework, tests, or personal issues that the younger students would like to talk about.
                                 </p>
                             </div>
                             <div id="mentor_right">
-                                <img src="images/academics/mentor/mentor1.jpg" />
+                                <img src="images/clubs/mentor.jpg" />
                             </div>
                         </div>
 

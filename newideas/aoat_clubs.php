@@ -17,10 +17,7 @@
             align-items: center;
         }
 
-        .lightbluetxt {
-            color: #c5e8ff;
 
-        }
 
         .club_name div {
             position: relative;
@@ -160,7 +157,7 @@
                                         </p>
                                     </div>
                                 </article>
-                                <img src="images/clubs/art%20club.jpg">
+                                <img src="images/clubs/art_events.jpg">
                             </section>
 
                             <section class="flex_b blue_background flex_row_reverse">
@@ -207,7 +204,7 @@
                                         </p>
                                     </div>
                                 </article>
-                                <img src="images/clubs/art%20club.jpg">
+                                <img src="images/clubs/art_pride.jpg">
                             </section>
                             <section class="flex_b flex_row_reverse blue_background">
                                 <article class="flex_b club_name">
@@ -218,7 +215,7 @@
                                         </p>
                                     </div>
                                 </article>
-                                <img src="images/clubs/art%20club.jpg">
+                                <img src="images/clubs/art_joine.jpg">
                             </section>
 
                         </div>
@@ -232,7 +229,7 @@
 
             </section>
             <section id="peer_mentor" class="blue_background">
-                <section class="flex_b flex_row_reverse container-fluid lockcontent ">
+                <section class="flex_b flex_row_reverse container-fluid lockcontent " style="margin-top: 31px;">
                     <article class="flex_b club_name">
                         <div>
                             <h3>Peer Mentor</h3>
@@ -241,7 +238,7 @@
                             </p>
                         </div>
                     </article>
-                    <img src="images/studentworkdpCover.jpg">
+                    <img src="images/clubs/mentor.jpg">
                 </section>
             </section>
             <section class="gray_txt white_background">

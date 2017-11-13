@@ -9,6 +9,11 @@ a {
     font-family: 'Muli', sans-serif;
 }
 
+.lightbluetxt {
+    color: #c5e8ff;
+
+}
+
 .justify {
     text-align: justify;
 }
