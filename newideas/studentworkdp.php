@@ -78,16 +78,15 @@ $course=$rows[0][course];
 
             <?php
             $projects="";
+            $modal="";
             $projects.='<section class="blue_background">';
+            
             $x=1;
             foreach($rows  as $value){
                 $images = preg_split("/[\s,]+/", $value[images]);
-                $projects.='<div class="flex_b studentwork '.$x.'">';
-                /*$projects.='<div class="container-fluid lockcontent studentwork flex_b wrap '.$x.'">';*/
+//                $projects.='<div class="flex_b studentwork '.$x.'">';
+                $projects.='<div class="flex_b studentwork '.$x." ".preg_replace('/\s+/', '', $value[project]).'">';
                 $projects.='<article class="flex_b  dgPhotography">';
-/*
-                $projects.='<article class="flex_b only_info dgPhotography">';
-*/
                 $projects.='<div>';
                 $projects.='<h3>'.$value[project].'</h3>';
                 $projects.='<p class="justify">'.$value[description].'</p>';
@@ -101,14 +100,34 @@ $course=$rows[0][course];
                 $projects.='<img src='.$images[4].'>';
                 $projects.='</div>';
                 $projects.='</div>';
-                $x++;
                 
-                                        
                 
+                
+                $modal.=' <div class="modal center_ver'.preg_replace('/\s+/', '', $value[project]).'" id="mygallery" role="dialog">';
+                $modal.='<div class="modal-dialog">
+                    <div class="modal-content flex_b flex_column">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button></div>';
+                $modal.='<div class="modal-body">
+                            <span id="back" class="fa fa-chevron-left fa-2x"></span>
+                            <img class="gallery_viewing" src='.$images[0].'>
+                            <span id="forward" class="fa fa-chevron-right fa-2x"></span>
+                        </div>';
+                
+                $modal.='<div class="modal-footer flex_b">';
+                foreach ($images as $img) { 
+                    $modal.='<img class="gallery_items" src='.$img.'>';
+                }                               
+                $modal.='</div>';
+                $modal.='</div></div></div>';
 
+                
+           
+                $x++;                 
             }
             $projects.='</section>';
             echo $projects;
+            echo $modal;
             
                 
             
@@ -118,11 +137,7 @@ $course=$rows[0][course];
 
 
 
-
-
-
-
-<div class="modal center_ver" id="mygallery" role="dialog">
+                <!--<div class="modal center_ver" id="mygallery" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content flex_b flex_column">
             <div class="modal-header">
@@ -146,10 +161,10 @@ $course=$rows[0][course];
         </div>
 
     </div>
-</div>
+</div>-->
 
 
-
+                <!--
 
 
 <div class="container-fluid">
@@ -440,7 +455,7 @@ $course=$rows[0][course];
 				<img src="images/student_work/digital_photography/depth.shallow_avalos-thumb.jpg">
 			</a>
                     </div>
-                </div>
+                </div>-->
         </main>
         <footer>
             <?php 
@@ -455,7 +470,7 @@ $course=$rows[0][course];
     ?>
 
             <script src="js/student_work_gallery.js"></script>
-            <script src="js/lightbox.min.js"></script>
+
     </body>
 
     </html>
