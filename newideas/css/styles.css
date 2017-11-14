@@ -14,6 +14,18 @@ a {
 
 }
 
+.center_nav {
+    width: 828px;
+    margin: auto;
+}
+
+@media (max-width: 828px) {
+    .center_nav {
+        width: auto;
+        margin: auto;
+    }
+}
+
 .justify {
     text-align: justify;
 }
