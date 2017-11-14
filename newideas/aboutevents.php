@@ -13,7 +13,24 @@
             margin-left: 10px;
         }
 
+        .club_name {
+            text-align: center;
+            padding: 20px;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+
+
+        .club_name div {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
     </style>
+
 </head>
 
 <body>
@@ -38,7 +55,6 @@
                 <li>College Tours</li>
                 <li>Museum of Contemporary Art</li>
                 <li>Museum of Tolerance</li>
-                <li>Heal the Bay</li>
                 <li>Art Club</li>
                 <li>Annual Homecoming Float</li>
                 <li>Awards Ceremony</li>
@@ -63,10 +79,7 @@
                     <p>
                         All 10th graders attend this trip that connects to their English and Social Studies classes. They prepare by learning about World War II, and reading related literature, and then write a reflection after the trip.
                     </p>
-                    <!--<h4>Heal The Bay</h4>
-                    <p>
-                        Our science teachers head up this annual community service trip to clean Santa Monica beach. All students in grades 10 and 12 are eligible to go, and create projects afterwards based on their experience.
-                    </p>-->
+
                 </div>
             </div>
         </section>
@@ -81,13 +94,19 @@
             </div>
         </section>
         <section class="blue_background">
-            <div class="lockcontent container-fluid">
-                <h3>Art Club</h3>
-                <div id="ArtClub">
-                    <p>
-                        The Art Club is open to any Cleveland student, but the leadership is part of AOAT, and the club is sponsored by AOAT teachers. They participate in various campus activities and fundraisers, but the biggest effort every year is the Homecoming Float in October. Our terrific artists have built the first place winning entry for the last four years!
-                    </p>
-                </div>
+            <div id="art_club" class="flex_b container-fluid lockcontent">
+                <article class="flex_b club_name">
+                    <div>
+                        <h3>Art Club</h3>
+                        <div id="ArtClub">
+                            <p class="justify lightbluetxt">
+                                The Art Club is open to any Cleveland student, but the leadership is part of AOAT, and the club is sponsored by AOAT teachers. They participate in various campus activities and fundraisers, but the biggest effort every year is the Homecoming Float in October. Our terrific artists have built the first place winning entry for the last four years!
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <img src="images/clubs/art%20club.jpg">
+
             </div>
         </section>
         <section class="gray_txt">

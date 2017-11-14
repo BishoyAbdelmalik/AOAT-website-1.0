@@ -127,21 +127,19 @@
 
                 </section>
                 <section class="blue_background">
-                    <div class=" container-fluid lockcontent">
-                        <div class="flex_b  flex_row">
-                            <div id="mentor_left">
+                    <section id="art_club" class="flex_b container-fluid lockcontent">
+                        <article class="flex_b club_name">
+                            <div>
                                 <h3>Peer Mentors</h3>
                                 <p class="justify lightbluetxt">
                                     Each year the 11th and 12th grade students are invited to participate in our Peer Mentor program, and are matched with a 9th or 10th grader who has self-selected to receive this support. The mentors and mentees meet during lunch once a week, and can either help with homework, tests, or personal issues that the younger students would like to talk about.
                                 </p>
                             </div>
-                            <div id="mentor_right">
-                                <img src="images/clubs/mentor.jpg" />
-                            </div>
-                        </div>
-
-                    </div>
+                        </article>
+                        <img src="images/clubs/mentor.jpg" />
+                    </section>
                 </section>
+
                 <section id="curriculum_main" class="gray_txt">
                     <div class="container-fluid lockcontent">
                         <h3>AOAT Curriculum</h3>
