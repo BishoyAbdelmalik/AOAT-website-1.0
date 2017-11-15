@@ -10,7 +10,14 @@
     <link rel="stylesheet" href="css/styles_academics.css">
     <title>AOAT | Academics</title>
     <style>
-
+        .internship {
+            margin-top: 15px;
+            margin-bottom: 20px;
+            width: 87%;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
 
     </style>
 </head>
@@ -83,6 +90,42 @@
     </div>
 </div>-->
 
+                </section>
+                <div class="container-fluid lockcontent gray_txt" style="text-align: center;">
+                    <h3>Internships</h3>
+                </div>
+                <section class="blue_background">
+
+                    <section class="container-fluid lockcontent pointer">
+                        <p class="justify  internship">
+                            Since 2011, summer internships have provided life-changing experiences for students, preparing them with real world skills and confidence to take on life as adults after graduation. Many of our summer hosts repeat from year to year, which makes the process easier and proves that the benefits go both ways. Our Internship Teacher Team puts in long hours to make sure there are enough appropriate host sites to accommodate and mentor all our candidates for the six weeks of exploratory work experience.
+                        </p>
+                    </section>
+                    <section id="art_club" class="flex_b container-fluid lockcontent pointers">
+                        <article class="flex_b">
+                            <div>
+                                <h4>The process of preparing 11th graders for their summer internship includes:</h4>
+                                <ul>
+                                    <li>Workshops and a class Career Exploration visit</li>
+                                    <li>Designing a personal logo and business stationery</li>
+                                    <li>Creating a formal resumé</li>
+                                    <li>Job shadow in career field of their interest</li>
+                                    <li>Career interest assessment and research</li>
+                                    <li>Parent informational meeting</li>
+                                    <li>Workshops connected to Career Day</li>
+                                    <li>Mock interviews</li>
+                                    <li>Application requiring GPA confirmation and parent approval</li>
+                                    <li>Matching of intern candidates and host sites</li>
+                                </ul>
+                            </div>
+                        </article>
+                        <img src="images/academics/intern/intern3.jpg" style="margin-left: 3%;" />
+                    </section>
+                    <section class="container-fluid lockcontent pointer">
+                        <p class="justify  internship">
+                            During the 6-week internship, students attend a 2-hour seminar every week and work at their host site a minimum of 20 hours per week. AOAT teachers visit the interns at their jobs twice during the six weeks to insure that both student and host are benefiting from the experience. Interns prepare a culminating project beyond their regular work assignments and present it at a final celebration which brings together students and their families and the host businesses to recognize the successful completion of the summer internship.
+                        </p>
+                    </section>
                 </section>
                 <section>
                     <div class="gray_txt container-fluid lockcontent">
