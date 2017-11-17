@@ -1,22 +1,8 @@
-#internships_img {
-    margin: auto;
-    display: inline;
-}
-
-#internship_picbox {
-    text-align: center;
-    margin-bottom: 10px;
-    position: relative;
-}
-
 @media screen and (max-width: 705px) {
     .flex_b {
         display: block;
     }
-    #internships_right {
-        padding-left: 15px;
 
-    }
 }
 
 
