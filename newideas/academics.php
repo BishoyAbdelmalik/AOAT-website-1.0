@@ -71,7 +71,7 @@
                     </section>
 
                 </section>
-                <div class="container-fluid lockcontent gray_txt" style="text-align: center;">
+                <div class="container-fluid lockcontent gray_txt">
                     <h3>Internships</h3>
                 </div>
                 <section class="gray_txt">
@@ -166,7 +166,7 @@
                         <img src="images/clubs/mentor.jpg" style="margin-left: 14px;" />
                     </section>
                 </section>
-                <div class="container-fluid lockcontent gray_txt" style="text-align: center;">
+                <div class="container-fluid lockcontent gray_txt">
                     <h3>AOAT Curriculum</h3>
                 </div>
                 <section id="curriculum_main" class="gray_txt">
