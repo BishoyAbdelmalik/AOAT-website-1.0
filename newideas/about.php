@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>AOAT | About</title>
     <style>
-        #offers {
-            margin-left: 10px;
-        }
-
         #CPA {
             max-width: 79%;
         }
@@ -52,7 +48,7 @@
 
         <section class="gray_txt" id="first_section">
             <div class="container-fluid lockcontent">
-                <p>
+                <p class="justify">
                     <b>Vision:</b> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor. AOAT instills all students with a love of learning, civic responsibility and the individual confidence to achieve their personal best.
                 </p>
             </div>
@@ -60,8 +56,8 @@
         <section class="blue_background">
             <div class="container-fluid lockcontent">
                 <h3>Mission</h3>
-                <p> We are a college prep program that fosters a supportive community, a 21st century approach to learning, and professional preparation. </p>
-                <div id="offers">
+                <p class="justify"> We are a college prep program that fosters a supportive community, a 21st century approach to learning, and professional preparation. </p>
+                <div>
                     <h4>AOAT offers:</h4>
                     <ul>
                         <li>Research, academic and financial planning workshops</li>
@@ -100,7 +96,7 @@
             <div class="container-fluid lockcontent">
                 <h3>CPA Lighthouse Academy</h3>
                 <div class="flex_b wrap_about">
-                    <p id="CPA">
+                    <p class="justify" id="CPA">
                         The Academy of Art & Technology is designated a "Lighthouse Academy" by the California Department of Education and is part of an elite corps of only 14 distinguished programs out of 500 California Partnership Academies (CPA) in California. This highly coveted honor is a result of a rigorous selection process, including recommendation by the school district, an interview with the coordinator, and a review of student portfolios.<br> Lighthouse Academies provide mentoring and support to other academies, host regional meetings every fall, and participate as presenters at the annual conference. Lighthouse teams attend seminars in Sacramento twice a year, share best practices and are models for new or struggling programs.<br> AOAT is proud to be a leading member of the CPA community. <br>
                     </p>
                     <a target="_blank" href="http://www.cde.ca.gov/ci/gs/hs/cpagen.asp">
@@ -112,7 +108,7 @@
         <section class="blue_background">
             <div class="container-fluid lockcontent">
                 <h3>Board of Advisory</h3>
-                <p>
+                <p class="justify">
                     With the help of National Academy Foundation, we were able to build our first Board of Advisory in 2011, and are continuing to grow this group of generous individuals who have stepped up to support AOAT. Board meetings are held every other month to plan projects that contribute to student and program success. Many of AOAT's achievements would not be possible without their participation and leadership.
                 </p>
                 <ul>
