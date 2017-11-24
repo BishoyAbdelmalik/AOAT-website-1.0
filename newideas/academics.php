@@ -56,7 +56,7 @@
                                 </p>
                             </div>
                         </article>
-                        <img class="img" src="images/academics/mock/mock1.jpg" />
+                        <img class="img sec_img" src="images/academics/mock/mock1.jpg" />
                     </section>
                     <section id="art_club" class="flex_b container-fluid lockcontent pointer flex_row_reverse">
                         <article class="flex_b club_name">
@@ -67,7 +67,7 @@
                                 </p>
                             </div>
                         </article>
-                        <img class="reverse_img" src="images/academics/mock/mock2.jpg" style="margin-bottom: 11px;" />
+                        <img class="sec_img reverse_img" src="images/academics/mock/mock2.jpg" style="margin-bottom: 11px;" />
                     </section>
 
                 </section>
@@ -100,7 +100,7 @@
                                 </ul>
                             </div>
                         </article>
-                        <img src="images/academics/intern/intern3.jpg" style="margin-left: 3%;">
+                        <img class="sec_img" src="images/academics/intern/intern3.jpg" style="margin-left: 3%;">
                     </section>
                     <section class="container-fluid lockcontent pointer">
                         <p class="justify  internship">
@@ -163,7 +163,7 @@
                                 </p>
                             </div>
                         </article>
-                        <img src="images/clubs/mentor.jpg" style="margin-left: 14px;" />
+                        <img class="sec_img" src="images/clubs/mentor.jpg" style="margin-left: 14px;" />
                     </section>
                 </section>
                 <div class="container-fluid lockcontent gray_txt">

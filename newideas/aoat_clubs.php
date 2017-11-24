@@ -45,20 +45,15 @@
         }
 
         .modal-dialog {
-            /*position: relative; top: 50%; transform: translateY(-50%) !important;*/
             width: 90%;
         }
 
-        /* main section { cursor: pointer; }*/
 
         .white_background {
             background: white;
         }
 
-        /*.spacing {
-            padding-bottom: 10px;
-            padding-top: 16px;
-        }*/
+
 
         .modal-body {
             padding: 0;
@@ -85,6 +80,24 @@
             color: white;
         }
 
+        @media screen and (max-width: 864px) {
+            .flex_b {
+                display: block;
+            }
+
+            .sec_img {
+                position: relative;
+                text-align: center;
+                left: 50%;
+                -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+
+            }
+            .modal article {
+                width: 100%;
+            }
+        }
+
     </style>
 </head>
 
@@ -103,7 +116,8 @@
     <!--end banner-->
     <section id="first_section">
         <div id="intro" class="container-fluid lockcontent">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor viverra egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a eros vel velit fermentum fringilla. Fusce porttitor, nulla quis porta bibendum, metus mauris egestas sem, vel maximus risus est quis lacus. Integer bibendum nibh urna, vel congue justo lobortis vel. Nulla ultrices pellentesque ante, a hendrerit mauris eleifend sed. Curabitur sed scelerisque nibh, non rhoncus ipsum. Duis ornare mauris in mi interdum, id sodales lectus aliquam. Nam commodo libero et quam feugiat sollicitudin. Etiam et neque leo. Donec dolor purus, laoreet sed dignissim nec, imperdiet condimentum mi. Nulla iaculis imperdiet mi a efficitur. Phasellus in fermentum ante, ac fermentum odio. Phasellus et magna est. Quisque tortor erat, interdum nec nulla sit amet, vestibulum auctor justo.
+            <p class="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor viverra egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a eros vel velit fermentum fringilla. Fusce porttitor, nulla quis porta bibendum, metus mauris egestas sem, vel maximus risus est quis lacus. Integer bibendum nibh urna, vel congue justo lobortis vel. Nulla ultrices pellentesque ante, a hendrerit mauris eleifend sed. Curabitur sed scelerisque nibh, non rhoncus ipsum. Duis ornare mauris in mi interdum, id sodales lectus aliquam. Nam commodo libero et quam feugiat sollicitudin. Etiam et neque leo. Donec dolor purus, laoreet sed dignissim nec, imperdiet condimentum mi. Nulla iaculis imperdiet mi a efficitur. Phasellus in fermentum ante, ac fermentum odio. Phasellus et magna est. Quisque tortor erat, interdum nec nulla sit amet, vestibulum auctor justo.
+            </p>
         </div>
     </section>
     <main>
@@ -119,7 +133,7 @@
 
                     </div>
                 </article>
-                <img src="images/clubs/art%20club.jpg">
+                <img class="sec_img" src="images/clubs/art%20club.jpg">
             </section>
 
             <section class="modal gray_txt" id="art" role="dialog">
@@ -143,7 +157,7 @@
                                     </div>
 
                                 </article>
-                                <img src="images/clubs/art%20club.jpg">
+                                <img class="sec_img" src="images/clubs/art%20club.jpg">
                             </section>
                             <section class="gray_txt white_background center">
                                 <h4>ART club contributions in the community</h4>
@@ -157,7 +171,7 @@
                                         </p>
                                     </div>
                                 </article>
-                                <img src="images/clubs/art_events.jpg">
+                                <img class="sec_img" src="images/clubs/art_events.jpg">
                             </section>
 
                             <section class="flex_b blue_background flex_row_reverse">
@@ -169,7 +183,7 @@
                                         </p>
                                     </div>
                                 </article>
-                                <img src="images/clubs/art%20club.jpg">
+                                <img class="sec_img" src="images/clubs/art%20club.jpg">
                             </section>
                             <section class="flex_b  blue_background">
                                 <article class="flex_b club_name">
@@ -180,7 +194,7 @@
                                         </p>
                                     </div>
                                 </article>
-                                <img src="images/clubs/art%20club.jpg">
+                                <img class="sec_img" src="images/clubs/art%20club.jpg">
                             </section>
                             <section class="flex_b flex_row_reverse blue_background">
                                 <article class="flex_b club_name">
@@ -190,7 +204,7 @@
                                         </h3>
                                     </div>
                                 </article>
-                                <img src="images/clubs/art%20club.jpg">
+                                <img class="sec_img" src="images/clubs/art%20club.jpg">
                             </section>
                             <section class="gray_txt white_background center">
                                 <h4>What else should we know?</h4>
@@ -204,7 +218,7 @@
                                         </p>
                                     </div>
                                 </article>
-                                <img src="images/clubs/art_pride.jpg">
+                                <img class="sec_img" src="images/clubs/art_pride.jpg">
                             </section>
                             <section class="flex_b flex_row_reverse blue_background">
                                 <article class="flex_b club_name">
@@ -215,7 +229,7 @@
                                         </p>
                                     </div>
                                 </article>
-                                <img src="images/clubs/art_joine.jpg">
+                                <img class="sec_img" src="images/clubs/art_joine.jpg">
                             </section>
 
                         </div>
@@ -238,16 +252,10 @@
                             </p>
                         </div>
                     </article>
-                    <img src="images/clubs/mentor.jpg">
+                    <img class="sec_img" src="images/clubs/mentor.jpg">
                 </section>
             </section>
-            <section class="gray_txt white_background">
-                <div id="peer" class="collapse container-fluid lockcontent">
-                    <div class="spacing">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor viverra egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a eros vel velit fermentum fringilla. Fusce porttitor, nulla quis porta bibendum, metus mauris egestas sem, vel maximus risus est quis lacus. Integer bibendum nibh urna, vel congue justo lobortis vel. Nulla ultrices pellentesque ante, a hendrerit mauris eleifend sed. Curabitur sed scelerisque nibh, non rhoncus ipsum. Duis ornare mauris in mi interdum, id sodales lectus aliquam. Nam commodo libero et quam feugiat sollicitudin. Etiam et neque leo. Donec dolor purus, laoreet sed dignissim nec, imperdiet condimentum mi. Nulla iaculis imperdiet mi a efficitur. Phasellus in fermentum ante, ac fermentum odio. Phasellus et magna est. Quisque tortor erat, interdum nec nulla sit amet, vestibulum auctor justo.
-                    </div>
-                </div>
-            </section>
+
         </div>
     </main>
     <footer>
@@ -267,9 +275,7 @@
                     // $("#art").collapse("toggle");  
                     $("#art").modal();
                 });
-                $("#peer_mentor").click(function() {
-                    $("#peer").collapse("toggle");
-                });
+
             });
 
         </script>

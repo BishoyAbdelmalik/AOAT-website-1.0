@@ -88,6 +88,18 @@ a {
     color: white;
 }
 
+@media screen and (max-width: 705px) {
+
+    .sec_img {
+        position: relative;
+        text-align: center;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+
+    }
+}
+
 /*
 .purple_background {
     background: #5e238a;
@@ -489,6 +501,7 @@ main {
 
 #teachers {
     background: -webkit-gradient( rgba(255, 255, 255, 0.87), rgba(175, 175, 175, 0), rgba(76, 185, 212, 0.06)), url(../images/teachers/teacher_cover2.jpg);
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.87)), color-stop(rgba(175, 175, 175, 0)), to(rgba(76, 185, 212, 0.06))), url(../images/teachers/teacher_cover2.jpg);
     background: linear-gradient( rgba(255, 255, 255, 0.87), rgba(175, 175, 175, 0), rgba(76, 185, 212, 0.06)), url(../images/teachers/teacher_cover2.jpg);
     background-position: top center;
     background-size: cover;

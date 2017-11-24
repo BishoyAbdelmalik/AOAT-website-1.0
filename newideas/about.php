@@ -58,7 +58,7 @@
                 <h3>Mission</h3>
                 <p class="justify"> We are a college prep program that fosters a supportive community, a 21st century approach to learning, and professional preparation. </p>
                 <div>
-                    <h4>AOAT offers:</h4>
+                    <h3>AOAT offers:</h3>
                     <ul>
                         <li>Research, academic and financial planning workshops</li>
                         <li>Campus tours</li>

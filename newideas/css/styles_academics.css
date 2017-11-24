@@ -100,6 +100,7 @@
         position: relative;
         text-align: center;
         left: 50%;
+        -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
 
     }
