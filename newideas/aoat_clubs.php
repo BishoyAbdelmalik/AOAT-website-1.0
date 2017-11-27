@@ -7,96 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/clubs.css">
     <title>AOAT | Clubs</title>
     <style>
-        .club_name {
-            text-align: center;
-            padding: 20px;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-        }
 
-
-
-        .club_name div {
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-
-        .center {
-            text-align: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-        }
-
-        .center h4 {
-            line-height: 54px;
-        }
-
-        .modal article {
-            width: 50%;
-        }
-
-        .close_modal {
-            width: 100%
-        }
-
-        .modal-dialog {
-            width: 90%;
-        }
-
-
-        .white_background {
-            background: white;
-        }
-
-
-
-        .modal-body {
-            padding: 0;
-        }
-
-        .modal .blue_background img {
-
-            position: relative;
-            right: -7%;
-        }
-
-        .modal .flex_row_reverse img {
-
-            position: relative;
-            right: 7%;
-        }
-
-        .modal-header .close {
-            font-size: 29px;
-            margin-top: 0;
-        }
-
-        .whitetxt {
-            color: white;
-        }
-
-        @media screen and (max-width: 864px) {
-            .flex_b {
-                display: block;
-            }
-
-            .sec_img {
-                position: relative;
-                text-align: center;
-                left: 50%;
-                -webkit-transform: translateX(-50%);
-                transform: translateX(-50%);
-
-            }
-            .modal article {
-                width: 100%;
-            }
-        }
 
     </style>
 </head>
