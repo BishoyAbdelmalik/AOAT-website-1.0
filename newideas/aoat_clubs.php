@@ -157,7 +157,7 @@
 
             </section>
             <section id="peer_mentor" class="blue_background">
-                <section class="flex_b flex_row_reverse container-fluid lockcontent " style="margin-top: 31px;">
+                <section class="flex_b  container-fluid lockcontent " style="margin-top: 10px;">
                     <article class="flex_b club_name">
                         <div>
                             <h3>Peer Mentor</h3>
