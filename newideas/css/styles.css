@@ -487,7 +487,8 @@ main {
     */
     /*    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.39)), url(../images/alumni/cover.jpg);*/
     background: linear-gradient( rgba(216, 216, 216, 0.57), rgba(216, 216, 216, 0.57)), url(../images/home/AboutAOAT.jpg);
-    background-position: bottom right;
+    /*    background-position: bottom right;
+    */
     background-size: cover;
     overflow: hidden;
 }
