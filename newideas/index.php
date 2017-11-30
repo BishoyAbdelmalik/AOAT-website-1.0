@@ -82,7 +82,7 @@
                             <img src="images/home/Teachers.jpg">
                             <div class="absolute-text" id="teacher_AT">
                                 <h2>Get to Know Our Teachers</h2>
-                                <a href="teachers.html">
+                                <a href="teachers.php">
                                     <button type="button" class="btn btn-primary"> View More </button>
                                 </a>
                             </div>
