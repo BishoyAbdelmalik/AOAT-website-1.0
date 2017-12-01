@@ -162,7 +162,7 @@
                         <div>
                             <h3>Peer Mentor</h3>
                             <p class="justify lightbluetxt">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor viverra egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a eros vel velit fermentum fringilla. Fusce porttitor, nulla quis porta bibendum, metus mauris egestas sem, vel maximus risus est quis lacus.
+                                The Mentor program is a program that brings upper classmen and lower classmen together every week for mentoring sessions, where juniors and sniors get together with their mentees (freshmen and sophmores) to give helpful advice for their daily school lives. As well as providing assistance with homework or personal problems.
                             </p>
                         </div>
                     </article>
