@@ -30,7 +30,8 @@
     <!--end banner-->
     <section id="first_section">
         <div id="intro" class="container-fluid lockcontent">
-            <p class="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor viverra egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a eros vel velit fermentum fringilla. Fusce porttitor, nulla quis porta bibendum, metus mauris egestas sem, vel maximus risus est quis lacus. Integer bibendum nibh urna, vel congue justo lobortis vel. Nulla ultrices pellentesque ante, a hendrerit mauris eleifend sed. Curabitur sed scelerisque nibh, non rhoncus ipsum. Duis ornare mauris in mi interdum, id sodales lectus aliquam. Nam commodo libero et quam feugiat sollicitudin. Etiam et neque leo. Donec dolor purus, laoreet sed dignissim nec, imperdiet condimentum mi. Nulla iaculis imperdiet mi a efficitur. Phasellus in fermentum ante, ac fermentum odio. Phasellus et magna est. Quisque tortor erat, interdum nec nulla sit amet, vestibulum auctor justo.
+            <p class="justify">
+                AOAT offers many different activities and clubs for the students to get involved and get to help the comunity in variety of ways. Some of these clubs are art related and focus more on artistic activities and they try to help the comunity while doing it in a creative and unique ways. Other clubs are mainly focused on the academic aspect of the school and helping students acheive their potential in school .
             </p>
         </div>
     </section>
