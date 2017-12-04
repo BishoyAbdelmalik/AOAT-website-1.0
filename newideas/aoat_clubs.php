@@ -30,7 +30,7 @@
     <!--end banner-->
     <section id="first_section">
         <div id="intro" class="container-fluid lockcontent">
-            <p class="justify">
+            <p class="justify gray_txt">
                 AOAT offers many different activities and clubs for the students to get involved and get to help the comunity in variety of ways. Some of these clubs are art related and focus more on artistic activities and they try to help the comunity while doing it in a creative and unique ways. Other clubs are mainly focused on the academic aspect of the school and helping students acheive their potential in school .
             </p>
         </div>
