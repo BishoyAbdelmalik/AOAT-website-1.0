@@ -1,48 +1,3 @@
-@media screen and (max-width: 705px) {
-    .flex_b {
-        display: block;
-    }
-
-}
-
-
-
-#career_development_left {
-    width: 122%;
-    margin-right: 15px;
-}
-
-@media screen and (max-width: 705px) {
-    #career_development_left {
-        width: 100%;
-        margin-right: 0px;
-    }
-
-
-    #mock_imgs {
-        text-align: center;
-    }
-    #mock_imgs img:nth-child(1),
-    #mock_imgs img:nth-child(2) {
-        -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-        box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-        position: static;
-        margin: 5px;
-        margin-bottom: 15px;
-    }
-}
-
-@media screen and (max-width: 453px) {
-    #mock_imgs img:nth-child(1),
-    #mock_imgs img:nth-child(2) {
-        -webkit-transform: scale(0.8);
-        transform: scale(0.8);
-        margin: 0;
-
-    }
-}
-
-
 #curriculum section > button {
     right: 0;
     left: 100%;
@@ -54,7 +9,6 @@
 #curriculum_main {
     margin-bottom: 10px;
 }
-
 
 .club_name {
     text-align: center;
@@ -80,6 +34,9 @@
 }
 
 @media screen and (max-width: 705px) {
+    .flex_b {
+        display: block;
+    }
 
     .img {
 
