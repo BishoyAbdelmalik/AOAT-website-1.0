@@ -9,18 +9,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/styles_academics.css">
     <title>AOAT | Academics</title>
-    <style>
-        .internship {
-            margin-top: 15px;
-            margin-bottom: 20px;
-
-        }
-
-        .club_name {
-            padding: 0
-        }
-
-    </style>
 </head>
 
 <body>

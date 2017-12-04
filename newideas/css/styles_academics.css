@@ -12,11 +12,15 @@
 
 .club_name {
     text-align: center;
-    padding: 20px;
+    /*    padding: 20px;*/
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    padding: 0;
 }
+
+
+
 
 .img {
     width: 300px;
@@ -61,4 +65,10 @@
         transform: translateX(-50%);
 
     }
+}
+
+.internship {
+    margin-top: 15px;
+    margin-bottom: 20px;
+
 }
