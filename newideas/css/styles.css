@@ -878,7 +878,45 @@ main {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #9dd1d9;
     }
+
+    #studentwork_AT {
+        bottom: -900px;
+    }
+    #teacher_AT {
+        top: 174px;
+    }
 }
+
+@media screen and (max-width: 667px) {
+    #studentwork_AT {
+        bottom: -795px;
+    }
+}
+
+@media screen and (max-width: 559px) {
+    #studentwork_AT {
+        bottom: -600px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #studentwork_AT {
+        bottom: -500px;
+    }
+    #teacher_AT {
+        top: 74px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #studentwork_AT {
+        bottom: -400px;
+    }
+    #teacher_AT {
+        top: 20px;
+    }
+}
+
 
 .thumbnails img {
     display: block;
