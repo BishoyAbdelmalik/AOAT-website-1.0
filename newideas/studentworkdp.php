@@ -64,7 +64,7 @@ $course=$rows[0][course];
         </div>
         <main>
 
-            <section class="container-fluid lockcontent">
+            <section class="container-fluid lockcontent gray_txt">
                 <p>
                     <i>Instructor:</i>
                     <a href="teachers.php?t=<?php echo $instructor_url; ?>">
