@@ -46,7 +46,8 @@
                         </article>
                         <img class="img sec_img" src="images/academics/mock/mock1.jpg" />
                     </section>
-                    <section id="art_club" class="flex_b container-fluid lockcontent pointer flex_row_reverse">
+                    <!--                    <section id="art_club" class="flex_b container-fluid lockcontent pointer flex_row_reverse">-->
+                    <section id="art_club" class="flex_b container-fluid lockcontent pointer">
                         <article class="flex_b club_name">
                             <div>
                                 <h3>Mock Interviews</h3>
@@ -55,8 +56,8 @@
                                 </p>
                             </div>
                         </article>
-                        <img class="sec_img reverse_img" src="images/academics/mock/mock2.jpg" style="margin-bottom: 11px;" />
-                    </section>
+                        <img class="sec_img img" src="images/academics/mock/mock2.jpg" style="margin-bottom: 11px;" />
+                        <!--<img class="sec_img reverse_img" src="images/academics/mock/mock2.jpg" style="margin-bottom: 11px;" />--></section>
 
                 </section>
                 <div class="container-fluid lockcontent gray_txt">
@@ -151,7 +152,7 @@
                                 </p>
                             </div>
                         </article>
-                        <img class="sec_img" src="images/clubs/mentor.jpg" style="margin-left: 14px;" />
+                        <img class="sec_img img" src="images/clubs/mentor.jpg" style="margin-left: 14px;margin-bottom: 9px;">
                     </section>
                 </section>
                 <div class="container-fluid lockcontent gray_txt">
