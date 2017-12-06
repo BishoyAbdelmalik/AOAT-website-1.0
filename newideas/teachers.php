@@ -91,7 +91,7 @@ mysqli_close($connection);
                             View Profile</button>';
                         $teachers.='</div></div>';
                         $teachers.='<div id="'.trim($row[link],"#").'" class="collapse">';
-                        $teachers.='<p>'.$row[bio].'</p></div></div>';
+                        $teachers.='<p class="justify">'.$row[bio].'</p></div></div>';
                     }
                     echo $teachers
                     ?>
