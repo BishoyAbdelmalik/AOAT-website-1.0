@@ -147,7 +147,7 @@
 
             </div>
         </section>
-        <section class="gray_txt">
+        <section class="gray_txt" style="margin-bottom:  14px;">
             <div class="lockcontent container-fluid">
 
                 <h3>Celebration</h3>
