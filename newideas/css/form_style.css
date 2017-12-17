@@ -97,12 +97,9 @@
 
 .mainform {
     width: 50%;
-    margin: 10px auto;
     display: inline-block;
-    left: 50%;
-    position: relative;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
 }
 
 .email {
