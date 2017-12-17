@@ -14,6 +14,14 @@ a {
 
 }
 
+.padding_up {
+    padding-top: 13px;
+}
+
+.padding_bottom {
+    padding-bottom: 13px;
+}
+
 .center_nav {
     width: 831px;
     margin: auto;
@@ -486,6 +494,7 @@ main {
     url(../images/banners/BannerPlaceholderLG.png);
     */
     /*    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.39)), url(../images/alumni/cover.jpg);*/
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(216, 216, 216, 0.57)), to(rgba(216, 216, 216, 0.57))), url(../images/home/AboutAOAT.jpg);
     background: linear-gradient( rgba(216, 216, 216, 0.57), rgba(216, 216, 216, 0.57)), url(../images/home/AboutAOAT.jpg);
     /*    background-position: bottom right;
     */

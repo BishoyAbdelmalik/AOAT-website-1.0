@@ -61,7 +61,7 @@
         </section>
         <section class="blue_background ">
             <div class="lockcontent container-fluid">
-                <section class="flex_b">
+                <section class="flex_b padding_up">
                     <div class="flex_b club_name">
                         <div>
                             <h3>Field Trips</h3>
@@ -78,7 +78,7 @@
 
                 </section>
                 <div>
-                    <section class="flex_b flex_row_reverse">
+                    <section class="flex_b padding_up">
                         <div class="flex_b club_name ">
                             <div>
                                 <h3>College Tours</h3>
@@ -92,7 +92,7 @@
                         <img src="images/clubs/art%20club.jpg">
 
                     </section>
-                    <section class="flex_b">
+                    <section class="flex_b padding_up">
                         <div class="flex_b club_name">
                             <div>
                                 <h3>Museum of Contemporary Art</h3>
@@ -105,7 +105,7 @@
                         <img src="images/clubs/art%20club.jpg">
 
                     </section>
-                    <section class="flex_b flex_row_reverse">
+                    <section class="flex_b  padding_up padding_bottom">
                         <div class="flex_b club_name">
                             <div>
                                 <h3>Museum of Tolerance</h3>
@@ -132,7 +132,7 @@
             </div>
         </section>
         <section class="blue_background">
-            <div id="art_club" class="flex_b container-fluid lockcontent">
+            <div id="art_club" class="flex_b container-fluid lockcontent padding_up padding_bottom">
                 <article class="flex_b club_name">
                     <div>
                         <h3>Art Club</h3>
