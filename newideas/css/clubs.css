@@ -115,6 +115,14 @@
     }
 }
 
+#peer_mentor {
+    padding-bottom: 10px;
+}
+
+#art_club {
+    padding-top: 10px;
+}
+
 @media screen and (max-width: 1146px) {
     .modal .flex_row_reverse img {
         position: relative;
