@@ -74,7 +74,7 @@
                         </div>
 
                     </div>
-                    <img src="images/clubs/art%20club.jpg">
+                    <img src="images/placeholder.jpg">
 
                 </section>
                 <div>
@@ -89,7 +89,7 @@
                             </div>
 
                         </div>
-                        <img src="images/clubs/art%20club.jpg">
+                        <img src="images/placeholder.jpg">
 
                     </section>
                     <section class="flex_b padding_up">
@@ -102,7 +102,7 @@
                             </div>
 
                         </div>
-                        <img src="images/clubs/art%20club.jpg">
+                        <img src="images/placeholder.jpg">
 
                     </section>
                     <section class="flex_b  padding_up padding_bottom">
@@ -115,7 +115,7 @@
                             </div>
 
                         </div>
-                        <img src="images/clubs/art%20club.jpg">
+                        <img src="images/placeholder.jpg">
 
                     </section>
                 </div>
