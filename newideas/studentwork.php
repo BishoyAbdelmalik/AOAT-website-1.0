@@ -10,7 +10,9 @@ if ($_GET){
   
 }
 else{
+    header("Location: student_work.php");
     die();
+
 }
 
 function mysql_connection(){
