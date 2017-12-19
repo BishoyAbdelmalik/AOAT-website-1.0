@@ -5,7 +5,7 @@
 
 
  $(".dgIllustration").click(function () {
-     window.location.href = "studentworkdill.html";
+     window.location.href = "studentworkdill.php";
 
  });
  $(".dgImaging").click(function () {

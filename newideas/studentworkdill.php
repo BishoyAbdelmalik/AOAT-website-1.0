@@ -75,7 +75,7 @@ $course=$rows[0][course];
         </header>
         <div class="banner" id="digitalPhotography">
             <div class="container-fluid lockcontent">
-                <h2>Digital Photograpy</h2>
+                <h2>Digital Illustration</h2>
 
             </div>
         </div>
