@@ -2,7 +2,16 @@
 error_reporting(0);
 global  $connection;
 global $database;
-    $database=basename($_SERVER['PHP_SELF'],".php");
+global $title;
+    
+if ($_GET){
+    $database=$_GET['c'];
+    $title=$_GET['t'];
+  
+}
+else{
+    die();
+}
 
 function mysql_connection(){
     global  $connection;
@@ -45,7 +54,9 @@ $course=$rows[0][course];
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/student_work.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>AOAT | Student Work</title>
+        <title>AOAT |
+            <?php echo $title ?>
+        </title>
         <style>
             .load {
                 margin: auto;
@@ -75,7 +86,9 @@ $course=$rows[0][course];
         </header>
         <div class="banner" id="digitalPhotography">
             <div class="container-fluid lockcontent">
-                <h2>Digital Photograpy</h2>
+                <h2>
+                    <?php echo $title ?>
+                </h2>
 
             </div>
         </div>
