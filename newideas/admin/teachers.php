@@ -39,7 +39,7 @@ $teachers="";
         
     </select>
             <div class="flex_b">
-                <button onclick="edit()">Edit</button>
+                <button onclick="edit()">Edit Teacher Info</button>
                 <button onclick="add()">Add Teacher</button>
             </div>
         </form>
