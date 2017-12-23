@@ -2,14 +2,61 @@
 
 <head>
     <meta charset="utf-8">
-    <title>AOAT | Login</title>
+    <title>AOAT | Admin</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="img/Artboard%201.gif">
+    <style>
+        .logo {
+            width: 50%;
+            height: auto;
+            max-width: 400px;
+        }
+
+        .logo_area {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #login {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        footer {
+            color: white;
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            text-align: right;
+        }
+
+        .b {
+            max-width: 50px
+        }
+
+        /* Change the white to any color ;) */
+
+        input:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0 100px #333333 inset;
+        }
+
+        /*Change text in autofill textbox*/
+
+        input:-webkit-autofill {
+            -webkit-text-fill-color: white !important;
+        }
+
+    </style>
 </head>
 
 <body>
+    <div class="flex_b logo_area container-fluid lockcontent">
+        <img class="logo" src="/images/logos/aoat%20final%20logo.svg" />
+    </div>
     <form id="login">
         <label>
             <input type="text" name="user_name" required />
@@ -82,5 +129,9 @@
         });
 
     </script>
+
+    <footer>
+        <p>Control Panel coded By <a href="mailto:mrboushy@gmail.com"><img class="b" src="img/b.svg" alt="Bishoy Abdelmalik" /></a></p>
+    </footer>
 
 </html>
