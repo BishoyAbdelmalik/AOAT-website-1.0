@@ -33,7 +33,7 @@ mysqli_close($connection);
         <button onclick="send()" style="width: 500px;">Save</button>
 
     </form>
-    <div id="r"></div>
+    <iframe id="frame" class="hidden" src="/teachers.php"></iframe>
     <script>
         function send() {
             event.preventDefault();
@@ -61,15 +61,18 @@ mysqli_close($connection);
             // process the form
             $.ajax({
                     type: 'POST',
-                    url: 'send.php?t=1',
+                    url: 'teachers/send.php?t=1',
                     data: formData,
                     dataType: 'html',
                     encode: true
                 })
                 // using the done promise callback
                 .done(function(data) {
-                    $('#r').html(data);
-
+                    $('#frame').removeClass("hidden");
+                    $('#frame').attr('src', $('iframe').attr('src'));
+                    $('html, body').animate({
+                        scrollTop: "1000"
+                    }, 1000);
                 });
 
         }

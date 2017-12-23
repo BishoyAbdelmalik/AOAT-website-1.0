@@ -12,6 +12,18 @@
         padding: 10px
     }
 
+    iframe {
+        width: 100%;
+        height: 109vh;
+        margin-top: 62px;
+        transition: 1s;
+    }
+
+    .hidden {
+        display: none;
+        opacity: 0;
+    }
+
 </style>
 <?php
 require "../mysql.php";
@@ -45,6 +57,7 @@ $teachers="";
                 <button onclick="add()">Add Teacher</button>
             </div>
             <button onclick="del()">Delete Selected Teacher</button>
+            <button onclick="refresh()">Refresh</button>
         </form>
     </div>
     <div id="respond">
@@ -147,12 +160,23 @@ $teachers="";
                 })
                 // using the done promise callback
                 .done(function(data) {
-                    $('#respond').html(data);
-
+                    $('#respond').html('<iframe id="frame" class="hidden" src="/teachers.php"></iframe>');
+                    $('#frame').removeClass("hidden");
+                    $('html, body').animate({
+                        scrollTop: "1000"
+                    }, 1000);
                 });
+        }
 
+        function refresh() {
+            event.preventDefault();
+            $.post(
+                "teachers/teachers.php", "",
+                function(data) {
+                    $('body').html(data);
 
-
+                }
+            );
         }
 
     </script>
