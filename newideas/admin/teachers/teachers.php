@@ -8,9 +8,13 @@
 
     }
 
+    .padding {
+        padding: 10px
+    }
+
 </style>
 <?php
-require "mysql.php";
+require "../mysql.php";
 $query="SELECT * FROM `teachers`;";
 $result=mysqli_query($connection,$query);
 $rows=array();
@@ -21,8 +25,9 @@ mysqli_free_result($result);
 mysqli_close($connection); 
 $teachers="";
 ?>
-    <button onclick="Back()" style="width: 100%;">Back</button>
-
+    <div class="padding">
+        <button onclick="Back()" style="width: 100%;">Back</button>
+    </div>
     <div class="choice">
         <form id="teacher_form">
             <select id="teachers">
@@ -33,10 +38,7 @@ $teachers="";
            
         }
         echo $teachers
-        ?>
-          
-           
-        
+        ?>    
     </select>
             <div class="flex_b">
                 <button onclick="edit()">Edit Teacher Info</button>
@@ -65,7 +67,7 @@ $teachers="";
                 // process the form
                 $.ajax({
                         type: 'POST',
-                        url: 'teacher_edit.php',
+                        url: 'teachers/teacher_edit.php',
                         data: formData,
                         dataType: 'html',
                         encode: true
@@ -87,7 +89,7 @@ $teachers="";
                 // process the form
                 $.ajax({
                         type: 'POST',
-                        url: 'teacher_add.php',
+                        url: 'teachers/teacher_add.php',
                         data: "",
                         dataType: 'html',
                         encode: true

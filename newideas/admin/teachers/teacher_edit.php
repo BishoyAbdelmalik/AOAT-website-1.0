@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-require "mysql.php";
+require "../mysql.php";
 $query="SELECT * FROM `teachers` WHERE name='".$_POST[t]."';";
 $result=mysqli_query($connection,$query);
 $rows=array();

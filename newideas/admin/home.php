@@ -1,9 +1,13 @@
 <style>
+    section {
+        padding: 20px;
+
+    }
+
     section button {
         display: block;
         width: 100%;
         height: 200px;
-        margin: 20px;
         font-size: 50px;
         color: white;
     }
@@ -11,7 +15,7 @@
 </style>
 
 <section class="lockcontent">
-    <button onclick="teachers_btn()">Teachers</button>
+    <button onclick="teachers_btn()">Teachers Page</button>
     <button id="fdsds">gfgfgf</button>
     <button id="fgfgfg">ghghgh</button>
 </section>
@@ -22,7 +26,7 @@
     <script>
         function teachers_btn() {
             $.post(
-                "teachers.php", "",
+                "teachers/teachers.php", "",
                 function(data) {
                     $('body').html(data);
 
