@@ -25,43 +25,53 @@ mysqli_close($connection);
 
     </style>
     <form style="color:  black;">
-        <input type="text" value="<?php echo $rows[0][name]?>"><br>
-        <input type="text" value="<?php echo $rows[0][img]?>"><br>
-        <input type="text" value="<?php echo $rows[0][role]?>"><br>
-        <input type="text" value="<?php echo $rows[0][grade]?>"><br>
-        <textarea width="500" height="500" type="text"><?php echo $rows[0][bio]?></textarea><br>
+        <input id="name" type="text" value="<?php echo $rows[0][name]?>"><br>
+        <input id="img" type="text" value="<?php echo $rows[0][img]?>"><br>
+        <input id="role" type="text" value="<?php echo $rows[0][role]?>"><br>
+        <input id="grade" type="text" value="<?php echo $rows[0][grade]?>"><br>
+        <textarea id="bio" width="500" height="500" type="text"><?php echo $rows[0][bio]?></textarea><br>
         <button onclick="send()" style="width: 500px;">Save</button>
 
     </form>
+    <div id="r"></div>
     <script>
         function send() {
-            /*var t = $("#teachers").val();
-            $('#teacher_form').submit(function(event) {
+            event.preventDefault();
 
-                // get the form data
-                // there are many ways to get this data using jQuery (you can use the class or id also)
-                var formData = {
-                    't': t
+            var id = "<?php echo $rows[0][id]?>";
+            var name = $("#name").val();
+            var link = "<?php echo $rows[0][link]?>";
+            var img = $("#img").val();
+            var role = $("#role").val();
+            var grade = $("#grade").val();
+            var bio = $("#bio").val();
 
-                };
 
-                // process the form
-                $.ajax({
+            var formData = {
+                'id': id,
+                'name': name,
+                'link': link,
+                'img': img,
+                'role': role,
+                'grade': grade,
+                'bio': bio
+
+            };
+
+            // process the form
+            $.ajax({
                     type: 'POST',
-                    url: 'teacher_edit.php',
+                    url: 'send.php?t=1',
                     data: formData,
                     dataType: 'html',
                     encode: true
                 })
                 // using the done promise callback
-                    .done(function(data) {
-                    $('#respond').html(data);
+                .done(function(data) {
+                    $('#r').html(data);
 
                 });
 
-                // stop the form from submitting the normal way and refreshing the page
-                event.preventDefault();
-            });*/
         }
 
     </script>

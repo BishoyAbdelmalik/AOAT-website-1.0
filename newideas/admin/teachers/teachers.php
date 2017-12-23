@@ -44,13 +44,13 @@ $teachers="";
                 <button onclick="edit()">Edit Teacher Info</button>
                 <button onclick="add()">Add Teacher</button>
             </div>
+            <button onclick="del()">Delete Selected Teacher</button>
         </form>
     </div>
     <div id="respond">
 
     </div>
 
-    <!--<iframe src="../teachers.php"></iframe>-->
     <script>
         function edit() {
             $('#respond').html("");
@@ -84,6 +84,7 @@ $teachers="";
         }
 
         function add() {
+            $('#respond').html("");
             $('#teacher_form').submit(function(event) {
 
                 // process the form
@@ -106,6 +107,7 @@ $teachers="";
         }
 
         function Back() {
+            $('body').html("");
             // process the form
             $.ajax({
                     type: 'POST',
@@ -119,6 +121,36 @@ $teachers="";
                     $('body').html(data);
 
                 });
+
+
+        }
+
+        function del() {
+            event.preventDefault();
+
+            var t = $("#teachers").val();
+
+            // get the form data
+            // there are many ways to get this data using jQuery (you can use the class or id also)
+            var formData = {
+                't': t
+
+            };
+
+            // process the form
+            $.ajax({
+                    type: 'POST',
+                    url: 'teachers/send.php?t=0',
+                    data: formData,
+                    dataType: 'html',
+                    encode: true
+                })
+                // using the done promise callback
+                .done(function(data) {
+                    $('#respond').html(data);
+
+                });
+
 
 
         }
