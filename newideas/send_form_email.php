@@ -1,5 +1,5 @@
 <?php
-$to      = 'jgarcia16432@gmail.com';
+$to      = 'mrboushy@gmail.com';
 
 $error=array();
 $first_name=trim($_POST[first_name]);
@@ -20,7 +20,6 @@ $headers = 'From: test@theaoat.org' . "\r\n" .
     'Reply-To: '.$email.' '. "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-        
 
 if (isset($first_name)){
     if (is_numeric($first_name)){
