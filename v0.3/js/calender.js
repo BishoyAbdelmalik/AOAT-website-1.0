@@ -3,12 +3,9 @@ var today = (d.getMonth()) + 1;
 if (today == 0) {
     today++;
 }
-if (today == 1) {
-    var year = d.getFullYear() - 1;
-}
-if (today != 1) {
-    var year = d.getFullYear();
-}
+var year = d.getFullYear();
+
+
 var month = new Array();
 month[1] = "January";
 month[2] = "February";
