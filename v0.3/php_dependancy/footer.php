@@ -38,8 +38,9 @@
         <li><a href="/about.php">About</a></li>
         <li><a href="/academics.php">Academics</a></li>
         <li><a href="/teachers.php">Teachers</a></li>
+        <li><a href="/aoatclubs.php">AOAT Clubs</a></li>
         <li><a href="/aboutevents.php">Events</a></li>
-        <li><a href="#">Student Work</a></li>
+        <li><a href="/studentwork.php">Student Work</a></li>
         <li><a href="/alumni.php">Alumni</a></li>
         <li><a href="/contact.php">Contact</a></li>
         <li><a href="http://www.clevelandhs.org/" target="_blank">Cleveland Charter High School</a></li>
