@@ -26,7 +26,7 @@
     <main class="container-fluid lockcontent">
 
         <div class="mainform">
-            <form class="form" name="contactform" action="send_form_email.php" method="post" target="my_iframe" enctype="multipart/form-data">
+            <form class="form" name="contactform" action="/php_dependancy/contact/send_form_email.php" method="post" target="my_iframe" enctype="multipart/form-data">
                 <div class="part1 flex wrap column">
                     <!--class="email_label"-->
                     <input type="text" class="email" placeholder="First Name:" name="first_name">
