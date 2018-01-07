@@ -2,7 +2,18 @@
 error_reporting(0);
 global  $connection;
 global $database;
-    $database=basename($_SERVER['PHP_SELF'],".php");
+global $title;
+    
+if ($_GET){
+    $database=$_GET['c'];
+    $title=$_GET['t'];
+  
+}
+else{
+    header("Location: student_work.php");
+    die();
+
+}
 
 function mysql_connection(){
     global  $connection;
@@ -41,11 +52,13 @@ $course=$rows[0][course];
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/student_work.css" />
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/student_work.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>AOAT | Digital Imaging</title>
+        <title>AOAT |
+            <?php echo $title ?>
+        </title>
         <style>
             .load {
                 margin: auto;
@@ -69,13 +82,15 @@ $course=$rows[0][course];
     <body>
         <header>
             <?php
-        require 'header.php';
+        require '/header.php';
 
         ?>
         </header>
         <div class="banner" id="digitalPhotography">
             <div class="container-fluid lockcontent">
-                <h2>Digital Imaging</h2>
+                <h2>
+                    <?php echo $title ?>
+                </h2>
 
             </div>
         </div>
@@ -132,7 +147,7 @@ $course=$rows[0][course];
                 
                 $modal.='<div class="modal-footer flex_b">';
                 foreach ($images as $img) { 
-                    $modal.='<img class="gallery_items" src='.$img.'>';
+                    $modal.='<img class="gallery_items" src=/'.$img.'>';
                 }                               
                 $modal.='</div>';
                 $modal.='</div></div></div>';
@@ -141,7 +156,7 @@ $course=$rows[0][course];
                 $js.= '$("#'.$value[id].'").click(function() {';
                 $js.= 'xhttp.onreadystatechange = function () {';
                 $js.='if (this.readyState == 4 && this.status == 200) {}};';
-                $js.='xhttp.open("GET", "studentwork/pic_call.php?  db='.$database.'&&assigment='.$value[id].'" , true);';
+                $js.='xhttp.open("GET", "pic_call.php?  db='.$database.'&&assigment='.$value[id].'" , true);';
                 $js.='xhttp.send();';
                 $js.='xhttp.onload = function () {';
                 $js.='if (xhttp.readyState === xhttp.DONE) {';
@@ -169,7 +184,7 @@ $course=$rows[0][course];
                 <div class="modal" id="mygallery" role="dialog" style="display: none;">
                     <div class="modal-dialog">
                         <div id="gallary" class="modal-content flex_b flex_column">
-                            <img class='load' src='images/studentwork/load.gif'>
+                            <img class='load' src='/images/studentwork/load.gif'>
                         </div>
                     </div>
                 </div>
@@ -183,8 +198,8 @@ $course=$rows[0][course];
         </main>
         <footer>
             <?php 
-        require 'footer.php';
-        require 'js.php' ;
+        require '/footer.php';
+        require '/js.php' ;
         ?>
         </footer>
         <?php
@@ -202,7 +217,7 @@ $course=$rows[0][course];
             ?>
 
             </script>
-            <script src="js/student_work_gallery.js"></script>
+            <script src="../js/student_work_gallery.js"></script>
     </body>
 
     </html>

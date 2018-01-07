@@ -19,8 +19,7 @@ require_once('calendar_builder.php');
 
 <body>
     <header>
-        <?php
-            require 'header.php';
+        <?php require '/php_dependancy/header.php';
 
         ?>
     </header>
@@ -70,9 +69,8 @@ require_once('calendar_builder.php');
         </div>
     </main>
     <footer>
-        <?php 
-            require 'footer.php';
-            require 'js.php' ;
+        <?php        require '/php_dependancy/footer.php';
+require '/php_dependancy/js.php' ;
         ?>
     </footer>
     <?php

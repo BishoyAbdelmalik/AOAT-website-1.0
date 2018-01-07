@@ -15,12 +15,11 @@
 <body>
     <header>
         <?php
-            require 'header.php';
+            require '/php_dependancy/header.php';
         ?>
     </header>
     <div class="homeimage aboutAOAT landing">
-        <!--
-<img class="landing_img" src="images/home/AboutAOAT.jpg">-->
+
         <div class="absolute-text" id="aboutAOAT_AT">
             <h1>About AOAT</h1>
             <p> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor.</p>
@@ -66,7 +65,7 @@
                         <div class="upcoming_events">
                             <h1>Upcoming Events</h1>
                             <?php
-                                include 'home_calender.php';
+                            include '/php_dependancy/calender/home_calender.php';
 
                             ?>
                                 <a href="calendar.php">See all news and events</a>
@@ -103,9 +102,8 @@
             </div>
 
             <footer class="footer">
-                <?php 
-                    require 'footer.php';
-                    require 'js.php' ;
+                <?php        require '/php_dependancy/footer.php';
+require '/php_dependancy/js.php' ;
                 ?>
             </footer>
 
