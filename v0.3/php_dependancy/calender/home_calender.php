@@ -1,5 +1,5 @@
 <?php
-require '/calendar_builder.php';
+require 'calendar_builder.php';
 $year=date("Y");
 $month=date("n");
 $today=date("j");

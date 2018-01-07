@@ -33,7 +33,7 @@ $(document).on('click', '.current_m', function () {
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {}
     };
-    xhttp.open("GET", "calender_event_checker.php?month=" + today + "&&year=" + year + "&&day=" + day_clicked, true);
+    xhttp.open("GET", "/php_dependancy/calender/calender_event_checker.php?month=" + today + "&&year=" + year + "&&day=" + day_clicked, true);
     xhttp.send();
 
 
@@ -66,7 +66,7 @@ function before() {
             /*document.getElementById("demo").innerHTML = this.responseText;*/
         }
     };
-    xhttp.open("GET", "calendar_previous.php?month=" + today + "&&year=" + year, true);
+    xhttp.open("GET", "/php_dependancy/calender/calendar_previous.php?month=" + today + "&&year=" + year, true);
     xhttp.send();
 
     /*
@@ -97,7 +97,7 @@ function after() {
             /*document.getElementById("demo").innerHTML = this.responseText;*/
         }
     };
-    xhttp.open("GET", "calendar_previous.php?month=" + today + "&&year=" + year, true);
+    xhttp.open("GET", "/php_dependancy/calender/calendar_previous.php?month=" + today + "&&year=" + year, true);
     xhttp.send();
 
     /*

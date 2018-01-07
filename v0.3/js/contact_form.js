@@ -58,17 +58,7 @@ function hasValue(elem) {
     }).length > 0;
 }
 
-$(window).scroll(function (event) {
 
-    var scroll = $(window).scrollTop();
-    if (scroll > 50) {
-        $(".navbar").removeClass("transparent_nav");
-    }
-    if (scroll < 50) {
-        $(".navbar").addClass("transparent_nav");
-    }
-
-});
 
 $('input[type="checkbox"]').on('change', function () {
     if (hasValue("input[name=other]")) {
