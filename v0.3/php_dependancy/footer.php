@@ -49,7 +49,7 @@
 <div class="bottom-footer footer_color">
     <div class="lockcontent container-fluid">
         <div class="text-right">
-            <div class="copyrights"><span>Copyright ©2017 The Academy of Art and Technology</span></div>
+            <div class="copyrights"><span>Copyright ©2018 The Academy of Art and Technology</span></div>
             <div class="partnership ">
                 <span>California Partnership Academy</span>
                 <a href="http://www.cde.ca.gov/ci/gs/hs/cpagen.asp">
