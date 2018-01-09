@@ -73,7 +73,7 @@
     </div>
 </body>
 <?php
-    require '../js.php' ;
+    require '../php_dependancy/js.php' ;
     jquery(1);
     ?>
     <script>
