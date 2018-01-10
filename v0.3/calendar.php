@@ -1,5 +1,5 @@
 <?php 
-require_once('/php_dependancy/calender/calendar_builder.php');
+require_once('php_dependancy/calender/calendar_builder.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,7 +19,7 @@ require_once('/php_dependancy/calender/calendar_builder.php');
 
 <body>
     <header>
-        <?php require '/php_dependancy/header.php';
+        <?php require 'php_dependancy/header.php';
 
         ?>
     </header>
@@ -69,8 +69,8 @@ require_once('/php_dependancy/calender/calendar_builder.php');
         </div>
     </main>
     <footer>
-        <?php        require '/php_dependancy/footer.php';
-require '/php_dependancy/js.php' ;
+        <?php        require 'php_dependancy/footer.php';
+require 'php_dependancy/js.php' ;
         ?>
     </footer>
     <?php

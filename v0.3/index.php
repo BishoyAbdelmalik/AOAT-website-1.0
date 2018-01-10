@@ -15,7 +15,7 @@
 <body>
     <header>
         <?php
-            require '/php_dependancy/header.php';
+            require 'php_dependancy/header.php';
         ?>
     </header>
     <div class="homeimage aboutAOAT landing">
@@ -65,7 +65,7 @@
                         <div class="upcoming_events">
                             <h1>Upcoming Events</h1>
                             <?php
-                            include '/php_dependancy/calender/home_calender.php';
+                            include 'php_dependancy/calender/home_calender.php';
 
                             ?>
                                 <a href="calendar.php">See all news and events</a>
@@ -102,8 +102,8 @@
             </div>
 
             <footer class="footer">
-                <?php        require '/php_dependancy/footer.php';
-require '/php_dependancy/js.php' ;
+                <?php        require 'php_dependancy/footer.php';
+require 'php_dependancy/js.php' ;
                 ?>
             </footer>
 

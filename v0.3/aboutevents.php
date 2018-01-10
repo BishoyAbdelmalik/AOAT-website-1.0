@@ -31,7 +31,7 @@
 
 <body>
     <header>
-        <?php require '/php_dependancy/header.php';
+        <?php require 'php_dependancy/header.php';
         ?>
     </header>
     <main>
@@ -159,8 +159,8 @@
         </section>
     </main>
     <footer>
-        <?php        require '/php_dependancy/footer.php';
-require '/php_dependancy/js.php' ;
+        <?php        require 'php_dependancy/footer.php';
+require 'php_dependancy/js.php' ;
         ?>
     </footer>
     <?php
