@@ -10,12 +10,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>AOAT | About</title>
     <style>
-        #CPA {
-            max-width: 79%;
+        main {
+            background: linear-gradient( rgb(255, 255, 255), rgb(255, 255, 255), rgba(255, 255, 255, 0.49)), url(/images/background.png);
+
+            /*
+            background: url(images/shattered/shattered_@2Xb.png);
+*/
+            /*
+            background: url(images/shattered/Newfolder/pw_pattern/pw_pattern_@2X.png);
+*/
+            /*
+            background: url(images/shattered/Newfolder/congruent_outline.png);
+*/
+            /*
+ background: url(images/shattered/Newfolder/whirlpool/whirlpool.png);*/
         }
 
         #CPA~a {
             margin: auto;
+            min-width: 200px;
         }
 
         @media (max-width: 767px) {
@@ -88,6 +101,10 @@
             display: block !important;
         }
 
+        .pagetitle {
+            color: #023681;
+        }
+
     </style>
 </head>
 
@@ -100,9 +117,10 @@
     <main>
 
         <div class="banner" id="about">
-            <div class="container-fluid lockcontent">
-                <h2>About</h2>
-            </div>
+
+        </div>
+        <div class="pagetitle container-fluid lockcontent">
+            <h2>About AOAT</h2>
         </div>
         <section id="quotearea" class="container-fluid lockcontent flex_b">
             <img class="quoteimg" src="images/placeholder.jpg" />
