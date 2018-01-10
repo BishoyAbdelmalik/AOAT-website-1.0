@@ -10,6 +10,19 @@
     <link rel="stylesheet" type="text/css" href="css/form_style.css">
 
     <title>AOAT | Contact</title>
+    <style>
+        .map {
+            width: 100%;
+            height: 100%;
+            border: 0px;
+
+        }
+
+        .pagetitle {
+            color: #023681;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -18,10 +31,17 @@
 
         ?>
     </header>
-    <div class="banner " id="contact">
+    <div class="banner ">
+
+        <iframe class="map" src="//www.google.com/maps/embed/v1/place?q=Cleveland+High+School
+                     &zoom=16
+                     &key=AIzaSyBoUc61x5Gx8Bu8Gp-htrjhg4Z2au6ksJQ">
+        </iframe>
         <div class="container-fluid lockcontent">
-            <h2 class="pages_title">Contact US</h2>
         </div>
+    </div>
+    <div class="pagetitle container-fluid lockcontent">
+        <h2>Contact US</h2>
     </div>
     <main class="container-fluid lockcontent">
 
