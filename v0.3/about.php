@@ -79,7 +79,7 @@
             height: 40px;
             background: #195379;
             margin-bottom: 10px;
-            transition: 500ms;
+            transition: 100ms;
             color: white;
         }
 
