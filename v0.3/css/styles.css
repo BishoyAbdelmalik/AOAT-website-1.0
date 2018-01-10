@@ -1105,3 +1105,20 @@ button {
         margin-left: 0;
     }
 }
+
+main,
+body {
+    background: linear-gradient( rgb(255, 255, 255), rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.49)), url(/images/background.jpg);
+
+    /*
+            background: url(images/shattered/shattered_@2Xb.png);
+*/
+    /*
+            background: url(images/shattered/Newfolder/pw_pattern/pw_pattern_@2X.png);
+*/
+    /*
+            background: url(images/shattered/Newfolder/congruent_outline.png);
+*/
+    /*
+ background: url(images/shattered/Newfolder/whirlpool/whirlpool.png);*/
+}
