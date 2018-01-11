@@ -10,22 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>AOAT | About</title>
     <style>
-        main {
-            background: linear-gradient( rgb(255, 255, 255), rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.49)), url(/images/background.jpg);
-
-            /*
-            background: url(images/shattered/shattered_@2Xb.png);
-*/
-            /*
-            background: url(images/shattered/Newfolder/pw_pattern/pw_pattern_@2X.png);
-*/
-            /*
-            background: url(images/shattered/Newfolder/congruent_outline.png);
-*/
-            /*
- background: url(images/shattered/Newfolder/whirlpool/whirlpool.png);*/
-        }
-
         #CPA~a {
             margin: auto;
             min-width: 200px;
@@ -98,6 +82,10 @@
             animation-fill-mode: forwards;
         }
 
+        #info h3 {
+            color: #0062a2;
+        }
+
         .visable {
             display: block !important;
         }
@@ -133,8 +121,8 @@
         </section>
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
-                <button class="sidebtn" value="#vision">Vision</button>
-                <button class="sidebtn" value="#mission">Mission</button>
+                <button class="sidebtn" value="#vision">Our Vision</button>
+                <button class="sidebtn" value="#mission">Our Mission</button>
                 <button class="sidebtn" value="#CPA">CPA Lighthouse Academy</button>
                 <button class="sidebtn" value="#Advisory">Board of Advisory</button>
                 <button class="sidebtn" value="#Partners">Partners</button>
