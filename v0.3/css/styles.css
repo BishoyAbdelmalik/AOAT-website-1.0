@@ -1198,9 +1198,10 @@ body {
 }
 
 #info h3,
-h4 {
+#info h4 {
     color: #0062a2;
 }
+
 
 .visable {
     display: block !important;
