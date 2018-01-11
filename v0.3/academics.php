@@ -28,7 +28,7 @@
             <h2>Academics</h2>
         </div>
         <section id="quotearea" class="container-fluid lockcontent flex_b">
-            <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
+            <img class="quoteimg" src="images/placeholder.jpg" />
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     AOAT is a small learning community that is art-centered and focused on a technology-based education. Students participating in the Academy's four-year program are trained in Graphic Design, Web Design and Illustration aspects of the Commercial Art profession. Through its rigorous interdisciplinary curriculum, AOAT delivers connected and engaging academic courses that meet all the A-G requirements and provides access to honors sections and Advanced Placement classes. Our program also focuses on transferrable skills that are critical for student success during high school and after graduation, including communication skills, teamwork, problem solving, critical thinking, and time management. Dress for Success on Mondays. AOAT's family relationships between students and teachers also nurture student motivation, and the desire to succeed both at school and in life.
