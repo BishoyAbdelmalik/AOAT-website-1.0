@@ -48,4 +48,8 @@ function student_work(){
     $work ='<script type="text/javascript" src="/js/student_work.js"></script>';
     echo $work;
 }
+function button_manger(){
+    $s ='<script type="text/javascript" src="/js/buttonmanger.js"></script>';
+    echo $s;
+}
 ?>

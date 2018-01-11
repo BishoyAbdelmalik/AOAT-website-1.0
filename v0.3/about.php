@@ -9,92 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>AOAT | About</title>
-    <style>
-        #CPA~a {
-            margin: auto;
-            min-width: 200px;
-        }
 
-        @media (max-width: 767px) {
-            #CPA {
-                max-width: 100%;
-            }
-
-            .wrap_about {
-                -ms-flex-wrap: wrap;
-                flex-wrap: wrap;
-            }
-        }
-
-        .quoteimg {
-            width: 200px;
-            height: 200px;
-
-        }
-
-        .quote {
-            /*            background: #0084dabd;*/
-            background: rgba(0, 132, 218, 1);
-            margin-left: 20px;
-
-            padding: 1em;
-        }
-
-        #quotearea {
-            margin-bottom: 20px
-        }
-
-        .quote p {
-            color: white;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-
-        }
-
-        .sidebuttons {
-            min-width: 200px;
-            margin-right: 20px;
-        }
-
-        .sidebuttons button {
-            border: 0px;
-            height: 40px;
-            background: #195379;
-            margin-bottom: 10px;
-            transition: 100ms;
-            color: white;
-        }
-
-        .sidebuttons button:hover {
-
-            background: #007bcc;
-        }
-
-        #info article {
-            display: none;
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-iteration-count: 1;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-
-        #info h3 {
-            color: #0062a2;
-        }
-
-        .visable {
-            display: block !important;
-        }
-
-        .pagetitle {
-            color: #023681;
-        }
-
-    </style>
 </head>
 
 <body>
@@ -105,9 +20,7 @@
     </header>
     <main>
 
-        <div class="banner" id="about">
-
-        </div>
+        <div class="banner" id="about"></div>
         <div class="pagetitle container-fluid lockcontent">
             <h2>About AOAT</h2>
         </div>
@@ -241,36 +154,11 @@ require 'php_dependancy/js.php' ;
     jquery(0);
     nav();
     bootstrap(0);
+    button_manger();
     ?>
 
 
-        <script>
-            $(document).ready(function() {
-                var load = $(".sidebtn")[0].getAttribute("value");
-                $(load).addClass("visable");
-                $(load).addClass("fadeIn");
-                $(load).addClass("animated");
-            });
-            $(".sidebtn").click(function() {
-                var v = $(this).attr("value");
-                for (i = 0; i < $(".sidebtn").length; i++) {
 
-                    var h = $(".sidebtn")[i].getAttribute("value");
-                    if (h != v) {
-                        $(h).removeClass("visable");
-                        $(h).removeClass("fadeIn");
-                        $(h).removeClass("animated");
-
-                    }
-
-                }
-                $(v).addClass("visable");
-                $(v).addClass("fadeIn");
-                $(v).addClass("animated");
-
-            });
-
-        </script>
 
 </body>
 
