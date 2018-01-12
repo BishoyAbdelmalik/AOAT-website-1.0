@@ -113,8 +113,8 @@ require 'php_dependancy/js.php' ;
 
     <?php
         jquery(0);
-        nav();
-        home();      
+
+ nav();        home();      
         bootstrap(0);
 
     ?>
