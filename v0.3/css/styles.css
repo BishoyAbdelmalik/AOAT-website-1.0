@@ -74,8 +74,7 @@ a {
 }
 
 .blue_background {
-    /*    background: #50addd;
-    */
+
     background: #3094d6;
     color: white;
 }
@@ -108,12 +107,7 @@ a {
     }
 }
 
-/*
-.purple_background {
-    background: #5e238a;
-    color: white;
-}
-*/
+
 
 .navbar-default .navbar-nav > li > a {
     -webkit-transition: 0.2s;
@@ -154,6 +148,8 @@ a {
 
 .navbar-default {
     background: rgba(255, 255, 255, 0.72);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     /*
     background-color: #096099;
 */
