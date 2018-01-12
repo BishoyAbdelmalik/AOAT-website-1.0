@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><link rel="shortcut icon" href="images/logos/ico.gif">
+<head>
+    <link rel="shortcut icon" href="images/logos/ico.gif">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,10 +38,10 @@
         </section>
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
+                <button class="sidebtn" value="#Curriculum">AOAT Curriculum</button>
                 <button class="sidebtn" value="#Career">Career Development</button>
                 <button class="sidebtn" value="#internship">Internships</button>
                 <button class="sidebtn" value="#Peer">Peer Mentors</button>
-                <button class="sidebtn" value="#Curriculum">AOAT Curriculum</button>
             </div>
             <div id="info">
                 <article id="Career">
@@ -57,7 +58,7 @@
                     <section class="flex_b">
                         <div class="flex_b">
                             <div>
-                                <h4>Mock Interviews</h4>
+                                <h3>Mock Interviews</h3>
                                 <p class="justify">
                                     Our devoted Board of Advisory members take leadership roles in designing and delivering authentic mock interviews as preparation for internships for our 11th graders. The spring event included three days of interviews by professionals who volunteered their time to talk with the students both individually and as a group debrief afterwards. Students prepared by practicing in peer groups, and expressed feeling much more confident to go on internship interviews after this exercise.
                                 </p>
