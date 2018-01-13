@@ -146,10 +146,11 @@ a {
     color: black;
 }
 
+
+
 .navbar-default {
     background: rgba(255, 255, 255, 0.72);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    
     /*
     background-color: #096099;
 */
