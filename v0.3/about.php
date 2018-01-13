@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><link rel="shortcut icon" href="images/logos/ico.gif">
+<head>
+    <link rel="shortcut icon" href="images/logos/ico.gif">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles_academics.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>AOAT | About</title>
 
@@ -91,7 +94,7 @@
                             The Academy of Art & Technology is designated a "Lighthouse Academy" by the California Department of Education and is part of an elite corps of only 14 distinguished programs out of 500 California Partnership Academies (CPA) in California. This highly coveted honor is a result of a rigorous selection process, including recommendation by the school district, an interview with the coordinator, and a review of student portfolios.<br> Lighthouse Academies provide mentoring and support to other academies, host regional meetings every fall, and participate as presenters at the annual conference. Lighthouse teams attend seminars in Sacramento twice a year, share best practices and are models for new or struggling programs.<br> AOAT is proud to be a leading member of the CPA community. <br>
                         </p>
                         <a target="_blank" href="http://www.cde.ca.gov/ci/gs/hs/cpagen.asp">
-                            <img width="200px" src="images/logos/temp_lighthouse.png">
+                            <img class="img" width="200px" src="images/logos/temp_lighthouse.png">
                         </a>
                     </div>
 
