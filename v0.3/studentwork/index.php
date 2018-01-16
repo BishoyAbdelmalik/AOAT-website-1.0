@@ -9,7 +9,7 @@ if ($_GET){
   
 }
 else{
-    header("Location: /student_work.php");
+    header("Location: /studentwork.php");
     die();
 
 }
