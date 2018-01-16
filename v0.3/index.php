@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
 
-<head><link rel="shortcut icon" href="images/logos/ico.gif">
+<head>
+    <link rel="shortcut icon" href="images/logos/ico.gif">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -92,7 +93,7 @@
                             <img src="images/home/StudentWork.jpg">
                             <div class="absolute-text" id="studentwork_AT">
                                 <h2>Student Work</h2>
-                                <a href="student_work.php">
+                                <a href="studentwork.php">
                                     <button type="button" class="btn btn-primary">View More</button>
                                 </a>
                             </div>

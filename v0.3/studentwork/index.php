@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 global  $connection;
 global $database;
 global $title;
@@ -10,7 +9,7 @@ if ($_GET){
   
 }
 else{
-    header("Location: student_work.php");
+    header("Location: /student_work.php");
     die();
 
 }
@@ -37,10 +36,7 @@ while($row= mysqli_fetch_assoc($result)){
 }
 mysqli_free_result($result);
 mysqli_close($connection);  
-/*var_dump($row);*/
-/*
-var_dump($rows);
-*/
+
 $instructor=$rows[0][instructor];
 $instructor_url=$rows[0][url];
 $course=$rows[0][course];
@@ -82,7 +78,7 @@ $course=$rows[0][course];
     <body>
         <header>
             <?php
-        require '/header.php';
+        require '../php_dependancy/header.php';
 
         ?>
         </header>
@@ -184,7 +180,7 @@ $course=$rows[0][course];
                 <div class="modal" id="mygallery" role="dialog" style="display: none;">
                     <div class="modal-dialog">
                         <div id="gallary" class="modal-content flex_b flex_column">
-                            <img class='load' src='/images/studentwork/load.gif'>
+                            <img class='load' src='../images/studentwork/load.gif'>
                         </div>
                     </div>
                 </div>
@@ -198,8 +194,8 @@ $course=$rows[0][course];
         </main>
         <footer>
             <?php 
-        require '/footer.php';
-        require '/js.php' ;
+        require '../php_dependancy/footer.php';
+        require '../php_dependancy/js.php' ;
         ?>
         </footer>
         <?php
