@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 global  $connection;
 global $database;
 global $title;
