@@ -29,7 +29,7 @@
         <div class="container-fluid lockcontent"></div>
     </div>
     <div class="pagetitle container-fluid lockcontent">
-        <h2>Contact US</h2>
+        <h2>Contact Us</ht2>e
     </div>
     <main class="container-fluid lockcontent">
 
@@ -56,12 +56,12 @@
                     </div>
                 </div>
                 <div>
-                    <label><span class="are_you">Are you ?</span></label>
+                    <label><span class="are_you">Who are you ?</span></label>
                 </div>
                 <div class="part2 flex wrap">
                     <div>
                         <input type="checkbox" id="teach" name="teacher" value="1">
-                        <label class="part2_label" for="teach">teacher</label>
+                        <label class="part2_label" for="teach">Teacher</label>
                     </div>
                     <div>
                         <input type="checkbox" id="student" name="student" value="1">
