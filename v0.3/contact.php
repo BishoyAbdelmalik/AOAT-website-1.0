@@ -29,7 +29,7 @@
         <div class="container-fluid lockcontent"></div>
     </div>
     <div class="pagetitle container-fluid lockcontent">
-        <h2>Contact Us</ht2>e
+        <h2>Contact Us</h2>
     </div>
     <main class="container-fluid lockcontent">
 

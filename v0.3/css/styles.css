@@ -1191,6 +1191,12 @@ body {
     background: #007bcc;
 }
 
+#info {
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
 #info article {
     display: none;
     -webkit-animation-duration: 1s;
