@@ -150,10 +150,6 @@ a {
 
 .navbar-default {
     background: rgba(255, 255, 255, 0.72);
-
-    /*
-    background-color: #096099;
-*/
     border: none;
     margin-bottom: 0px;
 }
@@ -161,7 +157,6 @@ a {
 
 
 main {
-    /*    background-color: #cbcccd;*/
     background-color: #fff;
 }
 
@@ -193,7 +188,6 @@ main {
     z-index: 0;
     font-family: 'Raleway', sans-serif;
     position: relative;
-    /*    top: 500px;*/
     width: 100%;
     height: auto;
     margin: auto;
@@ -250,9 +244,6 @@ main {
 }
 
 .aboutAOAT {
-
-
-    /*    background-color: #b69cc9;*/
     background-color: whitesmoke;
     top: 0;
     -webkit-transition: 1s;
@@ -324,12 +315,7 @@ main {
 }
 
 .transparent_nav {
-
     background-color: transparent!important;
-    /*
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.69)), color-stop(rgba(255, 255, 255, 0.48)), to(rgba(255, 255, 255, 0)));
-    background: linear-gradient( rgba(255, 255, 255, 0.69), rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0));
-*/
 }
 
 .transparent_nav .active a {
@@ -492,14 +478,9 @@ main {
 }
 
 #alumni {
-    /*    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(76, 185, 212, 0.39))),
-    url(../images/banners/BannerPlaceholderLG.png);
-    */
-    /*    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(76, 185, 212, 0.39)), url(../images/alumni/cover.jpg);*/
     background: -webkit-gradient( linear, left top, left bottom, from(rgba(216, 216, 216, 0.57)), to(rgba(216, 216, 216, 0.57))), url(../images/home/AboutAOAT.jpg);
     background: linear-gradient( rgba(216, 216, 216, 0.57), rgba(216, 216, 216, 0.57)), url(../images/home/AboutAOAT.jpg);
-    /*    background-position: bottom right;
-    */
+
     background-size: cover;
     overflow: hidden;
 }
@@ -614,7 +595,6 @@ main {
 footer {
     padding-top: 20px;
     background-color: #096099;
-    /*    background-color: #48469c;*/
     color: #fff;
     text-align: left;
     font-family: 'Raleway', sans-serif;
@@ -656,8 +636,6 @@ footer a:hover {
 
 .footer-nav li {
     color: #9dd1d9;
-    /*    background-color: #48469c;
-    */
     display: inline;
 }
 
@@ -699,12 +677,6 @@ address > a:hover {
 }
 
 .content_main {
-    /*
-    background-color: #e8e8e8;
-*/
-    /*
-    background-color: #cbcccd;
-*/
     padding-bottom: 15px;
     min-height: 730px;
 }
@@ -729,7 +701,6 @@ address > a:hover {
     margin-top: 2px;
     color: #009cd5;
     text-align: center;
-    /*    font-family: 'RalewayBlack', sans-serif;*/
     border-bottom: 4px solid #8a0add;
     font-weight: 600;
     font-size: 35px;
@@ -845,9 +816,7 @@ img {
     height: auto;
 }
 
-body {
-    /*    background-color: #cbcccd;*/
-}
+
 
 .gallery_col a {
     text-decoration: none;

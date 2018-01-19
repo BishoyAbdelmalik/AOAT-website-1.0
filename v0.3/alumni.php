@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><link rel="shortcut icon" href="images/logos/ico.gif">
+<head>
+    <link rel="shortcut icon" href="images/logos/ico.gif">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,10 +30,9 @@
         ?>
     </header>
     <main>
-        <div class="banner" id="alumni">
-            <div class="container-fluid lockcontent">
-                <h2>Alumni</h2>
-            </div>
+        <div class="banner" id="alumni"></div>
+        <div class="pagetitle container-fluid lockcontent">
+            <h2>Alumni</h2>
         </div>
         <section class="gray_txt">
             <div class="container-fluid lockcontent">

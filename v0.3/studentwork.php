@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
 
-<head><link rel="shortcut icon" href="images/logos/ico.gif">
+<head>
+    <link rel="shortcut icon" href="images/logos/ico.gif">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,10 +22,9 @@
            
         ?>
     </header>
-    <div class="banner" id="student_work">
-        <div class="container-fluid lockcontent">
-            <h2 class="pages_title">Student Work</h2>
-        </div>
+    <div class="banner" id="student_work"></div>
+    <div class="pagetitle container-fluid lockcontent">
+        <h2>Student Work</h2>
     </div>
     <section>
         <div id="intro" class="container-fluid lockcontent">
