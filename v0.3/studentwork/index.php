@@ -84,15 +84,14 @@ $course=$rows[0][course];
         ?>
         </header>
         <div class="banner" id="digitalPhotography">
-            <div class="container-fluid lockcontent">
+
+        </div>
+        <main>
+            <div class="pagetitle container-fluid lockcontent">
                 <h2>
                     <?php echo $title ?>
                 </h2>
-
             </div>
-        </div>
-        <main>
-
             <section class="container-fluid lockcontent gray_txt">
                 <p>
                     <i>Instructor:</i>
