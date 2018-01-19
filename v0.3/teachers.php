@@ -40,7 +40,8 @@ mysqli_close($connection);
     <!DOCTYPE html>
     <html lang="en">
 
-    <head><link rel="shortcut icon" href="images/logos/ico.gif">
+    <head>
+        <link rel="shortcut icon" href="images/logos/ico.gif">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,10 +58,9 @@ mysqli_close($connection);
         </header>
         <div>
             <div class="content_main">
-                <div class="banner" id="teachers">
-                    <div class="container-fluid lockcontent">
-                        <h2 class="pages_title">Teachers</h2>
-                    </div>
+                <div class="banner" id="teachers"></div>
+                <div class="pagetitle container-fluid lockcontent">
+                    <h2>Teachers</h2>
                 </div>
                 <div class="container-fluid teachers_columns lockcontent">
 
