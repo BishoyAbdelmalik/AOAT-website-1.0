@@ -130,7 +130,7 @@
                                 </p>
                                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#9th">View Classes</button>
                                 <div id="9th" class="collapse">
-                                    <h5><b>Classes</b></h5>
+                                    <h5><b>Classes:</b></h5>
                                     <ul>
                                         <li>Intro Art.</li>
                                         <li>English 9</li>
@@ -146,7 +146,7 @@
                                 </p>
                                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#10th">View Classes</button>
                                 <div id="10th" class="collapse">
-                                    <h5><b>Classes</b></h5>
+                                    <h5><b>Classes:</b></h5>
                                     <ul>
                                         <li>
                                             Photo
@@ -170,7 +170,7 @@
                                 </p>
                                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#11th">View Classes</button>
                                 <div id="11th" class="collapse">
-                                    <h5><b>Classes</b></h5>
+                                    <h5><b>Classes:</b></h5>
                                     <ul>
                                         <li>
                                             Digital Imaging
@@ -198,7 +198,7 @@
                                 </p>
                                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#12th">View Classes</button>
                                 <div id="12th" class="collapse">
-                                    <h5><b>Classes</b></h5>
+                                    <h5><b>Classes:</b></h5>
                                     <ul>
                                         <li>Graphic Design
                                             <ul>
@@ -227,8 +227,9 @@
         </section>
     </main>
     <footer>
-        <?php        require 'php_dependancy/footer.php';
-require 'php_dependancy/js.php' ;
+        <?php        
+        require 'php_dependancy/footer.php';
+        require 'php_dependancy/js.php' ;
         ?>
     </footer>
     <?php
