@@ -250,3 +250,10 @@ textarea {
 .half_page {
     width: 50%;
 }
+
+@media screen and (max-width: 426px) {
+    .half_page {
+        width: 100%;
+    }
+
+}
