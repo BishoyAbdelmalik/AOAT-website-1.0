@@ -21,10 +21,7 @@
         ?>
     </header>
     <div class="banner ">
-
-        <iframe class="map" src="//www.google.com/maps/embed/v1/place?q=Cleveland+High+School
-                     &zoom=16
-                     &key=AIzaSyBoUc61x5Gx8Bu8Gp-htrjhg4Z2au6ksJQ">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13196.812160223182!2d-118.5474577!3d34.2178337!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa5324b726eca9e1e!2sCleveland+High+School!5e0!3m2!1sen!2sus!4v1516429525689">
         </iframe>
         <div class="container-fluid lockcontent"></div>
     </div>
