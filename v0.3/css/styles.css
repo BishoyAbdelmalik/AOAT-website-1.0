@@ -1175,3 +1175,28 @@ body {
 .pagetitle {
     color: #0163a2;
 }
+
+@media (max-width: 705px) {
+    .quoteimg {
+        width: auto;
+        height: auto;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translate(-50%);
+        transform: translate(-50%);
+    }
+
+    .quote {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .sidebuttons {
+         margin-right: 0; 
+    }
+}@media (max-width: 425px) {
+    .sidebuttons {
+        display: -webkit-box!important;
+        display: -ms-flexbox!important;
+        display: flex!important;
+    }
+}
