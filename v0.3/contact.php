@@ -81,7 +81,7 @@
                 </div>
                 <input class="btn  btn-info" style="width: 80px" type="submit" value="Send">
             </form>
-            <iframe id="my_iframe" name="my_iframe" frameborder="0" src=""></iframe>
+            <iframe id="my_iframe" name="my_iframe" frameborder="0" src="" style="width:  100%;"></iframe>
 
         </div>
 
