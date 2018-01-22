@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div>
-                    <label><span class="are_you">Who are you ?</span></label>
+                    <label><span class="are_you">Who are you?</span></label>
                 </div>
                 <div class="part2 flex wrap">
                     <div>
