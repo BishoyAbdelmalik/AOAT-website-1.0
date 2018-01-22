@@ -186,3 +186,40 @@ img {
     height: 206px;
 
 }
+
+@media (max-width: 768px) {
+
+    .modal-dialog {
+        width: auto;
+    }
+    .studentworkTile {
+        display: none;
+
+    }
+    .studentwork img {
+        width: 50%;
+    }
+    .studentwork article {
+        width: 50%;
+    }
+}
+
+@media (max-width: 678px) {
+
+    .studentwork article {
+        padding: 1em;
+    }
+    .studentwork article p {
+        font-size: 12px;
+    }
+}
+
+/*@media (max-width: 524px) {
+    .studentwork article {
+        padding: 2em;
+    }
+
+    .studentwork article {
+        width: 100%;
+    }
+}*/

@@ -180,7 +180,7 @@ $course=$rows[0][course];
                 <div class="modal" id="mygallery" role="dialog" style="display: none;">
                     <div class="modal-dialog">
                         <div id="gallary" class="modal-content flex_b flex_column">
-                            <img class='load' src='../images/studentwork/load.gif'>
+                            <img class='load' src="/images/studentwork/load.gif">
                         </div>
                     </div>
                 </div>
