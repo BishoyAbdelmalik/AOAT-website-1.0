@@ -183,8 +183,8 @@ img {
 }
 
 .projects_grid img {
-    height: 206px;
-
+/*    height: 206px;
+    */
 }
 
 @media (max-width: 768px) {
