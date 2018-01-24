@@ -114,7 +114,7 @@ require 'php_dependancy/js.php' ;
 
     <?php
         jquery(0);
-        nav();        
+        nav_home();
         home();      
         bootstrap(0);
 

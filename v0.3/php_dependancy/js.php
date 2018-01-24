@@ -28,6 +28,13 @@ function nav() {
     echo $nav;
     
 }
+
+
+function nav_home() {
+    $nav ='<script type="text/javascript" src="/js/navbar-home.js"></script>';
+    echo $nav;
+    
+}
 function home() {
     $home ='<script type="text/javascript" src="/js/homepagescript.js"></script>';
     echo $home;
