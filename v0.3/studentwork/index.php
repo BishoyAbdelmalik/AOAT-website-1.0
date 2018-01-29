@@ -83,9 +83,9 @@ $course=$rows[0][course];
 
         ?>
         </header>
-        <div class="banner" id="digitalPhotography">
+        <div class="banner" id="student_work"></div>
 
-        </div>
+
         <main>
             <div class="pagetitle container-fluid lockcontent">
                 <h2>
@@ -95,7 +95,7 @@ $course=$rows[0][course];
             <section class="container-fluid lockcontent gray_txt">
                 <p>
                     <i>Instructor:</i>
-                    <a href="teachers.php?t=<?php echo $instructor_url; ?>">
+                    <a href="/teachers.php?t=<?php echo $instructor_url; ?>">
                         <?php echo $instructor; ?>
                     </a>
                 </p>

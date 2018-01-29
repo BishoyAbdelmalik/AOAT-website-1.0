@@ -13,8 +13,7 @@
 
  });
  $(".graphic").click(function () {
-     window.location.href = "studentworkgd.html";
-     //     window.location.href = "studentwork.php?c=studentworkgd&&t=Graphic%20Design";
+     window.location.href = "studentwork\?c=studentworkgd&&t=Graphic%20Design";
 
  });
  $(".web").click(function () {
