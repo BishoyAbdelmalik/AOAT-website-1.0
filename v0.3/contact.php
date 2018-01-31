@@ -96,7 +96,7 @@ require 'php_dependancy/js.php' ;
     jquery(0);
     nav();
     bootstrap(0);
-// form();    ?>
+   ?>
 
 </body>
 
