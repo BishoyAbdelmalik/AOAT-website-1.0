@@ -43,8 +43,8 @@
         </section>
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
-                <button class="sidebtn" value="#art">ART Club</button>
-                <button class="sidebtn" value="#peer">Peer Mentor</button>
+                <button class="sidebtn btn btn-info" value="#art">ART Club</button>
+                <button class="sidebtn btn btn-info" value="#peer">Peer Mentor</button>
             </div>
             <div id="info">
                 <article id="art">

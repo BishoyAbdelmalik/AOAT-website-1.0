@@ -37,9 +37,9 @@
         </section>
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
-                <button class="sidebtn" value="#trips">Field Trips</button>
-                <button class="sidebtn" value="#Career">Career Day</button>
-                <button class="sidebtn" value="#Celebration">Celebrations</button>
+                <button class="sidebtn btn btn-info" value="#trips">Field Trips</button>
+                <button class="sidebtn btn btn-info" value="#Career">Career Day</button>
+                <button class="sidebtn btn btn-info" value="#Celebration">Celebrations</button>
 
             </div>
             <div id="info">

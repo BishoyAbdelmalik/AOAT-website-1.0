@@ -75,6 +75,7 @@
                 </div>
 
             </div>
+            <!--
             <div class="row ">
                 <div class="">
                     <div class="homeimage flex">
@@ -101,6 +102,7 @@
                     </div>
                 </div>
             </div>
+-->
 
             <footer class="footer">
                 <?php        require 'php_dependancy/footer.php';

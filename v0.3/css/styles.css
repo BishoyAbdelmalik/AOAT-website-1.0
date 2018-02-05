@@ -1107,7 +1107,7 @@ body {
 }
 
 .quote {
-    background: rgba(0, 132, 218, 1);
+    background: rgb(25, 83, 121);
     margin-left: 20px;
     padding: 1em;
 }
@@ -1134,17 +1134,13 @@ body {
 .sidebuttons button {
     border: 0px;
     height: 40px;
-    background: #195379;
     margin-bottom: 10px;
     -webkit-transition: 100ms;
     transition: 100ms;
     color: white;
 }
 
-.sidebuttons button:hover {
 
-    background: #007bcc;
-}
 
 #info {
     margin-bottom: 20px;
@@ -1191,9 +1187,11 @@ body {
         margin-top: 20px;
     }
     .sidebuttons {
-         margin-right: 0; 
+        margin-right: 0;
     }
-}@media (max-width: 425px) {
+}
+
+@media (max-width: 425px) {
     .sidebuttons {
         display: -webkit-box!important;
         display: -ms-flexbox!important;

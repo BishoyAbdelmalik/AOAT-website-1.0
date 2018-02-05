@@ -37,11 +37,11 @@
         </section>
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
-                <button class="sidebtn" value="#vision">Our Vision</button>
-                <button class="sidebtn" value="#mission">Our Mission</button>
-                <button class="sidebtn" value="#CPA">CPA Lighthouse Academy</button>
-                <button class="sidebtn" value="#Advisory">Board of Advisory</button>
-                <button class="sidebtn" value="#Partners">Partners</button>
+                <button class="sidebtn btn btn-info" value="#vision">Our Vision</button>
+                <button class="sidebtn btn btn-info" value="#mission">Our Mission</button>
+                <button class="sidebtn btn btn-info" value="#CPA">CPA Lighthouse Academy</button>
+                <button class="sidebtn btn btn-info" value="#Advisory">Board of Advisory</button>
+                <button class="sidebtn btn btn-info" value="#Partners">Partners</button>
             </div>
             <div id="info">
                 <article id="vision">

@@ -38,10 +38,10 @@
         </section>
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
-                <button class="sidebtn" value="#Curriculum">AOAT Curriculum</button>
-                <button class="sidebtn" value="#Career">Career Development</button>
-                <button class="sidebtn" value="#internship">Internships</button>
-                <button class="sidebtn" value="#Peer">Peer Mentors</button>
+                <button class="sidebtn btn btn-info" value="#Curriculum">AOAT Curriculum</button>
+                <button class="sidebtn btn btn-info" value="#Career">Career Development</button>
+                <button class="sidebtn btn btn-info" value="#internship">Internships</button>
+                <button class="sidebtn btn btn-info" value="#Peer">Peer Mentors</button>
             </div>
             <div id="info">
                 <article id="Career">
