@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/styles_academics.css">
+    <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>AOAT | About</title>
+    <style>
+        .arrow {
+            top: 15vw;
+        }
 
+    </style>
 </head>
 
 <body>
@@ -23,10 +29,18 @@
     </header>
     <main>
 
-        <div class="banner" id="about"></div>
-        <div class="pagetitle container-fluid lockcontent">
-            <h2>About AOAT</h2>
+        <div class="banner homeimage aboutAOAT landing" id="about">
+            <div class="pagetitle absolute-text bannertitle">
+                <h1>About AOAT</h1>
+                <div class="arrow bounce">
+                    <button class="fa fa-arrow-down fa-2x " onClick="runclick();" href="#"></button>
+
+                </div>
+            </div>
+
+
         </div>
+
         <section id="quotearea" class="container-fluid lockcontent flex_b">
             <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
             <div class="quote flex_b">
@@ -156,6 +170,8 @@ require 'php_dependancy/js.php' ;
     <?php
     jquery(0);
     nav();
+            home();      
+
     bootstrap(0);
     button_manger();
     ?>

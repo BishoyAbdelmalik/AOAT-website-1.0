@@ -24,14 +24,16 @@ function bootstrap($var) {
     
 }
 function nav() {
-    $nav ='<script type="text/javascript" src="/js/navbar.js"></script>';
+//    $nav ='<script type="text/javascript" src="/js/navbar.js"></script>';
+    $nav ='';
     echo $nav;
     
 }
 
 
 function nav_home() {
-    $nav ='<script type="text/javascript" src="/js/navbar-home.js"></script>';
+//    $nav ='<script type="text/javascript" src="/js/navbar-home.js"></script>';
+    $nav ='';
     echo $nav;
     
 }

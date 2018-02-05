@@ -1,4 +1,5 @@
-<nav class="navbar navbar-default home_nav transparent_nav">
+<!--<nav class="navbar navbar-default home_nav transparent_nav">-->
+<nav class="navbar navbar-default home_nav ">
     <div class="center_nav">
         <!--    <div class="container-fluid lockcontent">-->
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -10,7 +11,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/index.php">
-                <img src="/images/logos/aoat%20final%20logo.svg" title="The Acdemy of Art and Technology"><!--<img src="/images/logos/aoat%20final%20logo%20-%20Copy.svg" title="The Acdemy of Art and Technology"><img src="/images/logos/aoat%20final%20logo.svg" title="The Acdemy of Art and Technology">-->
+                <img src="/images/logos/aoat%20final%20logo.svg" title="The Acdemy of Art and Technology">
             </a>
         </div>
 
