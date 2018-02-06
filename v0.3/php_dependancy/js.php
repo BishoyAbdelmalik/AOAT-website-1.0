@@ -24,8 +24,7 @@ function bootstrap($var) {
     
 }
 function nav() {
-//    $nav ='<script type="text/javascript" src="/js/navbar.js"></script>';
-    $nav ='';
+    $nav ='<script type="text/javascript" src="/js/navbar.js"></script>';
     echo $nav;
     
 }

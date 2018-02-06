@@ -114,20 +114,10 @@ a {
     transition: 0.2s;
 }
 
-.transparent_nav .navbar-nav > li > a {
-    color: #096099;
-}
 
-.navbar-default .navbar-brand > img:nth-child(2) {
-    /*
-    display: none;
-*/
-}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
 
-.transparent_nav .navbar-brand > img:nth-child(1) {
-    /*
-    display: none;
-*/
 }
 
 .transparent_nav .navbar-brand > img:nth-child(2) {
@@ -149,7 +139,7 @@ a {
 
 
 .navbar-default {
-    background: rgba(255, 255, 255, 0.72);
+    background: rgb(21, 67, 97);
     border: none;
     margin-bottom: 0px;
 }
@@ -307,11 +297,15 @@ main {
 }
 
 .home_nav {
-    position: fixed;
     width: 100%;
     z-index: 100;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+}
+
+.fixed-nav {
+    position: fixed;
+
 }
 
 .transparent_nav {
@@ -332,6 +326,10 @@ main {
     text-align: center;
     position: relative;
     top: 33px;
+}
+
+.arrow {
+    top: 15vw;
 }
 
 .arrow button {

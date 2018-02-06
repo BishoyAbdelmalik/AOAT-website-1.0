@@ -11,6 +11,18 @@
     <title>AOAT | Home</title>
 
     <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .arrow p {
+            bottom: 6vw;
+            position: relative;
+        }
+
+        .center-logo {
+            opacity: 1!important;
+            width: 24vw!important;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -21,12 +33,13 @@
     </header>
     <div class="homeimage aboutAOAT landing">
 
-        <div class="absolute-text" id="aboutAOAT_AT">
-            <h1>About AOAT</h1>
-            <p> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor.</p>
-            <div class="arrow bounce">
-                <button class="fa fa-arrow-down fa-2x " onClick="runclick();" href="#"></button>
-
+        <div class="absolute-text pagetitle bannertitle" id="aboutAOAT_AT">
+            <h1><img id="waypoint" class="center-logo" src="/images/logos/aoat%20final%20logo.svg" title="The Acdemy of Art and Technology"></h1>
+            <div class="arrow">
+                <p> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor.</p>
+                <div class="bounce">
+                    <button class="fa fa-arrow-down fa-2x " onClick="runclick();" href="#"></button>
+                </div>
             </div>
         </div>
     </div>
@@ -119,7 +132,7 @@ require 'php_dependancy/js.php' ;
         nav_home();
         home();      
         bootstrap(0);
-
+nav();
     ?>
 
 
