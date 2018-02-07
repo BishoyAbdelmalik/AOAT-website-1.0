@@ -22,13 +22,11 @@
                 <li><a href="/academics.php">Academics</a></li>
                 <li><a href="/teachers.php">Teachers</a></li>
                 <li><a href="/aoatclubs.php">AOAT Clubs</a></li>
-                <li>
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false">Events<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/aboutevents.php">About Events</a></li>
-                        <li><a href="/calendar.php">Calendar</a></li>
-                    </ul>
-                </li>
+
+                <li><a href="/aboutevents.php">Events</a></li>
+
+                <li><a href="/calendar.php">Calendar</a></li>
+
                 <li>
                     <a href="/studentwork.php">Student Work</a>
 
