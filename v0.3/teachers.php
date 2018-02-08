@@ -58,9 +58,14 @@ mysqli_close($connection);
         </header>
         <div>
             <div class="content_main">
-                <div class="banner" id="teachers"></div>
+                <div class="banner homeimage aboutAOAT landing" id="teachers">
+                    <div class="pagetitle absolute-text bannertitle">
+                        <h2>Teachers</h2>
+
+                    </div>
+                </div>
                 <div class="pagetitle container-fluid lockcontent">
-                    <h2>Teachers</h2>
+
                 </div>
                 <div class="container-fluid teachers_columns lockcontent">
 

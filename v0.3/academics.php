@@ -22,11 +22,15 @@
     </header>
     <main>
 
-        <div class="banner" id="academics"></div>
+        <div class="banner homeimage aboutAOAT landing" id="academics">
+            <div class="pagetitle absolute-text bannertitle">
+                <h2>Academics</h2>
+
+            </div>
+        </div>
         <!--end banner-->
 
         <div class="pagetitle container-fluid lockcontent">
-            <h2>Academics</h2>
         </div>
         <section id="quotearea" class="container-fluid lockcontent flex_b">
             <img class="quoteimg" src="images/academics/academic_main.png" />
