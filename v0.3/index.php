@@ -34,7 +34,11 @@
     <div class="homeimage aboutAOAT landing">
 
         <div class="absolute-text pagetitle bannertitle" id="aboutAOAT_AT">
+            <!--
             <h1><img id="waypoint" class="center-logo" src="/images/logos/aoat%20final%20logo.svg" title="The Acdemy of Art and Technology"></h1>
+-->
+            <h1>AOAT</h1>
+
             <div class="arrow">
                 <p> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor.</p>
                 <div class="bounce">
