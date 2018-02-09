@@ -25,8 +25,11 @@
         </iframe>
         <div class="container-fluid lockcontent"></div>
     </div>
-    <div class="pagetitle container-fluid lockcontent">
+    <div class="pagetitle container-fluid lockcontent" style="text-align:  center;">
+        <h1>Contact Us</h1>
+        <!--
         <h2>Contact Us</h2>
+-->
     </div>
     <main class="container-fluid lockcontent">
 

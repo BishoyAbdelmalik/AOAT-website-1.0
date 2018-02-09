@@ -1,5 +1,5 @@
 <?php
-require_once('calendar_builder.php');
+require('calendar_builder.php');
 
 
 

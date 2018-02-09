@@ -14,20 +14,10 @@ else{
     die();
 
 }
+set_include_path('../php_dependancy');
 
-function mysql_connection(){
-    global  $connection;
-    $dbhost="localhost";
-    $dbuser="AOAT";
-    $dbpass="123456";
-    $dbname="aoat";
-    $connection= mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
-    if(mysqli_connect_errno()){
-        die("Database connection failes: ".
-            mysqli_connect_error(). " (" . mysqli_connect_errno().")"
-           );
-    }
-}
+require 'mysql.php';
+
 mysql_connection();
 $query="SELECT * FROM `".$database."` ORDER BY id ASC;";
 $result=mysqli_query($connection,$query);
@@ -83,8 +73,12 @@ $course=$rows[0][course];
 
         ?>
         </header>
-        <div class="banner" id="student_work"></div>
+        <div class="banner homeimage aboutAOAT landing" id="student_work">
+            <div class="pagetitle absolute-text bannertitle">
+                <h1>Student Work</h1>
 
+            </div>
+        </div>
 
         <main>
             <div class="pagetitle container-fluid lockcontent">

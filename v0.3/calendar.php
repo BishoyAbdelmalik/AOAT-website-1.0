@@ -25,9 +25,15 @@ require_once('php_dependancy/calender/calendar_builder.php');
         ?>
     </header>
     <main>
-        <div class="banner" id="calendar"></div>
+        <div class="banner homeimage aboutAOAT landing" id="calendar">
+            <div class="pagetitle absolute-text bannertitle">
+                <h1>Calendar</h1>
+
+            </div>
+        </div>
         <div class="pagetitle container-fluid lockcontent">
-            <h2>Calendar</h2>
+<!--
+<h2>Calendar</h2>-->
         </div>
         <div class="container-fluid  lockcontent">
             <div class="calender">

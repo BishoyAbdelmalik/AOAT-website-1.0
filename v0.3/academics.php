@@ -24,7 +24,7 @@
 
         <div class="banner homeimage aboutAOAT landing" id="academics">
             <div class="pagetitle absolute-text bannertitle">
-                <h2>Academics</h2>
+                <h1>Academics</h1>
 
             </div>
         </div>

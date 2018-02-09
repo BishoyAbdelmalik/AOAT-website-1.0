@@ -191,12 +191,18 @@ main {
 }
 
 .landing h1 {
+    text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
     color: #0484d8;
 }
 
-.landing div {
-    color: #3a6582;
+.banner h1 {
+    text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
+    color: white;
 }
+
+/*.landing div {
+    color: #3a6582;
+}*/
 
 .landing p {
     color: #014775;
@@ -450,9 +456,16 @@ main {
 #clubs {
     background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(76, 185, 212, 0))), url(../images/banners/clubs.jpg);
     background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(76, 185, 212, 0)), url(../images/banners/clubs.jpg);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     overflow: hidden;
+}
+
+@media (min-width:1554px) {
+    #clubs {
+        background-position: center;
+
+    }
 }
 
 #contact {
@@ -495,9 +508,9 @@ main {
 }
 
 #teachers {
-    background: -webkit-gradient( rgba(255, 255, 255, 0.87), rgba(175, 175, 175, 0), rgba(76, 185, 212, 0.06)), url(../images/teachers/teacher_cover2.jpg);
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.87)), color-stop(rgba(175, 175, 175, 0)), to(rgba(76, 185, 212, 0.06))), url(../images/teachers/teacher_cover2.jpg);
-    background: linear-gradient( rgba(255, 255, 255, 0.87), rgba(175, 175, 175, 0), rgba(76, 185, 212, 0.06)), url(../images/teachers/teacher_cover2.jpg);
+    /*background: linear-gradient( rgba(255, 255, 255, 0.87), rgba(175, 175, 175, 0), rgba(76, 185, 212, 0.06)), url(../images/teachers/teacher_cover2.jpg);*/
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(216, 216, 216, 0.55)), to(rgba(216, 216, 216, 0.55))), url(../images/teachers/teacher_cover2.jpg);
+    background: linear-gradient( rgba(216, 216, 216, 0.55), rgba(216, 216, 216, 0.55)), url(../images/teachers/teacher_cover2.jpg);
     background-position: top center;
     background-size: cover;
 
@@ -580,6 +593,7 @@ main {
 .banner h2 {
     position: absolute;
     left: 50%;
+    -webkit-transform: translate(-50%);
     transform: translate(-50%);
     z-index: 3;
     bottom: 0;

@@ -22,9 +22,16 @@
         ?>
     </header>
     <main>
-        <div class="banner" id="aboutEvents"></div>
+        <div class="banner homeimage aboutAOAT landing" id="aboutEvents">
+            <div class="pagetitle absolute-text bannertitle">
+                <h1>AOAT Events</h1>
+
+            </div>
+        </div>
         <div class="pagetitle container-fluid lockcontent">
+            <!--
             <h2>About Events</h2>
+-->
         </div>
         <section id="quotearea" class="container-fluid lockcontent flex_b">
             <img class="quoteimg" src="images/placeholder.jpg" />

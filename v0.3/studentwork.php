@@ -22,10 +22,13 @@
            
         ?>
     </header>
-    <div class="banner" id="student_work"></div>
-    <div class="pagetitle container-fluid lockcontent">
-        <h2>Student Work</h2>
+    <div class="banner homeimage aboutAOAT landing" id="student_work">
+        <div class="pagetitle absolute-text bannertitle">
+            <h1>Student Work</h1>
+
+        </div>
     </div>
+
     <section>
         <div id="intro" class="container-fluid lockcontent">
             AOAT trains students in graphic design and photography for print and web, and develops their skills in design software such as Adobe Creative Suite. Many of their projects are connected to their AOAT academic classes such as science, English, and history/government.

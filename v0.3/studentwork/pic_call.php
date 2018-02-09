@@ -1,20 +1,9 @@
 <?php
 error_reporting(0);
 global  $connection;
-function mysql_connection(){
-    global  $connection;
+set_include_path('../php_dependancy');
 
-    $dbhost="localhost";
-    $dbuser="AOAT";
-    $dbpass="123456";
-    $dbname="aoat";
-    $connection= mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
-    if(mysqli_connect_errno()){
-        die("Database connection failes: ".
-            mysqli_connect_error(). " (" . mysqli_connect_errno().")"
-           );
-    }
-}
+require 'mysql.php';
 mysql_connection();
 if (isset($_GET)){
     $db=$_GET[db]; 

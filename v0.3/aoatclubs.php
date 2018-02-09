@@ -29,9 +29,15 @@
     </header>
     <main>
 
-        <div class="banner" id="clubs"></div>
+        <div class="banner homeimage aboutAOAT landing" id="clubs">
+            <div class="pagetitle absolute-text bannertitle">
+                <h1>AOAT Clubs</h1>
+
+            </div>
+        </div>
         <div class="pagetitle container-fluid lockcontent">
-            <h2>AOAT Clubs</h2>
+            <!--
+<h2></h2>-->
         </div>
         <section id="quotearea" class="container-fluid lockcontent flex_b">
             <img class="quoteimg" src="images/clubs/art_joine.jpg" />

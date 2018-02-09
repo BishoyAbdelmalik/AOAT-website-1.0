@@ -2,20 +2,10 @@
  error_reporting (0);
 
 global  $connection;
-function mysql_connection(){
-    global  $connection;
 
-    $dbhost="localhost";
-    $dbuser="AOAT";
-    $dbpass="123456";
-    $dbname="aoat";
-    $connection= mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
-    if(mysqli_connect_errno()){
-        die("Database connection failes: ".
-            mysqli_connect_error(). " (" . mysqli_connect_errno().")"
-           );
-    }
-}
+set_include_path('php_dependancy');
+
+require 'mysql.php';
 mysql_connection();
     $true="";
 $teacher="";
@@ -60,7 +50,7 @@ mysqli_close($connection);
             <div class="content_main">
                 <div class="banner homeimage aboutAOAT landing" id="teachers">
                     <div class="pagetitle absolute-text bannertitle">
-                        <h2>Teachers</h2>
+                        <h1>Teachers</h1>
 
                     </div>
                 </div>

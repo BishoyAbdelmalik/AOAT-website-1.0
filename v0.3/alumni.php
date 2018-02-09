@@ -30,10 +30,13 @@
         ?>
     </header>
     <main>
-        <div class="banner" id="alumni"></div>
-        <div class="pagetitle container-fluid lockcontent">
-            <h2>Alumni</h2>
+        <div class="banner homeimage aboutAOAT landing" id="alumni">
+            <div class="pagetitle absolute-text bannertitle">
+                <h1>Alumni</h1>
+
+            </div>
         </div>
+
         <section class="gray_txt">
             <div class="container-fluid lockcontent">
 
