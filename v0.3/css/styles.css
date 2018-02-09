@@ -115,10 +115,7 @@ a {
 }
 
 
-.navbar-default .navbar-nav > li > a {
-    color: #fff;
-
-}
+.navbar-default .navbar-nav > li > a {}
 
 .transparent_nav .navbar-brand > img:nth-child(2) {
     display: block;
@@ -139,7 +136,7 @@ a {
 
 
 .navbar-default {
-    background: rgb(21, 67, 97);
+    background: rgb(255, 255, 255);
     border: none;
     margin-bottom: 0px;
 }
@@ -1215,4 +1212,9 @@ body {
 
 .bannertitle {
     bottom: 50%!important;
+}
+
+.btn-info:hover {
+    background-color: #0e6aa7;
+    border-color: #0e6aa7;
 }
