@@ -72,7 +72,7 @@
                         <label class="part2_label" for="parent">Parent </label>
                     </div>
                     <div class="other flex row">
-                        <label for="other"><span>Other: </span></label>
+                        <label class="part2_label" for="other"><span>Other: </span></label>
                         <input type="text" class="email" id="other" name="other">
                     </div>
 

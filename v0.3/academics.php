@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <style>
         .green {
-            color: #3b7519;
+            color: #3b7519!important;
         }
 
         hr {
@@ -138,7 +138,7 @@
                     <section id="curriculum_main">
                         <section id="curriculum">
                             <section>
-                                <h4>Grade 9: Pre-Academy</h4>
+                                <h4 class="green">Grade 9: Pre-Academy</h4>
                                 <h5>Team Leader: <a href="teachers.php?t=rosillo">Gabriela Rosillo</a></h5>
                                 <p>
 
@@ -146,7 +146,7 @@
                                 <!--                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#9th">View Classes</button>-->
                                 <!--                                <div id="9th" class="collapse">-->
                                 <div id="9th">
-                                    <h5 class="green"><b>Classes:</b></h5>
+                                    <h5><b>Classes:</b></h5>
                                     <ul>
                                         <li>Intro Art.</li>
                                         <li>English 9</li>
@@ -156,14 +156,14 @@
                             </section>
                             <hr>
                             <section>
-                                <h4>Grade 10: Theme: Awareness</h4>
+                                <h4 class="green">Grade 10: Theme: Awareness</h4>
                                 <h5>Team Leader: <a href="teachers.php?t=prato">Paola Prato</a></h5>
                                 <p class="justify">
                                     The overall theme for 10th Grade is Social Group Awareness, and students explore what community means, how group identity is vital to change and how to create community. The theme of social justice, as reflected in literature and history, is the lens through which students examine the elements that contribute to how each individual can influence his community and the world. The interdisciplinary trip is a tour of the Museum of Tolerance.
                                 </p>
                                 <!--                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#10th">View Classes</button>-->
                                 <div id="10th">
-                                    <h5 class="green"><b>Classes:</b></h5>
+                                    <h5><b>Classes:</b></h5>
                                     <ul>
                                         <li>
                                             Photo
@@ -182,14 +182,14 @@
                             <hr>
 
                             <section>
-                                <h4>Grade 11: Theme: Identity</h4>
+                                <h4 class="green">Grade 11: Theme: Identity</h4>
                                 <h5>Team Leader: <a href="teachers.php?t=neustaedter">Laura Neustaedter</a></h5>
                                 <p class="justify">
                                     This year's curriculum is centered on the theme of Student Identity. Students create their own Identity Package which includes a personal logo, business stationery and business cards. In addition, students create a resumé and an All About Me brochure/website. In United States history and American literature, students focus on the individual's identity in American society, investigating and analyzing the life of an individual social activist in American history. The culminating interdisciplinary project is a comprehensive brochure or web site, based around a social activism event, which students present to lower grade level classes. This satisfies their service-learning requirement for graduation.
                                 </p>
 
                                 <div id="11th">
-                                    <h5 class="green"><b>Classes:</b></h5>
+                                    <h5><b>Classes:</b></h5>
                                     <ul>
                                         <li>
                                             Digital Imaging
@@ -211,13 +211,13 @@
                             </section>
                             <hr>
                             <section>
-                                <h4>Grade 12: Theme: Activism</h4>
+                                <h4 class="green">Grade 12: Theme: Activism</h4>
                                 <h5>Team Leader: <a href="teachers.php?t=degracia">Wesley DeGracia</a></h5>
                                 <p class="justify">
                                     The overall theme of the year is Social, Economic and Political Awareness. Students focus on a specific area in which they hope to effect change. They produce a research paper and brochure that explains and examines their understanding of and potential solutions for their issue. Literature, history and art classes coordinate efforts to present and encourage topics for exploration as well as the process that students will use to produce the requisite assignments. Students focus on their design area of concentration and are encouraged to take Advanced Placement courses as well as advanced art classes offered by the Art Department.
                                 </p>
                                 <div id="12th">
-                                    <h5 class="green"><b>Classes:</b></h5>
+                                    <h5><b>Classes:</b></h5>
                                     <ul>
                                         <li>Graphic Design
                                             <ul>
