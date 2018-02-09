@@ -10,7 +10,18 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/styles_academics.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <style>
+        .green {
+            color: #3b7519;
+        }
 
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #8a0add, rgba(0, 0, 0, 0));
+        }
+
+    </style>
     <title>AOAT | Academics</title>
 </head>
 
@@ -64,7 +75,7 @@
                             <div>
                                 <h3>Mock Interviews</h3>
                                 <p class="justify">
-                                    Our devoted Board of Advisory members take leadership roles in designing and delivering authentic mock interviews as preparation for internships for our 11th graders. The spring event included three days of interviews by professionals who volunteered their time to talk with the students both individually and as a group debrief afterwards. Students prepared by practicing in peer groups, and expressed feeling much more confident to go on internship interviews after this exercise.
+                                    Our devot<b></b>ed Board of Advisory members take leadership roles in designing and delivering authentic mock interviews as preparation for internships for our 11th graders. The spring event included three days of interviews by professionals who volunteered their time to talk with the students both individually and as a group debrief afterwards. Students prepared by practicing in peer groups, and expressed feeling much more confident to go on internship interviews after this exercise.
                                 </p>
                             </div>
                         </div>
@@ -132,9 +143,10 @@
                                 <p>
 
                                 </p>
-                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#9th">View Classes</button>
-                                <div id="9th" class="collapse">
-                                    <h5><b>Classes:</b></h5>
+                                <!--                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#9th">View Classes</button>-->
+                                <!--                                <div id="9th" class="collapse">-->
+                                <div id="9th">
+                                    <h5 class="green"><b>Classes:</b></h5>
                                     <ul>
                                         <li>Intro Art.</li>
                                         <li>English 9</li>
@@ -142,15 +154,16 @@
                                     </ul>
                                 </div>
                             </section>
+                            <hr>
                             <section>
                                 <h4>Grade 10: Theme: Awareness</h4>
                                 <h5>Team Leader: <a href="teachers.php?t=prato">Paola Prato</a></h5>
                                 <p class="justify">
                                     The overall theme for 10th Grade is Social Group Awareness, and students explore what community means, how group identity is vital to change and how to create community. The theme of social justice, as reflected in literature and history, is the lens through which students examine the elements that contribute to how each individual can influence his community and the world. The interdisciplinary trip is a tour of the Museum of Tolerance.
                                 </p>
-                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#10th">View Classes</button>
-                                <div id="10th" class="collapse">
-                                    <h5><b>Classes:</b></h5>
+                                <!--                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#10th">View Classes</button>-->
+                                <div id="10th">
+                                    <h5 class="green"><b>Classes:</b></h5>
                                     <ul>
                                         <li>
                                             Photo
@@ -166,15 +179,17 @@
                                     </ul>
                                 </div>
                             </section>
+                            <hr>
+
                             <section>
                                 <h4>Grade 11: Theme: Identity</h4>
                                 <h5>Team Leader: <a href="teachers.php?t=neustaedter">Laura Neustaedter</a></h5>
                                 <p class="justify">
                                     This year's curriculum is centered on the theme of Student Identity. Students create their own Identity Package which includes a personal logo, business stationery and business cards. In addition, students create a resumé and an All About Me brochure/website. In United States history and American literature, students focus on the individual's identity in American society, investigating and analyzing the life of an individual social activist in American history. The culminating interdisciplinary project is a comprehensive brochure or web site, based around a social activism event, which students present to lower grade level classes. This satisfies their service-learning requirement for graduation.
                                 </p>
-                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#11th">View Classes</button>
-                                <div id="11th" class="collapse">
-                                    <h5><b>Classes:</b></h5>
+
+                                <div id="11th">
+                                    <h5 class="green"><b>Classes:</b></h5>
                                     <ul>
                                         <li>
                                             Digital Imaging
@@ -194,15 +209,15 @@
                                     </ul>
                                 </div>
                             </section>
+                            <hr>
                             <section>
                                 <h4>Grade 12: Theme: Activism</h4>
                                 <h5>Team Leader: <a href="teachers.php?t=degracia">Wesley DeGracia</a></h5>
                                 <p class="justify">
                                     The overall theme of the year is Social, Economic and Political Awareness. Students focus on a specific area in which they hope to effect change. They produce a research paper and brochure that explains and examines their understanding of and potential solutions for their issue. Literature, history and art classes coordinate efforts to present and encourage topics for exploration as well as the process that students will use to produce the requisite assignments. Students focus on their design area of concentration and are encouraged to take Advanced Placement courses as well as advanced art classes offered by the Art Department.
                                 </p>
-                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#12th">View Classes</button>
-                                <div id="12th" class="collapse">
-                                    <h5><b>Classes:</b></h5>
+                                <div id="12th">
+                                    <h5 class="green"><b>Classes:</b></h5>
                                     <ul>
                                         <li>Graphic Design
                                             <ul>
