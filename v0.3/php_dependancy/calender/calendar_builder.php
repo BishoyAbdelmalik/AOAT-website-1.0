@@ -1,5 +1,6 @@
 <?php
 $events=array();
+
 require 'mysql.php';
 
 $no_events="";
