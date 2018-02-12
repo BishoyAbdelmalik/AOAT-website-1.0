@@ -190,6 +190,8 @@ main {
 .landing h1 {
     text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
     color: #0484d8;
+    position: relative;
+    top: 13vh;
 }
 
 .banner h1 {
@@ -329,12 +331,9 @@ main {
 .arrow {
     text-align: center;
     position: relative;
-    top: 33px;
+    top: 25vh;
 }
 
-.arrow {
-    top: 15vw;
-}
 
 .arrow button {
     background: transparent;

@@ -19,7 +19,7 @@
 
         .center-logo {
             opacity: 1!important;
-            width: 24vw!important;
+            width: 278px!important;
         }
 
     </style>
@@ -40,7 +40,7 @@
 
             <div class="arrow">
                 <p> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor.</p>
-                <div class="bounce">
+                <div class="bounce" style="top: -3vw;position: relative;">
                     <button class="fa fa-arrow-down fa-2x " onClick="runclick();" href="#"></button>
                 </div>
             </div>
