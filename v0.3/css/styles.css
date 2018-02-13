@@ -197,11 +197,16 @@ main {
 .banner h1 {
     text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
     color: white;
+    font-size: 100px;
 }
 
-/*.landing div {
-    color: #3a6582;
-}*/
+@media (max-width:425px) {
+    .banner h1 {
+
+        font-size: 15vw;
+    }
+}
+
 
 .landing p {
     color: #014775;
