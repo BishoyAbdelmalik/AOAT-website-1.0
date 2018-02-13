@@ -15,6 +15,8 @@
         .arrow p {
             bottom: 6vw;
             position: relative;
+            font-size: 17px;
+            color: white;
         }
 
         .center-logo {
