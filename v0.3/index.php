@@ -13,8 +13,9 @@
     <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .arrow p {
-            bottom: 6vw;
-            position: relative;
+            /*
+ bottom: 6vw; position: relative;
+*/
             font-size: 17px;
             color: white;
         }
@@ -42,9 +43,11 @@
 
             <div class="arrow">
                 <p> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor.</p>
-                <div class="bounce" style="top: -3vw;position: relative;">
-                    <button class="fa fa-arrow-down fa-2x " onClick="runclick();" href="#"></button>
-                </div>
+                <!--
+<div class="bounce" style="top: -3vw;position: relative;">
+    <button class="fa fa-arrow-down fa-2x " onClick="runclick();" href="#"></button>
+</div>
+-->
             </div>
         </div>
     </div>

@@ -190,8 +190,7 @@ main {
 .landing h1 {
     text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
     color: #0484d8;
-    position: relative;
-    top: 13vh;
+
 }
 
 .banner h1 {
@@ -261,8 +260,8 @@ main {
     -webkit-transition: 0s;
     transition: 0s;
     height: 100vh;
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(216, 216, 216, 0.57)), to(rgba(216, 216, 216, 0.57))), url(../images/home/AboutAOAT.jpg);
-    background: linear-gradient( rgba(216, 216, 216, 0.57), rgba(216, 216, 216, 0.57)), url(../images/home/AboutAOAT.jpg);
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(216, 216, 216, 0)), to(rgba(216, 216, 216, 0))), url(../images/home/AboutAOAT.jpg);
+    background: linear-gradient( rgba(216, 216, 216, 0), rgba(216, 216, 216, 0)), url(../images/home/AboutAOAT.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -335,8 +334,7 @@ main {
 
 .arrow {
     text-align: center;
-    position: relative;
-    top: 25vh;
+
 }
 
 
@@ -393,10 +391,10 @@ main {
 }
 
 #aboutAOAT_AT {
-    bottom: 19%;
-
+    top: 15vw;
+    background: linear-gradient( rgba(216, 216, 216, 0.57), rgba(216, 216, 216, 0.57));
     -webkit-transition: all 1s;
-
+    height: 189px;
     transition: all 1s;
 
 }
