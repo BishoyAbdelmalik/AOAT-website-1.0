@@ -509,9 +509,8 @@ main {
 }
 
 #teachers {
-    /*background: linear-gradient( rgba(255, 255, 255, 0.87), rgba(175, 175, 175, 0), rgba(76, 185, 212, 0.06)), url(../images/teachers/teacher_cover2.jpg);*/
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(216, 216, 216, 0.55)), to(rgba(216, 216, 216, 0.55))), url(../images/teachers/teacher_cover2.jpg);
-    background: linear-gradient( rgba(216, 216, 216, 0.55), rgba(216, 216, 216, 0.55)), url(../images/teachers/teacher_cover2.jpg);
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(216, 216, 216, 0.3)), to(rgba(216, 216, 216, 0.3))), url(../images/teachers/teacher_cover2.jpg);
+    background: linear-gradient( rgba(216, 216, 216, 0.3), rgba(137, 143, 147, 0.3)), url(../images/teachers/teacher_cover2.jpg);
     background-position: top center;
     background-size: cover;
 
