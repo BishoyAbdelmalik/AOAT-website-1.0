@@ -61,8 +61,9 @@
 
 
             <div class="news">
-                <div class="row lockcontent">
-                    <div class="col-sm-6">
+                <!--                <div class="row lockcontent">-->
+                <div class="row">
+                    <div class="col-sm-6 flex_b">
                         <article>
                             <h2>News</h2>
                             <h4>Inspiring Kerry James Marshall Exhibit @MOCA</h4>
@@ -96,7 +97,17 @@
                 </div>
 
             </div>
-            <!--
+
+
+
+
+
+
+
+
+
+
+            <!--to be commented-->
             <div class="row ">
                 <div class="">
                     <div class="homeimage flex">
@@ -123,7 +134,7 @@
                     </div>
                 </div>
             </div>
--->
+
 
             <footer class="footer">
                 <?php        require 'php_dependancy/footer.php';
