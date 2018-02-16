@@ -36,7 +36,7 @@
     </header>
     <div class="homeimage aboutAOAT landing">
 
-        <div class="absolute-text pagetitle bannertitle" id="aboutAOAT_AT">
+        <div class="absolute-text pagetitle bannertitle noscale" id="aboutAOAT_AT">
 
             <h1><img id="waypoint" class="center-logo" src="/images/logos/aoat%20final%20logo.svg" title="The Acdemy of Art and Technology"></h1>
 

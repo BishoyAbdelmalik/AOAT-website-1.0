@@ -272,7 +272,7 @@ main {
 
 @media (max-width: 1116px) {
     .landing {
-        height: 60vh;
+        height: 50vh;
         background-size: contain;
     }
 
@@ -280,22 +280,48 @@ main {
 
 @media (max-width: 920px) {
     .landing {
-        height: 50vh;
+        height: 47vh;
     }
 
 }
 
 @media (max-width: 784px) {
     .landing {
-        height: 45vh;
+        height: 40vh;
     }
     .landing div {
         -webkit-transform: scale(0.8);
         transform: scale(0.8);
     }
+    .arrow {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    .noscale {
+        -webkit-transform: scale(1)!important;
+        transform: scale(1)!important;
+    }
 }
 
-@media (max-width: 696px) {
+@media (max-width: 516px) {
+
+    .landing h1 {
+        margin-top: 0;
+    }
+    #aboutAOAT_AT {
+        height: 194px!important;
+    }
+}
+
+@media (max-width: 364px) {
+
+    .landing h1 {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 722px) {
     .landing {
         height: 35vh;
         background-size: cover;
@@ -392,6 +418,7 @@ main {
 
 #aboutAOAT_AT {
     top: 17vw;
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(216, 216, 216, 0.57)), to(rgba(216, 216, 216, 0.57)));
     background: linear-gradient( rgba(216, 216, 216, 0.57), rgba(216, 216, 216, 0.57));
     -webkit-transition: all 1s;
     height: 189px;
@@ -507,7 +534,7 @@ main {
 }
 
 #teachers {
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(216, 216, 216, 0.3)), to(rgba(216, 216, 216, 0.3))), url(../images/teachers/teacher_cover2.jpg);
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(216, 216, 216, 0.3)), to(rgba(137, 143, 147, 0.3))), url(../images/teachers/teacher_cover2.jpg);
     background: linear-gradient( rgba(216, 216, 216, 0.3), rgba(137, 143, 147, 0.3)), url(../images/teachers/teacher_cover2.jpg);
     background-position: top center;
     background-size: cover;
@@ -1211,9 +1238,9 @@ body {
     }
 }
 
-.bannertitle {
+/*.bannertitle {
     bottom: 50%!important;
-}
+}*/
 
 .btn-info:hover {
     background-color: #0e6aa7;
