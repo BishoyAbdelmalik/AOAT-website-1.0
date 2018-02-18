@@ -16,7 +16,6 @@ main section {
     cursor: pointer;
 }
 
-.studentwork {}
 
 .studentwork a {
     color: #fff;
@@ -35,7 +34,6 @@ main section {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-
     padding: 2em;
     width: 33.33%;
     text-align: center;
@@ -54,24 +52,16 @@ main section {
 }
 
 .studentwork img {
-    /*
-float: left;*/
     width: 33.33%;
     height: 50%;
 }
 
 
-.studentwork a img {
-    /*
-background: #fff;
-*/
-}
+
 
 .studentworkTile {
     background: #fff;
     width: 33.33%;
-    /*
-float: left;*/
 }
 
 .studentworkTile img {
@@ -84,8 +74,6 @@ float: left;*/
 }
 
 .studentworkTile img:hover {
-
-
     opacity: 0.8;
 }
 
@@ -99,8 +87,6 @@ float: left;*/
     background: white;
     height: auto !important;
 
-    /*
-    width: auto !important;*/
 }
 
 .only_info {
@@ -182,10 +168,6 @@ img {
 
 }
 
-.projects_grid img {
-/*    height: 206px;
-    */
-}
 
 @media (max-width: 768px) {
 
@@ -213,13 +195,3 @@ img {
         font-size: 12px;
     }
 }
-
-/*@media (max-width: 524px) {
-    .studentwork article {
-        padding: 2em;
-    }
-
-    .studentwork article {
-        width: 100%;
-    }
-}*/
