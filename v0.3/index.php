@@ -48,6 +48,11 @@
                 width: 99%;
                 height: 60vw;
                 display: block;
+                user-select: none;
+                user-drag: none;
+                -webkit-user-drag: none;
+                -ms-user-drag: none;
+                -o-user-drag: none;
             }
         }
 
