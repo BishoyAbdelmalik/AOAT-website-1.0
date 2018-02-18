@@ -9,7 +9,6 @@
     <link async rel="stylesheet" href="css/bootstrap.min.css" />
     <link async rel="stylesheet" href="css/styles.css" />
     <title>AOAT | Home</title>
-
     <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .arrow p {
@@ -23,6 +22,46 @@
         .center-logo {
             opacity: 1!important;
             width: 278px!important;
+        }
+
+        .studentwork article {
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 2em;
+            width: 100%;
+            text-align: center;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .news_img {
+            display: none;
+        }
+
+        @media(min-width:768px) {
+            .news_img {
+                transform: rotateX(180deg);
+                position: absolute;
+                z-index: 0;
+                opacity: 0.1;
+                width: 99%;
+                height: 60vw;
+                display: block;
+            }
+        }
+
+        @media(min-width:1024px) {
+            .studentwork article {
+                padding-top: 100px;
+                font-size: 1vw!important;
+            }
+            .studentwork h2 {
+                font-size: 2vw!important;
+            }
+            .studentwork h4 {
+                font-size: 1.3vw!important;
+            }
         }
 
     </style>
@@ -64,7 +103,22 @@
                 <!--                <div class="row lockcontent">-->
                 <div class="row">
                     <div class="col-sm-6 flex_b">
-                        <article>
+                        <section class="studentwork flex_b wrap">
+                            <article class="flex_b">
+                                <div>
+                                    <h2>News</h2>
+                                    <h4>Inspiring Kerry James Marshall Exhibit @MOCA</h4>
+                                    <p class="justify">
+                                        Students from 10th and 11th grade enjoyed this major retrospective of Chicago artist Marshall, and of course the escape from school on a sunny spring day! The 2-hour bus ride to downtown was not fun, but experiencing such thought-provoking art with peers is always a treat. Chaperones had a relaxing lunch at the Grand Central Market, and all hope the Angels’ Flight gets back in service soon: that’s a steep hill back up to meet the bus!!
+                                    </p>
+                                    <p class="justify">
+                                        360 photos by teacher <a class="white_txt" href="teachers.php?t=prato">Paola Prato</a>
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
+                        <img src="images/home/StudentWork.jpg" class="news_img" />
+                        <!--    <article>
                             <h2>News</h2>
                             <h4>Inspiring Kerry James Marshall Exhibit @MOCA</h4>
                             <p>
@@ -73,7 +127,7 @@
                             <p>
                                 360 photos by teacher <a class="white_txt" href="teachers.php?t=prato">Paola Prato</a>
                             </p>
-                        </article>
+                        </article>-->
                     </div>
                     <div class="col-sm-6 remove_padding">
                         <div style="overflow: hidden;">
