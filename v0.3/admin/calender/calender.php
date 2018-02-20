@@ -27,24 +27,15 @@ $calender="";
 
 
     <script>
-        function edit() {
-            event.preventDefault();
+        function add() {
             $('#respond').html("");
-            //            var t = $("#teachers").val();
             $('#calender_form').submit(function(event) {
-
-                // get the form data
-                // there are many ways to get this data using jQuery (you can use the class or id also)
-                var formData = {
-                    't': t
-
-                };
 
                 // process the form
                 $.ajax({
                         type: 'POST',
-                        url: 'calender/calender_edit.php',
-                        data: formData,
+                        url: 'calender/calender_add.php',
+                        data: "",
                         dataType: 'html',
                         encode: true
                     })
@@ -59,14 +50,14 @@ $calender="";
             });
         }
 
-        function add() {
+        function edit() {
             $('#respond').html("");
             $('#calender_form').submit(function(event) {
 
                 // process the form
                 $.ajax({
                         type: 'POST',
-                        url: 'calender/calender_add.php',
+                        url: 'calender/calender_edit.php',
                         data: "",
                         dataType: 'html',
                         encode: true

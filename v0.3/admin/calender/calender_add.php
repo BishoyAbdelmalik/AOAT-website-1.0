@@ -22,7 +22,6 @@
     <button onclick="save()" style="width: 500px;">Save</button>
 
 </form>
-<iframe id="frame" class="hidden" src="/teachers.php"></iframe>
 <script>
     function save() {
         event.preventDefault();
@@ -39,7 +38,7 @@
             'day': Eday,
             'event': Etitle,
             'details': Edescription,
-            'time': Etime,
+            'time': Etime
 
         };
 

@@ -3,12 +3,10 @@ error_reporting(0);
 
 function edit(){
     require '../db.php';
-    /*
-    var_dump($_POST);
-*/
-    $db="teachers";
+
+    $table="calender";
     $new_info=$_POST;
-    update($db, $new_info);
+    update($table, $new_info);
 }
 function add(){
     require '../db.php';
