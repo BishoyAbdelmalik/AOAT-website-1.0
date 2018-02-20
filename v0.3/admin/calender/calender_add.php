@@ -33,17 +33,16 @@
         var Emonth = $("#Em").val();
         var Eday = $("#Ed").val();
         var Eyear = $("#Ey").val();
-        //        var formData = {
-        //            'name': name,
-        //            'link': link,
-        //            'img': img,
-        //            'role': role,
-        //            'grade': grade,
-        //            'bio': bio
-        //
-        //        };
+        var formData = {
+            'year': Eyear,
+            'month': Emonth,
+            'day': Eday,
+            'event': Etitle,
+            'details': Edescription,
+            'time': Etime,
 
-        // process the form
+        };
+
         $.ajax({
                 type: 'POST',
                 url: 'calender/send.php?t=2',
@@ -51,7 +50,6 @@
                 dataType: 'html',
                 encode: true
             })
-            // using the done promise callback
             .done(function(data) {
                 alert("Done");
             });
