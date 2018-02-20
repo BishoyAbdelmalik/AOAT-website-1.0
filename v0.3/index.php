@@ -116,7 +116,7 @@
                 <!--                <div class="row lockcontent">-->
                 <div class="row">
                     <div class="col-sm-6 flex_b">
-                        <section class="studentwork flex_b wrap">
+                        <section style="z-index:1" class="studentwork flex_b wrap">
                             <article class="flex_b">
                                 <div>
                                     <h2>News</h2>
