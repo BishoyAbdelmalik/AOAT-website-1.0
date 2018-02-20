@@ -492,8 +492,8 @@ main {
 }
 
 #clubs {
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(76, 185, 212, 0))), url(../images/banners/clubs.jpg);
-    background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(76, 185, 212, 0)), url(../images/banners/clubs.jpg);
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(76, 185, 212, 0))), url(../images/banners/clubs.jpg);
+    background: linear-gradient( rgba(255, 255, 255, 0), rgba(76, 185, 212, 0)), url(../images/banners/clubs.jpg);
     background-position: top;
     background-size: cover;
     overflow: hidden;
@@ -538,9 +538,9 @@ main {
 
 #aboutEvents {
 
-    background: -webkit-gradient( rgba(255, 255, 255, 0.64), rgba(76, 185, 212, 0.22)), url(../images/banners/events.jpg);
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.64)), to(rgba(76, 185, 212, 0.22))), url(../images/banners/events.jpg);
-    background: linear-gradient( rgba(255, 255, 255, 0.64), rgba(76, 185, 212, 0.22)), url(../images/banners/events.jpg);
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(76, 185, 212, 0))), url(../images/banners/events.jpg);
+
+    background: linear-gradient( rgba(255, 255, 255, 0), rgba(76, 185, 212, 0)), url(../images/banners/events.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -576,9 +576,9 @@ main {
 
 #academics {
 
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(182, 156, 201, 0.45))), url(../images/banners/academic.jpg);
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(182, 156, 201, 0))), url(../images/banners/academic.jpg);
 
-    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(182, 156, 201, 0.45)), url(../images/banners/academic.jpg);
+    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(182, 156, 201, 0)), url(../images/banners/academic.jpg);
     background-size: cover;
     background-position: center;
 }
