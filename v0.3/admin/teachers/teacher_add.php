@@ -40,7 +40,7 @@ mysqli_close($connection);
             event.preventDefault();
 
             var name = $("#fname").val() + " " + $("#lname").val();
-            var link = $("#lname").val().toLowerCase();
+            var link = "#" + $("#lname").val().toLowerCase();
             var img = $("#img").val();
             var role = $("#role").val();
             var grade = $("#grade").val();
