@@ -69,6 +69,14 @@
             }
         }
 
+        .upcoming_events:not(:first-child) {
+            padding: 20px;
+        }
+
+        .flickr {
+            background: #009cd5;
+        }
+
     </style>
 </head>
 
@@ -136,7 +144,7 @@
                     </div>
                     <div class="col-sm-6 remove_padding">
                         <div style="overflow: hidden;">
-                            <div class="homeimage">
+                            <div class="homeimage flickr">
                                 <a href="https://www.flickr.com/photos/109236765@N05/albums/72157659567290343">
                                     <img class="homeimage_effect" src="images/home/news.jpg">
 
