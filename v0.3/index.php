@@ -58,7 +58,7 @@
 
         @media(min-width:1024px) {
             .studentwork article {
-                padding-top: 100px;
+                /* padding-top: 100px;*/
                 font-size: 1vw!important;
             }
             .studentwork h2 {
@@ -66,6 +66,16 @@
             }
             .studentwork h4 {
                 font-size: 1.3vw!important;
+            }
+        }
+
+        #news {
+            height: 50vw;
+        }
+
+        @media(max-width:531px) {
+            #news {
+                height: auto;
             }
         }
 
@@ -116,7 +126,7 @@
                 <!--                <div class="row lockcontent">-->
                 <div class="row">
                     <div class="col-sm-6 flex_b">
-                        <section style="z-index:1" class="studentwork flex_b wrap">
+                        <section id="news" style="z-index:1;" class="studentwork flex_b wrap">
                             <article class="flex_b">
                                 <div>
                                     <h2>News</h2>

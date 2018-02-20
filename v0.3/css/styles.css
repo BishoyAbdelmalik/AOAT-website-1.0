@@ -610,6 +610,10 @@ address > a:hover {
     font-size: 35px
 }
 
+.upcoming_events {
+    min-height: 12.5vw;
+}
+
 .upcoming_events:not(:first-child) {
     background-color: #fff;
     padding: 10px 10px 30px
