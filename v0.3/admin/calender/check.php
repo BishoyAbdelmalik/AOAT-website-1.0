@@ -1,4 +1,5 @@
 <?php 
+error_reporting(0);
 require '../mysql.php';
 
 $month=$_POST["month"];
@@ -51,6 +52,28 @@ while($row= mysqli_fetch_assoc($result)){
         $.ajax({
                 type: 'POST',
                 url: 'calender/send.php?t=1',
+                data: formData,
+                dataType: 'html',
+                encode: true
+            })
+            .done(function(data) {
+                alert("Done");
+            });
+
+    }
+
+    function del() {
+        event.preventDefault();
+
+        var formData = {
+            'id': "<?php echo $rows[0]['id'];?>"
+
+
+        };
+
+        $.ajax({
+                type: 'POST',
+                url: 'calender/send.php?t=0',
                 data: formData,
                 dataType: 'html',
                 encode: true

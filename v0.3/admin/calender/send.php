@@ -16,21 +16,10 @@ function add(){
 }
 
 function del(){
-    require '../mysql.php';
-
-    $query='SELECT * FROM `teachers` WHERE name = "'.$_POST[t].'";';
-    $result=mysqli_query($connection,$query);
-    $rows=array();
-    while($row= mysqli_fetch_assoc($result)){
-        array_push($rows, $row);
-    }
-    mysqli_free_result($result);
-    mysqli_close($connection); 
-    echo $query;
     require '../db.php';
-    $id=$rows[0][id];  
-    $db="teachers";
-    delete_row($db, $id);
+    $id=$_POST['id'];  
+    $table="calender";
+    delete_row($table, $id);
 }
 
 switch ($_GET[t]){
