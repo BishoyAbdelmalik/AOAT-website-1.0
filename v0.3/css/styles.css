@@ -368,9 +368,13 @@ footer {
     width: inherit
 }
 
+.banner div {
+    background: linear-gradient(rgba(216, 216, 216, .57), rgba(216, 216, 216, .57));
+}
+
 .banner div,
 .banner h2 {
-    bottom: 0;
+    bottom: 30%;
     position: absolute
 }
 
