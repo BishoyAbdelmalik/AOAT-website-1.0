@@ -392,15 +392,19 @@ footer {
 }
 
 #about {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .45)), to(rgba(76, 185, 212, .39))), url(../images/banners/about_banner2.jpg);
-    background: linear-gradient(rgba(255, 255, 255, .45), rgba(76, 185, 212, .39)), url(../images/banners/about_banner2.jpg);
+    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .45)), to(rgba(76, 185, 212, .39))), url(../images/banners/about_banner2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .45), rgba(76, 185, 212, .39)), url(../images/banners/about_banner2.jpg);*/
+    background: url(../images/banners/about_banner2.jpg);
     background-size: cover;
     background-position: center right
 }
 
 #clubs {
+    /*
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(76, 185, 212, 0))), url(../images/banners/clubs.jpg);
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(76, 185, 212, 0)), url(../images/banners/clubs.jpg);
+*/
+    background: url(../images/banners/clubs.jpg);
     background-position: top;
     background-size: cover
 }
@@ -426,21 +430,31 @@ footer {
 }
 
 #alumni {
+    /*
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(216, 216, 216, .57)), to(rgba(216, 216, 216, .57))), url(../images/home/AboutAOAT.jpg);
     background: linear-gradient(rgba(216, 216, 216, .57), rgba(216, 216, 216, .57)), url(../images/home/AboutAOAT.jpg);
+*/
+    background: url(../images/home/AboutAOAT.jpg);
     background-size: cover
 }
 
+
 #aboutEvents {
+    /*
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(76, 185, 212, 0))), url(../images/banners/events.jpg);
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(76, 185, 212, 0)), url(../images/banners/events.jpg);
+*/
+    background: url(../images/banners/events.jpg);
     background-position: center;
     background-size: cover
 }
 
 #teachers {
+    /*
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(216, 216, 216, .3)), to(rgba(137, 143, 147, .3))), url(../images/teachers/teacher_cover2.jpg);
     background: linear-gradient(rgba(216, 216, 216, .3), rgba(137, 143, 147, .3)), url(../images/teachers/teacher_cover2.jpg);
+*/
+    background: url(../images/teachers/teacher_cover2.jpg);
     background-position: top center;
     background-size: cover
 }
@@ -465,15 +479,19 @@ footer {
 }
 
 #academics {
+    /*
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .45)), to(rgba(182, 156, 201, 0))), url(../images/banners/academic.jpg);
     background: linear-gradient(rgba(255, 255, 255, .45), rgba(182, 156, 201, 0)), url(../images/banners/academic.jpg);
+*/
+    background: url(../images/banners/academic.jpg);
     background-size: cover;
     background-position: center
 }
 
 #calendar {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .45)), to(rgba(76, 185, 212, .2))), url(../images/calender/banner2.jpg);
-    background: linear-gradient(rgba(255, 255, 255, .45), rgba(76, 185, 212, .2)), url(../images/calender/banner2.jpg);
+    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .45)), to(rgba(76, 185, 212, .2))), url(../images/calender/banner2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .45), rgba(76, 185, 212, .2)), url(../images/calender/banner2.jpg);*/
+    background: url(../images/calender/banner2.jpg);
     background-size: cover;
     background-position: center
 }
