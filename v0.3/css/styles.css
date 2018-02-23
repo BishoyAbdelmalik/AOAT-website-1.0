@@ -986,11 +986,13 @@ main {
 }
 
 .quoteimg {
+    border-radius: 4px;
     width: 200px;
     height: 200px
 }
 
 .quote {
+    border-radius: 4px;
     background: #195379;
     margin-left: 20px;
     padding: 1em
