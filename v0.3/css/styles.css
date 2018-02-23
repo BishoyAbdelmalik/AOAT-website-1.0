@@ -100,6 +100,10 @@ footer {
     color: #fff
 }
 
+.white_txt:hover {
+    color: white;
+}
+
 @media screen and (max-width:705px) {
     .sec_img {
         position: relative;
@@ -633,9 +637,6 @@ address > a:hover {
     font-size: 35px
 }
 
-.upcoming_events {
-    min-height: 12.5vw;
-}
 
 .upcoming_events:not(:first-child) {
     background-color: #fff;
