@@ -31,7 +31,7 @@ $calender="";
         <input id="Ey" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Year" value=""><br>
         <input id="Em" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Month" value=""><br>
         <input id="Ed" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Day" value=""><br>
-        <button onclick="check()" style="width: 500px;">Check Events</button>
+        <button onclick="check()" style="width: 500px;">Edit Events</button>
     </form>
     <div class="events">
 

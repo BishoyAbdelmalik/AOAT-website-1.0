@@ -19,7 +19,7 @@
     <input id="Em" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Month" value=""><br>
     <input id="Ed" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Day" value="<?php echo trim(date(" j "));?>"><br>
     <input id="Ey" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Year" value="<?php echo trim(date(" Y "));?>"><br>
-    <button onclick="save()" style="width: 500px;">Save</button>
+    <button onclick="save()" style="width: 500px;">Add Event</button>
 
 </form>
 <script>

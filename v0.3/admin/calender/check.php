@@ -1,5 +1,5 @@
 <?php 
-error_reporting(0);
+/*error_reporting(0)*/;
 require '../mysql.php';
 
 $month=$_POST["month"];
@@ -17,16 +17,31 @@ $rows=array();
 while($row= mysqli_fetch_assoc($result)){
     array_push($rows, $row);
 }
+$events_available=0;
+$hidden="display: none";   
+    if ($rows){
+     foreach($rows  as $value){
+        $events_available++;
+         if($events_available>0){
+             $hidden=" ";
+         }
+    }
+    }
+
 ?>
 <form style="color:  black;">
-    <input id="Etitle" type="text" placeholder="Event Title" value="<?php echo $rows[0]['event'];?>"><br>
-    <input id="Edescription" type="text" placeholder="Event Description" value="<?php echo $rows[0]['details'];?>"><br>
-    <input id="Etime" type="text" placeholder="Event Time" value="<?php echo $rows[0]['time'];?>"><br>
-    <input id="Emonth" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Month" value="<?php echo $rows[0]['month'];?>"><br>
-    <input id="Eday" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Day" value="<?php echo $rows[0]['day'];?>"><br>
-    <input id="Eyear" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Year" value="<?php echo $rows[0]['year'];?>"><br>
-    <button onclick="save()" style="width: 500px;">Save</button>
-    <button onclick="del()" style="width: 200px;">Delete Event</button>
+    <h1 style="color:  white;">There is
+        <?php echo $events_available;?> events on that day</h1>
+    <div style="<?php echo $hidden;?>">
+        <input id="Etitle" type="text" placeholder="Event Title" value="<?php echo $rows[0]['event'];?>"><br>
+        <input id="Edescription" type="text" placeholder="Event Description" value="<?php echo $rows[0]['details'];?>"><br>
+        <input id="Etime" type="text" placeholder="Event Time" value="<?php echo $rows[0]['time'];?>"><br>
+        <input id="Emonth" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Month" value="<?php echo $rows[0]['month'];?>"><br>
+        <input id="Eday" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Day" value="<?php echo $rows[0]['day'];?>"><br>
+        <input id="Eyear" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Year" value="<?php echo $rows[0]['year'];?>"><br>
+        <button onclick="save()" style="width: 500px;">Save</button>
+        <button onclick="del()" style="width: 200px;">Delete Event</button>
+    </div>
 </form>
 <script>
     function save() {

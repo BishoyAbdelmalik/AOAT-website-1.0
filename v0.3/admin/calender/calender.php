@@ -29,6 +29,7 @@ $calender="";
     <script>
         function add() {
             $('#respond').html("");
+            $('#respond').html("");
             $('#calender_form').submit(function(event) {
 
                 // process the form
@@ -51,6 +52,7 @@ $calender="";
         }
 
         function edit() {
+            $('#respond').html("");
             $('#respond').html("");
             $('#calender_form').submit(function(event) {
 
