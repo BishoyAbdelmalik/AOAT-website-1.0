@@ -91,10 +91,10 @@ $_SESSION['last_action'] = time();
 
                     // process the form
                     $.ajax({
-                            type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
-                            url: 'post.php', // the url where we want to POST
-                            data: formData, // our data object
-                            dataType: 'html', // what type of data do we expect back from the server
+                            type: 'POST',
+                            url: 'post.php',
+                            data: formData,
+                            dataType: 'html',
                             encode: true
                         })
                         // using the done promise callback

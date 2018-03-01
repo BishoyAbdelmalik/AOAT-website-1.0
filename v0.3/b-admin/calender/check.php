@@ -1,4 +1,5 @@
 <?php 
+
 /*error_reporting(0)*/;
 require '../mysql.php';
 
@@ -66,13 +67,13 @@ $hidden="display: none";
 
         $.ajax({
                 type: 'POST',
-                url: 'calender/send.php?t=1',
+                url: 'send.php?t=1',
                 data: formData,
                 dataType: 'html',
                 encode: true
             })
             .done(function(data) {
-                alert("Done");
+                alert(data);
             });
 
     }
@@ -88,13 +89,13 @@ $hidden="display: none";
 
         $.ajax({
                 type: 'POST',
-                url: 'calender/send.php?t=0',
+                url: 'send.php?t=0',
                 data: formData,
                 dataType: 'html',
                 encode: true
             })
             .done(function(data) {
-                alert("Done");
+                alert(data);
             });
 
     }

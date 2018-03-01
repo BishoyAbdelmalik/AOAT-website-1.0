@@ -55,8 +55,6 @@
         <script>
             function teachers_btn() {
                 window.location.href = "teachers/";
-
-                /* $.post( "teachers/teachers.php", "", function(data) { $('body').html(data); } );*/
             }
 
             function Loge_out() {
@@ -65,13 +63,8 @@
             }
 
             function calender_btn() {
-                $.post(
-                    "calender/calender.php", "",
-                    function(data) {
-                        $('body').html(data);
+                window.location.href = "calender/";
 
-                    }
-                );
             }
 
         </script>

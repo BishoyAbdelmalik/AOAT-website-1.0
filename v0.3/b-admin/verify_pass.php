@@ -14,9 +14,7 @@ function post($username,$password){
     if(!password_verify ( $password , $hash)){
         echo "user name or password is wrong";
     }else{
-        /*echo "true";*/
         session_start();
-
         $_SESSION["login"] = 1;
         
     }
@@ -33,6 +31,9 @@ function verify($username,$password, $page){
     $hash=$rows[0][password];
     if(!password_verify ( $password , $hash)){
         echo "user name or password is wrong";
+        session_start();
+        session_unset();
+        session_destroy();
     }else{
         page($page);
     }
@@ -41,8 +42,7 @@ function page($page){
     switch ($page) {
         case "home":
             require "home.php";
-            break;
-        
+            break; 
     }
     
 }

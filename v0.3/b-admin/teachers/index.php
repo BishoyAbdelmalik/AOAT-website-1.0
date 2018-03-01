@@ -28,7 +28,7 @@ $_SESSION['last_action'] = time();
 if($_SESSION["login"]==1){
 
 }else{
-    header("Location: /admin"); /* Redirect browser */
+    header("Location: /b-admin"); /* Redirect browser */
     exit();
 }
 ?>
