@@ -14,7 +14,11 @@ function post($username,$password){
     if(!password_verify ( $password , $hash)){
         echo "user name or password is wrong";
     }else{
-        echo "true";
+        /*echo "true";*/
+        session_start();
+
+        $_SESSION["login"] = 1;
+        
     }
 }
 function verify($username,$password, $page){

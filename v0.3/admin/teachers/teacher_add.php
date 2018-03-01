@@ -58,7 +58,7 @@ mysqli_close($connection);
             // process the form
             $.ajax({
                     type: 'POST',
-                    url: 'teachers/send.php?t=2',
+                    url: 'send.php?t=2',
                     data: formData,
                     dataType: 'html',
                     encode: true

@@ -81,3 +81,45 @@ button:focus {
     color: #333333;
     outline: 0;
 }
+
+.logo {
+    width: 50%;
+    height: auto;
+    max-width: 400px;
+}
+
+.logo_area {
+    padding: 20px;
+    text-align: center;
+}
+
+/*#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}*/
+
+footer {
+    color: white;
+    bottom: 5px;
+    right: 10px;
+    text-align: right;
+}
+
+.b {
+    max-width: 50px
+}
+
+/* Change the white to any color ;) */
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 100px #333333 inset;
+}
+
+/*Change text in autofill textbox*/
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: white !important;
+}
