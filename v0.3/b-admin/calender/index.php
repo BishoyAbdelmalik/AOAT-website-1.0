@@ -93,10 +93,6 @@ if($_SESSION["login"]==1){
 
         }
 
-        .hidden {
-            display: none;
-        }
-
     </style>
 </head>
 

@@ -1,7 +1,6 @@
 <?php 
 
-/*error_reporting(0)*/;
-require '../mysql.php';
+error_reporting(0);require '../mysql.php';
 
 $month=$_POST["month"];
 $year=$_POST["year"];

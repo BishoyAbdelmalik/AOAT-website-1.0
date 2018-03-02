@@ -115,8 +115,8 @@ $teachers="";
         ?>    
     </select>
                 <div class="flex_b">
-                    <button onclick="edit()">Edit Teacher Info</button>
-                    <button onclick="add()">Add Teacher</button>
+                    <button id="edit_btn">Edit Teacher Info</button>
+                    <button id="add_btn">Add Teacher</button>
                 </div>
                 <button onclick="del()">Delete Selected Teacher</button>
                 <button onclick="refresh()">Refresh</button>
@@ -130,12 +130,72 @@ $teachers="";
                     jquery(1);
     ?>
             <script>
+                $(document).ready(function() {
+                    $('#edit_btn').click(function() {
+
+                        $('#respond').html("");
+                        var t = $("#teachers").val();
+
+                        $('#teacher_form').submit(function(event) {
+
+                            // get the form data
+                            // there are many ways to get this data using jQuery (you can use the class or id also)
+                            var formData = {
+                                't': t
+
+                            };
+
+                            // process the form
+                            $.ajax({
+                                    type: 'POST',
+                                    url: 'teacher_edit.php',
+                                    data: formData,
+                                    dataType: 'html',
+                                    encode: true
+                                })
+                                // using the done promise callback
+                                .done(function(data) {
+                                    $('#respond').html(data);
+
+                                });
+
+                            // stop the form from submitting the normal way and refreshing the page
+                            event.preventDefault();
+                        });
+                    });
+                    $('#add_btn').click(function() {
+
+                        $('#respond').html("");
+
+                        $('#teacher_form').submit(function(event) {
+
+                            // process the form
+                            $.ajax({
+                                    type: 'POST',
+                                    url: 'teacher_add.php',
+                                    data: "",
+                                    dataType: 'html',
+                                    encode: true
+                                })
+                                // using the done promise callback
+                                .done(function(data) {
+                                    $('#respond').html(data);
+
+                                });
+
+                            // stop the form from submitting the normal way and refreshing the page
+                            event.preventDefault();
+                        });
+                    });
+                });
+
                 function Back() {
                     window.location.href = "../loggedin.php";
 
                 }
 
-                function edit() {
+                /*function edit() {
+                    $('#respond').html("");
                     $('#respond').html("");
                     var t = $("#teachers").val();
                     $('#teacher_form').submit(function(event) {
@@ -164,30 +224,31 @@ $teachers="";
                         // stop the form from submitting the normal way and refreshing the page
                         event.preventDefault();
                     });
-                }
+                }*/
 
-                function add() {
-                    $('#respond').html("");
-                    $('#teacher_form').submit(function(event) {
+                /*   function add() {
+                       $('#respond').html("");
+                       $('#respond').html("");
+                       $('#teacher_form').submit(function(event) {
 
-                        // process the form
-                        $.ajax({
-                                type: 'POST',
-                                url: 'teacher_add.php',
-                                data: "",
-                                dataType: 'html',
-                                encode: true
-                            })
-                            // using the done promise callback
-                            .done(function(data) {
-                                $('#respond').html(data);
+                           // process the form
+                           $.ajax({
+                                   type: 'POST',
+                                   url: 'teacher_add.php',
+                                   data: "",
+                                   dataType: 'html',
+                                   encode: true
+                               })
+                               // using the done promise callback
+                               .done(function(data) {
+                                   $('#respond').html(data);
 
-                            });
+                               });
 
-                        // stop the form from submitting the normal way and refreshing the page
-                        event.preventDefault();
-                    });
-                }
+                           // stop the form from submitting the normal way and refreshing the page
+                           event.preventDefault();
+                       });
+                   }*/
 
 
 
