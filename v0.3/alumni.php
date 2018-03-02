@@ -30,6 +30,10 @@
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #8a0add, rgba(0, 0, 0, 0));
         }
 
+        .bio_block {
+            padding: 25px;
+        }
+
     </style>
 </head>
 
