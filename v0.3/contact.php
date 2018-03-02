@@ -100,6 +100,8 @@ require 'php_dependancy/js.php' ;
     nav();
     bootstrap(0);
    ?>
+        <script src="/js/contact_form.js"></script>
+
 
 </body>
 
