@@ -9,7 +9,6 @@
     <link async rel="stylesheet" href="css/bootstrap.min.css" />
     <link async rel="stylesheet" href="css/styles.css" />
     <title>AOAT | Home</title>
-    <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .arrow p {
             font-size: 17px;
@@ -39,23 +38,12 @@
 
             <div class="arrow">
                 <p> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor.</p>
-                <!--
-<div class="bounce" style="top: -3vw;position: relative;">
-    <button class="fa fa-arrow-down fa-2x " onClick="runclick();" href="#"></button>
-</div>
--->
             </div>
         </div>
     </div>
 
     <main class="blue_background">
-
-
-
         <div class="main">
-
-
-
             <div class="news">
                 <div class="row lockcontent">
                     <div class="col-sm-6 flex_b">
@@ -93,47 +81,6 @@
                 </div>
 
             </div>
-
-
-
-
-
-
-
-
-
-
-            <!--
- to be commented
-<div class="row ">
-    <div class="">
-        <div class="homeimage flex">
-            <div id="teacher">
-                <img src="images/home/Teachers.jpg">
-                <div class="absolute-text" id="teacher_AT">
-                    <h2>Get to Know Our Teachers</h2>
-                    <a href="teachers.php">
-                                    <button type="button" class="btn btn-primary"> View More </button>
-                                </a>
-                </div>
-            </div>
-        </div>
-        <div class="homeimage flex">
-            <div id="studentwork">
-                <img src="images/home/StudentWork.jpg">
-                <div class="absolute-text" id="studentwork_AT">
-                    <h2>Student Work</h2>
-                    <a href="studentwork.php">
-                                    <button type="button" class="btn btn-primary">View More</button>
-                                </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
--->
-
-
             <footer class="footer">
                 <?php        require 'php_dependancy/footer.php';
 require 'php_dependancy/js.php' ;
@@ -149,7 +96,7 @@ require 'php_dependancy/js.php' ;
         nav_home();
         home();      
         bootstrap(0);
-nav();
+        nav();
     ?>
 
 
