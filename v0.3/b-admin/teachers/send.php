@@ -4,9 +4,7 @@ error_reporting(0);
 
 function edit(){
     require '../db.php';
-/*
-    var_dump($_POST);
-*/
+
     $db="teachers";
     $new_info=$_POST;
     update($db, $new_info);

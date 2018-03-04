@@ -1,7 +1,7 @@
 <?php 
 session_start();
 //minutes or more.
-$expireAfter = 5;
+$expireAfter = 10;
 
 if(isset($_SESSION['last_action'])){
 
@@ -21,6 +21,8 @@ if(isset($_SESSION['last_action'])){
     }
 
 }
+$_SESSION['last_action'] = time();
+
 error_reporting(0);require '../mysql.php';
 
 $month=$_POST["month"];

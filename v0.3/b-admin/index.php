@@ -11,7 +11,7 @@ if($_SESSION["login"]==1){
 }
 
 //in minutes
-$expireAfter = 5;
+$expireAfter = 10;
 
 
 if(isset($_SESSION['last_action'])){

@@ -1,7 +1,7 @@
 <?php 
 session_start();
 //minutes or more.
-$expireAfter = 5;
+$expireAfter = 10;
 if(isset($_SESSION['last_action'])){
 
 //Figure out how many seconds have passed
