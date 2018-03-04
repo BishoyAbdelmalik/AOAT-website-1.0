@@ -2,7 +2,6 @@
 session_start();
 //minutes or more.
 $expireAfter = 5;
-
 if(isset($_SESSION['last_action'])){
 
 //Figure out how many seconds have passed
@@ -25,6 +24,7 @@ session_destroy();
 //Assign the current timestamp as the user's
 //latest activity
 $_SESSION['last_action'] = time();
+
 if($_SESSION["login"]==1){
 
 }else{
@@ -127,7 +127,7 @@ $calender="";
                     <input id="Etitle" type="text" placeholder="Event Title" value=""><br>
                     <input id="Edescription" type="text" placeholder="Event Description" value=""><br>
                     <input id="Etime" type="text" placeholder="Event Time" value=""><br>
-                    <input id="Em" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Month" value=""><br>
+                    <input id="Em" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Month" value="<?php echo trim(date(" n "));?>"><br>
                     <input id="Ed" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Day" value="<?php echo trim(date(" j "));?>"><br>
                     <input id="Ey" type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" placeholder="Year" value="<?php echo trim(date(" Y "));?>"><br>
                     <button onclick="save_add()" style="width: 500px;">Add Event</button>

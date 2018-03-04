@@ -8,13 +8,13 @@ function update($db, $new_info){
     $last = end($keys);
     foreach ($new_info as $key => $value){
         if($key==$last){$query.='`'.$key.'`';}
-        else{$query.='`'.$key.'`, ';}
+        else{$query.='`'.addslashes($key).'`, ';}
     }
     $query.=") ";
     $query.='VALUES (';
     foreach ($new_info as $key => $value){
         if($key==$last){$query.="'".$value."'";}
-        else{$query.="'".$value."', ";}
+        else{$query.="'".addslashes($value)."', ";}
     }
     $query.=');';
     mysqli_query($connection,$query); 
@@ -28,13 +28,13 @@ function insert($db, $info){
     $last = end($keys);
     foreach ($info as $key => $value){
         if($key==$last){$query.='`'.$key.'`';}
-        else{$query.='`'.$key.'`, ';}
+        else{$query.='`'.addslashes($key).'`, ';}
     }
     $query.=") ";
     $query.='VALUES (';
     foreach ($info as $key => $value){
         if($key==$last){$query.="'".$value."'";}
-        else{$query.="'".$value."', ";}
+        else{$query.="'".addslashes($value)."', ";}
     }
     $query.=');';
     mysqli_query($connection,$query); 

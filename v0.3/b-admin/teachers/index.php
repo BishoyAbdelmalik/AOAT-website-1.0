@@ -2,7 +2,6 @@
 session_start();
 //minutes or more.
 $expireAfter = 5;
-
 if(isset($_SESSION['last_action'])){
 
 //Figure out how many seconds have passed
@@ -25,6 +24,7 @@ session_destroy();
 //Assign the current timestamp as the user's
 //latest activity
 $_SESSION['last_action'] = time();
+
 if($_SESSION["login"]==1){
 
 }else{
