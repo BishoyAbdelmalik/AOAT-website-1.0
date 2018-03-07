@@ -282,13 +282,17 @@ footer {
     }
     .arrow,
     .landing div {
+/*
         -webkit-transform: scale(.8);
-        transform: scale(.8)
+        transform: scale(.8);
+*/
     }
+/*
     .noscale {
         -webkit-transform: scale(1)!important;
         transform: scale(1)!important
     }
+*/
 }
 
 @media (max-width:516px) {
