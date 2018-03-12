@@ -69,7 +69,7 @@
                     <section class="flex_b">
                         <div class="flex_b">
                             <div>
-                                <h3>Contributions to the community</h3>
+                                <h3>Contributions to the Community</h3>
                                 <ul>
                                     <li>
                                         ART club participates in club/school activities such as the Homecoming Parade
