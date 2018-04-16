@@ -21,7 +21,7 @@
                 <li><a href="/about.php">About</a></li>
                 <li><a href="/academics.php">Academics</a></li>
                 <li><a href="/teachers.php">Teachers</a></li>
-                <li><a href="/aoatclubs.php">AOAT Clubs</a></li>
+                <li><a href="/aoatclubs.php">Clubs</a></li>
 
                 <li><a href="/aboutevents.php">Events</a></li>
 
