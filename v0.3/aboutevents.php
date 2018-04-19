@@ -34,7 +34,7 @@
 -->
         </div>
         <section id="quotearea" class="container-fluid lockcontent flex_b">
-            <img class="quoteimg" src="images/placeholder.jpg" />
+            <img class="quoteimg" src="images/events/MOCA_2.jpg" />
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     AOAT provides many opportunities for students to explore their community, from field trips to museums, to volunteering, to career connected visits. We also bring professionals to campus to share their insights about current issues, post-secondary education, and careers. The following are a list of activities that students participate in: Career Exploration Visits, Career Day, College Tours, Museum of Contemporary Art, Museum of Tolerance, Art Club, Annual Homecoming Float, Awards Ceremony, Community Outreach & Volunteer, Day of the Dead Festival, Conferences & Presentations,
@@ -62,7 +62,7 @@
                                 </p>
                             </div>
                         </div>
-                        <img class="img" src="images/placeholder.jpg" />
+                        <img class="img" src="images/events/collegetour.jpg" />
                     </section>
                     <section class="flex_b">
                         <div class="flex_b">
@@ -73,7 +73,7 @@
                                 </p>
                             </div>
                         </div>
-                        <img class="img" src="images/placeholder.jpg" />
+                        <img class="img" src="images/events/MOCA.jpg" />
                     </section>
                     <section class="flex_b">
                         <div class="flex_b">
@@ -97,7 +97,7 @@
                                 </p>
                             </div>
                         </div>
-                        <img class="img" src="images/placeholder.jpg" />
+                        <img class="img" src="images/events/career_day.jpg" />
                     </section>
                 </article>
                 <article id="Celebration">
