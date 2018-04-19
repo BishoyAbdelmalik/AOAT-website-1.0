@@ -27,9 +27,7 @@
     </div>
     <div class="pagetitle container-fluid lockcontent" style="text-align:  center;">
         <h1>Contact Us</h1>
-        <!--
-        <h2>Contact Us</h2>
--->
+
     </div>
     <main class="container-fluid lockcontent">
 
@@ -56,7 +54,7 @@
                     </div>
                 </div>
                 <div>
-                    <label><span class="are_you">Who are you?</span></label>
+                    <label style="color: #006fb7;"><span class="are_you">Who are you?</span></label>
                 </div>
                 <div class="part2 flex wrap">
                     <div>
@@ -78,7 +76,7 @@
 
                 </div>
                 <div>
-                    <div class="flex column body">
+                    <div style="color: #006fb7;" class="flex column body">
                         <span><b>Message:</b> </span><textarea name="paragraph_text" cols="50" rows="10"></textarea>
                     </div>
                 </div>
