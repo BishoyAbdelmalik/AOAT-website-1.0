@@ -117,6 +117,7 @@ $teachers="";
                 <div class="flex_b">
                     <button id="edit_btn">Edit Teacher Info</button>
                     <button id="add_btn">Add Teacher</button>
+                    <button id="add_pic_btn">Add/Replace Picture</button>
                 </div>
                 <button onclick="del()">Delete Selected Teacher</button>
                 <button onclick="refresh()">Refresh</button>
@@ -193,63 +194,6 @@ $teachers="";
                     window.location.href = "../loggedin.php";
 
                 }
-
-                /*function edit() {
-                    $('#respond').html("");
-                    $('#respond').html("");
-                    var t = $("#teachers").val();
-                    $('#teacher_form').submit(function(event) {
-
-                        // get the form data
-                        // there are many ways to get this data using jQuery (you can use the class or id also)
-                        var formData = {
-                            't': t
-
-                        };
-
-                        // process the form
-                        $.ajax({
-                                type: 'POST',
-                                url: 'teacher_edit.php',
-                                data: formData,
-                                dataType: 'html',
-                                encode: true
-                            })
-                            // using the done promise callback
-                            .done(function(data) {
-                                $('#respond').html(data);
-
-                            });
-
-                        // stop the form from submitting the normal way and refreshing the page
-                        event.preventDefault();
-                    });
-                }*/
-
-                /*   function add() {
-                       $('#respond').html("");
-                       $('#respond').html("");
-                       $('#teacher_form').submit(function(event) {
-
-                           // process the form
-                           $.ajax({
-                                   type: 'POST',
-                                   url: 'teacher_add.php',
-                                   data: "",
-                                   dataType: 'html',
-                                   encode: true
-                               })
-                               // using the done promise callback
-                               .done(function(data) {
-                                   $('#respond').html(data);
-
-                               });
-
-                           // stop the form from submitting the normal way and refreshing the page
-                           event.preventDefault();
-                       });
-                   }*/
-
 
 
                 function del() {
