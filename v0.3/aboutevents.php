@@ -75,17 +75,7 @@
                         </div>
                         <img class="img" src="images/events/MOCA.jpg" />
                     </section>
-                    <section class="flex_b">
-                        <div class="flex_b">
-                            <div>
-                                <h3>Museum of Tolerance</h3>
-                                <p class="justify">
-                                    All 10th graders attend this trip that connects to their English and Social Studies classes. They prepare by learning about World War II, and reading related literature, and then write a reflection after the trip.
-                                </p>
-                            </div>
-                        </div>
-                        <img class="img" src="images/placeholder.jpg" />
-                    </section>
+
                 </article>
                 <article id="Career">
                     <section class="flex_b">

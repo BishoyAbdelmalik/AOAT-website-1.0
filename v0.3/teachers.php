@@ -65,27 +65,50 @@ mysqli_close($connection);
                         $teachers.='<div class="bio_block">';
                         $teachers.='<div class="line">';
                         $teachers.='<div class="polaroid" data-toggle="collapse">';
-                        $teachers.='<a href="'.$row[link].'" data-toggle="collapse">';
-                        if (strlen($row[img])==0){
-                            $teachers.='<img src="images/teachers/placeholder.jpg">';
+                        if(trim($row[bio])=="need bio"){
+                            $teachers.='<a href="javascript:void(0)" data-toggle="collapse">';
+                            if (strlen($row[img])==0){
+                                $teachers.='<img src="images/teachers/placeholder.jpg">';
+                            }else{
+                            $teachers.='<img src="'.$row[img].'">';
+                            }
                         }else{
-                        $teachers.='<img src="'.$row[img].'">';
+                            $teachers.='<a href="'.$row[link].'" data-toggle="collapse">';
+                            if (strlen($row[img])==0){
+                                $teachers.='<img src="images/teachers/placeholder.jpg">';
+                            }else{
+                            $teachers.='<img src="'.$row[img].'">';
+                            }
                         }
                         $teachers.='<p>'.$row[name].'</p>';
                         $teachers.='</a>';
                         $teachers.='</div><div>';
-                        $teachers.='<a href="'.$row[link].'" data-toggle="collapse">';
+                        if(trim($row[bio])=="need bio"){
+                            $teachers.='<a href="javascript:void(0)" data-toggle="collapse">';
+                        }else{
+                            $teachers.='<a href="'.$row[link].'" data-toggle="collapse">';
+                        }
                         $teachers.='<h4>'.$row[name].'</h4></a>';
                         if(strlen($row[grade])==0){
                         $teachers.='<p><i>'.$row[role].'</i></p>';
                         }else{
                         $teachers.='<p><i>'.$row[role].'</i><br> Grade: '.$row[grade].'</p>';
                         }
+                        if(trim($row[bio])=="need bio"){
+                            $teachers.='<button class="btn btn-info" type="button" data-toggle="collapse" data-target="'.$row[link].'" disabled>View Profile</button>';
+                        }else{
                         $teachers.='<button class="btn btn-info" type="button" data-toggle="collapse" data-target="'.$row[link].'">
                             View Profile</button>';
+                         }
                         $teachers.='</div></div>';
                         $teachers.='<div id="'.trim($row[link],"#").'" class="collapse">';
+                        if(trim($row[bio])=="need bio"){
+                            $teachers.='<p class="justify"></p></div></div>';
+
+                        }else{
                         $teachers.='<p class="justify">'.$row[bio].'</p></div></div>';
+                        }
+                        
                     }
                     echo $teachers
                     ?>
