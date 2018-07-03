@@ -64,7 +64,7 @@
                                 </p>
                             </div>
                         </div>
-                        <img class="img" src="images/clubs/art%20club.jpg" />
+<!--                        <img class="img" src="images/clubs/art%20club.jpg" />-->
                     </section>
                     <section class="flex_b">
                         <div class="flex_b">
@@ -88,7 +88,7 @@
 
                             </div>
                         </div>
-                        <img class="img" src="images/clubs/art_events.jpg" />
+<!--                        <img class="img" src="images/clubs/art_events.jpg" />-->
                     </section>
                 </article>
 
@@ -103,7 +103,7 @@
                                 </p>
                             </div>
                         </div>
-                        <img class="img" src="images/clubs/mentor.jpg" />
+<!--                        <img class="img" src="images/clubs/mentor.jpg" />-->
                     </section>
 
                 </article>

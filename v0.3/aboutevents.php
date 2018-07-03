@@ -46,7 +46,7 @@
             <div class="sidebuttons flex_b flex_column">
                 <button class="sidebtn btn btn-info" value="#trips">Field Trips</button>
                 <button class="sidebtn btn btn-info" value="#Career">Career Day</button>
-                <button class="sidebtn btn btn-info" value="#Celebration">Celebrations</button>
+                <button class="sidebtn btn btn-info" value="#Celebration">Awards Ceremony</button>
 
             </div>
             <div id="info">
@@ -62,7 +62,6 @@
                                 </p>
                             </div>
                         </div>
-                        <img class="img" src="images/events/collegetour.jpg" />
                     </section>
                     <section class="flex_b">
                         <div class="flex_b">
@@ -73,7 +72,6 @@
                                 </p>
                             </div>
                         </div>
-                        <img class="img" src="images/events/MOCA.jpg" />
                     </section>
 
                 </article>
@@ -87,15 +85,16 @@
                                 </p>
                             </div>
                         </div>
-                        <img class="img" src="images/events/career_day.jpg" />
                     </section>
                 </article>
                 <article id="Celebration">
 
                     <section>
-                        <h3>Celebrations</h3>
+                        <h3>Awards Ceremony</h3>
                         <p class="justify">
-                            The Art Club hosts several potluck parties throughout the year, but especially at the end of each semester, where students and teachers share food and conversation, and play Rock Bank together. The teachers also celebrate semester grades for students who make the honor roll with ice cream socials, and the year-end Awards Assembly that recognizes achievement and improvement in every grade level.
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
+
+
                         </p>
                     </section>
                 </article>

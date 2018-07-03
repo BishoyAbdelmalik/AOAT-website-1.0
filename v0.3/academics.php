@@ -63,12 +63,12 @@
                     <section class="flex_b">
                         <div class="flex_b">
                             <div>
-                                <h3>Career Development</h3>
+                                <h3>Career Development Workshops</h3>
                                 <p class="justify">Students in grades 10, 11 and 12 participate in workshops every year that prepare them for careers. These workshops include topics such as transferrable skills, the hidden jobs within each profession, writing and revising resumes, etc. Each year students visit different businesses in the focus area of our Academy, learning about how their classes are connected to the real world of work.
                                 </p>
                             </div>
                         </div>
-                        <img class="img" src="images/academics/mock/mock1.jpg" />
+<!--                        <img class="img" src="images/academics/mock/mock1.jpg" />-->
                     </section>
                     <section class="flex_b">
                         <div class="flex_b">
@@ -79,7 +79,7 @@
                                 </p>
                             </div>
                         </div>
-                        <img class="img" src="images/academics/mock/mock2.jpg" />
+<!--                        <img class="img" src="images/academics/mock/mock2.jpg" />-->
                     </section>
                 </article>
                 <article id="internship">
@@ -110,7 +110,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <img class="sec_img" src="images/academics/intern/intern3.jpg" style="margin-left: 3%;">
+<!--                            <img class="sec_img" src="images/academics/intern/intern3.jpg" style="margin-left: 3%;">-->
                         </section>
                         <section class="container-fluid lockcontent pointer">
                             <p class="justify  internship">
@@ -130,21 +130,21 @@
                                 </p>
                             </div>
                         </section>
-                        <img class=" img" src="images/clubs/mentor.jpg" style="margin-left: 14px;margin-bottom: 9px;">
+<!--                        <img class=" img" src="images/clubs/mentor.jpg" style="margin-left: 14px;margin-bottom: 9px;">-->
                     </section>
                 </article>
                 <article id="Curriculum">
                     <h3>AOAT Curriculum</h3>
                     <section id="curriculum_main">
                         <section id="curriculum">
+<!--
                             <section>
                                 <h4 class="green">Grade 9: Pre-Academy</h4>
                                 <h5>Team Leader: <a href="teachers.php?t=rosillo">Gabriela Rosillo</a></h5>
                                 <p>
 
                                 </p>
-                                <!--                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#9th">View Classes</button>-->
-                                <!--                                <div id="9th" class="collapse">-->
+                              
                                 <div id="9th">
                                     <h5><b>Classes:</b></h5>
                                     <ul>
@@ -154,23 +154,23 @@
                                     </ul>
                                 </div>
                             </section>
-                            <hr>
+
+                            <hr>-->
                             <section>
                                 <h4 class="green">Grade 10: Theme: Awareness</h4>
                                 <h5>Team Leader: <a href="teachers.php?t=prato">Paola Prato</a></h5>
                                 <p class="justify">
                                     The overall theme for 10th Grade is Social Group Awareness, and students explore what community means, how group identity is vital to change and how to create community. The theme of social justice, as reflected in literature and history, is the lens through which students examine the elements that contribute to how each individual can influence his community and the world. The interdisciplinary trip is a tour of the Museum of Tolerance.
                                 </p>
-                                <!--                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#10th">View Classes</button>-->
+                           
                                 <div id="10th">
                                     <h5><b>Classes:</b></h5>
                                     <ul>
                                         <li>
                                             Photo
                                             <ul>
-                                                <li>Digital Imaging</li>
-                                                <li>Digital Illustration</li>
-                                                <li>Photography</li>
+                                                <li>Digital Imaging/Digital Illustration</li>
+                                                <li>Digital Photography</li>
                                             </ul>
                                         </li>
                                         <li>World History</li>
@@ -192,9 +192,9 @@
                                     <h5><b>Classes:</b></h5>
                                     <ul>
                                         <li>
-                                            Digital Imaging
+                                            Graphic Design
                                             <ul>
-                                                <li>Print</li>
+                                                <li>Print Design</li>
                                                 <li>Web Design</li>
                                             </ul>
                                         </li>
@@ -219,10 +219,9 @@
                                 <div id="12th">
                                     <h5><b>Classes:</b></h5>
                                     <ul>
-                                        <li>Graphic Design
+                                        <li>Graphic Design: Advertising Design
                                             <ul>
-                                                <li>Advance Print</li>
-                                                <li>Web Design</li>
+                                                <li>Advance Print Design</li>
                                             </ul>
                                         </li>
                                         <li>

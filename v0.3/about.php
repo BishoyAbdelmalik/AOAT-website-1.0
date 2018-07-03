@@ -25,7 +25,7 @@
 
         <div class="banner homeimage aboutAOAT landing" id="about">
             <div class="pagetitle absolute-text bannertitle">
-                <h1>About AOAT</h1>
+                <h1>About</h1>
                 <!--
 <div class="arrow bounce">
     <button class="fa fa-arrow-down fa-2x " onClick="runclick();" href="#"></button>
@@ -47,24 +47,18 @@
         </section>
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
-                <button class="sidebtn btn btn-info" value="#vision">Our Vision</button>
-                <button class="sidebtn btn btn-info" value="#mission">Our Mission</button>
+                <button class="sidebtn btn btn-info" value="#vision">About US</button>
+                <button class="sidebtn btn btn-info" value="#mission">Vision & Mission</button>
                 <button class="sidebtn btn btn-info" value="#CPA">CPA Lighthouse Academy</button>
-                <button class="sidebtn btn btn-info" value="#Advisory">Board of Advisory</button>
+                <button class="sidebtn btn btn-info" value="#Advisory">Advisory Board</button>
                 <button class="sidebtn btn btn-info" value="#Partners">Partners</button>
             </div>
             <div id="info">
                 <article id="vision">
-                    <h3>Our Vision</h3>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
 
-                    <p class="justify">
-                        Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor. AOAT instills all students with a love of learning, civic responsibility and the individual confidence to achieve their personal best.
-                    </p>
-                </article>
-                <article id="mission">
-                    <h3>Mission</h3>
-                    <p class="justify"> We are a college prep program that fosters a supportive community, a 21st century approach to learning, and professional preparation. </p>
-                    <div>
+</p>
+                     <div>
                         <h3>AOAT offers:</h3>
                         <ul>
                             <li>Research, academic and financial planning workshops</li>
@@ -97,22 +91,36 @@
                         </ul>
                     </div>
                 </article>
+                <article id="mission">
+                     <h3>Our Vision</h3>
+
+                    <p class="justify">
+                        Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor. AOAT instills all students with a love of learning, civic responsibility and the individual confidence to achieve their personal best.
+                    </p>
+                    <h3>Mission</h3>
+                    <p class="justify"> We are a college prep program that fosters a supportive community, a 21st century approach to learning, and professional preparation. </p>
+                   
+                </article>
                 <article id="CPA">
                     <h3>CPA Lighthouse Academy</h3>
                     <div class="flex_b wrap_about">
+                        <div>
                         <p class="justify" id="CPA">
-                            The Academy of Art & Technology is designated a "Lighthouse Academy" by the California Department of Education and is part of an elite corps of only 14 distinguished programs out of 500 California Partnership Academies (CPA) in California. This highly coveted honor is a result of a rigorous selection process, including recommendation by the school district, an interview with the coordinator, and a review of student portfolios.<br> Lighthouse Academies provide mentoring and support to other academies, host regional meetings every fall, and participate as presenters at the annual conference. Lighthouse teams attend seminars in Sacramento twice a year, share best practices and are models for new or struggling programs.<br> AOAT is proud to be a leading member of the CPA community. <br>
+                            The Academy of Art & Technology is designated a "Lighthouse Academy" by the California Department of Education and is part of an elite corps of only 17 distinguished programs out of 400 California Partnership Academies (CPA) in California. This highly coveted honor is a result of a rigorous selection process, including recommendation by the school district, an interview with the coordinator, and a review of student portfolios.
                         </p>
-                        <a target="_blank" href="http://www.cde.ca.gov/ci/gs/hs/cpagen.asp">
+                        <p>Lighthouse Academies provide mentoring and support to other academies, host regional meetings every fall, and participate as presenters at the annual conference. Lighthouse teams attend seminars in Sacramento twice a year, share best practices and are models for new or struggling programs.</p>
+                        <p> AOAT is proud to be a leading member of the CPA community. </p>
+                            </div>
+                        
+                    </div>
+<a target="_blank" href="http://www.cde.ca.gov/ci/gs/hs/cpagen.asp">
                             <img class="img" width="200px" src="images/logos/temp_lighthouse.png">
                         </a>
-                    </div>
-
                 </article>
                 <article id="Advisory">
-                    <h3>Board of Advisory</h3>
+                    <h3>Advisory Board</h3>
                     <p class="justify">
-                        With the help of National Academy Foundation, we were able to build our first Board of Advisory in 2011, and are continuing to grow this group of generous individuals who have stepped up to support AOAT. Board meetings are held every other month to plan projects that contribute to student and program success. Many of AOAT's achievements would not be possible without their participation and leadership.
+                        With the help of National Academy Foundation, we were able to build our first Advisory Board in 2011, and are continuing to grow this group of generous individuals who have stepped up to support AOAT. Board meetings are held every other month to plan projects that contribute to student and program success. Many of AOAT's achievements would not be possible without their participation and leadership.
                     </p>
                     <ul>
                         <li>California State University, Northridge (CSUN)</li>
