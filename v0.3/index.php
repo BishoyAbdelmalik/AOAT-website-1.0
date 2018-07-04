@@ -11,7 +11,15 @@
     <title>AOAT | Home</title>
     <style>
         .arrow p {
-            font-size: 17px;
+            font-family: Muli, sans-serif;
+        }
+        .arrow p:first-child {
+            font-size: 24px;
+            color: #4cb9d4;
+            margin: 0;
+        }
+        .arrow p:last-child {
+            font-size: 20px;
             color: white;
         }
 
@@ -37,7 +45,8 @@
 
 
             <div class="arrow">
-                <p> Our goal is to provide students with the academic background and professional tools necessary for success in any endeavor.</p>
+                <p><strong>Academy of Art and Technology</strong></p>
+                <p>Grover Cleveland Charter High School</p>
             </div>
         </div>
     </div>

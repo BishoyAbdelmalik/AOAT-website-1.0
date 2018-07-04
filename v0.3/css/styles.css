@@ -303,7 +303,9 @@ footer {
         margin-top: 0
     }
     #aboutAOAT_AT {
+/*
         height: 194px!important
+*/
     }
 }
 
@@ -334,23 +336,25 @@ footer {
 }
 
 #aboutAOAT_AT {
-    top: 10%;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(216, 216, 216, .57)), to(rgba(216, 216, 216, .57)));
-    background: linear-gradient(rgba(216, 216, 216, .57), rgba(216, 216, 216, .57));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.71)), to(rgba(76, 75, 75, 0.71)));
+    background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(76, 75, 75, 0.71));
     -webkit-transition: all 1s;
-    height: 189px;
-    transition: all 1s
+    transition: all 1s;
+    top: 51%;
+    bottom: 0;
 }
 
 @media (min-width:927px) {
     #aboutAOAT_AT {
-        top: 26%
+        top: 26%;
+        bottom: 0;
     }
 }
 
 @media (min-width:1117px) {
     #aboutAOAT_AT {
-        top: 34%
+        top: 48%;
+        bottom: 0;
     }
 }
 
@@ -388,8 +392,8 @@ footer {
 }
 
 .banner div {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(216, 216, 216, .57)), to(rgba(216, 216, 216, .57)));
-    background: linear-gradient(rgba(216, 216, 216, .57), rgba(216, 216, 216, .57));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 75, 75, .57)), to(rgba(75,75, 75, .57)));
+    background: linear-gradient(rgba(75, 75, 75, .57), rgba(75,75, 75, .57));
     right: 0;
     left: 0
 }
@@ -635,6 +639,8 @@ address > a:hover {
     list-style: none;
     color: #8a0add;
     text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex
 }
 
@@ -807,6 +813,8 @@ main {
 }
 
 .line {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex
 }
 
@@ -849,6 +857,8 @@ main {
 
 .flex_row {
     -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     flex-direction: row
 }
 
