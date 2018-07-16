@@ -25,8 +25,8 @@
                 <a href="https://www.flickr.com/photos/109236765@N05/" target="_blank">
                     <img src="/images/logos/flickrSM_Icon.svg">
                 </a>
-                <a href="https://theaoat.wordpress.com/" target="_blank">
-                    <img src="/images/logos/wordpressSM_Icon.svg">
+                <a href="https://instagram.com" target="_blank">
+                    <img src="/images/logos/instagramSM_Icon.svg">
                 </a>
             </div>
 
