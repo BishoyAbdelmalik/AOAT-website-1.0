@@ -56,7 +56,6 @@
                 <button class="sidebtn btn btn-info" value="#Curriculum">AOAT Curriculum</button>
                 <button class="sidebtn btn btn-info" value="#Career">Career Development</button>
                 <button class="sidebtn btn btn-info" value="#internship">Internships</button>
-                <button class="sidebtn btn btn-info" value="#Peer">Peer Mentors</button>
             </div>
             <div id="info">
                 <article id="Career">
@@ -120,6 +119,7 @@
                     </section>
 
                 </article>
+<!--
                 <article id="Peer">
                     <section class="flex_b ">
                         <section class="flex_b">
@@ -130,9 +130,10 @@
                                 </p>
                             </div>
                         </section>
-<!--                        <img class=" img" src="images/clubs/mentor.jpg" style="margin-left: 14px;margin-bottom: 9px;">-->
+                        <img class=" img" src="images/clubs/mentor.jpg" style="margin-left: 14px;margin-bottom: 9px;">
                     </section>
                 </article>
+-->
                 <article id="Curriculum">
                     <h3>AOAT Curriculum</h3>
                     <section id="curriculum_main">

@@ -47,6 +47,8 @@
                 <button class="sidebtn btn btn-info" value="#trips">Field Trips</button>
                 <button class="sidebtn btn btn-info" value="#Career">Career Day</button>
                 <button class="sidebtn btn btn-info" value="#Celebration">Awards Ceremony</button>
+                <button class="sidebtn btn btn-info" value="#dayofdead">Day of the Dead</button>
+                <button class="sidebtn btn btn-info" value="#skills">Skills USA</button>
 
             </div>
             <div id="info">
@@ -93,6 +95,28 @@
                         <h3>Awards Ceremony</h3>
                         <p class="justify">
                           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
+
+
+                        </p>
+                    </section>
+                </article>
+                <article id="dayofdead">
+
+                    <section>
+                        <h3>Awards Ceremony</h3>
+                        <p class="justify">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
+
+
+                        </p>
+                    </section>
+                </article>
+                <article id="skills">
+
+                    <section>
+                        <h3>Awards Ceremony</h3>
+                        <p class="justify">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
 
 
                         </p>

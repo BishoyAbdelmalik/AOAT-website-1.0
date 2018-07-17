@@ -456,7 +456,7 @@ footer {
 }
 
 #aboutEvents {
-    background: url(../images/events/collegetour.jpg) top;
+    background: url(../images/events/collegetour.jpg) center;
     background-size: cover
 }
 
