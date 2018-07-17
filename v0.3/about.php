@@ -12,7 +12,11 @@
     <!--<link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>AOAT | About</title>
-
+    <style>
+        .un_max{
+            max-width: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,7 +38,7 @@
 
         <section id="quotearea" class="container-fluid lockcontent">
             <article class="vision">
-            <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
+            <img class="quoteimg" src="images/placeholder.jpg" />
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
@@ -42,7 +46,7 @@
             </div>
             </article>     
             <article class="mission">
-            <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
+            <img class="quoteimg" src="images/placeholder.jpg" />
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
@@ -50,7 +54,9 @@
             </div>
             </article>
             <article class="CPA">
-            <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
+                <a target="_blank" href="http://www.cde.ca.gov/ci/gs/hs/cpagen.asp">
+                <img class="quoteimg un_max" src="images/logos/temp_lighthouse.png" />
+                </a>
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
@@ -58,7 +64,7 @@
             </div>
             </article>
             <article class="Advisory">
-            <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
+            <img class="quoteimg" src="images/placeholder.jpg" />
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
@@ -66,7 +72,7 @@
             </div>
             </article>  
             <article class="Partners">
-            <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
+            <img class="quoteimg" src="images/placeholder.jpg" />
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
@@ -143,9 +149,7 @@
                             </div>
                         
                     </div>
-<a target="_blank" href="http://www.cde.ca.gov/ci/gs/hs/cpagen.asp">
-                            <img class="img" width="200px" src="images/logos/temp_lighthouse.png">
-                        </a>
+
                 </article>
                 <article id="Advisory">
                     <h3>Advisory Board</h3>

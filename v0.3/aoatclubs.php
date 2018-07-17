@@ -49,7 +49,7 @@
             </div>
             </article>
             <article class="peer">
-                <img class="quoteimg" src="images/clubs/art_joine.jpg" />
+                <img class="quoteimg" src="images/clubs/mentor/mentor.jpg" />
                 <div class="quote flex_b">
                     <p class="justify flex_b">
                         AOAT offers many different clubs for the students to get involved and get to help the comunity in variety of ways. Some of these clubs focus on artistic activities and help the comunity in a creative and unique ways. Other clubs are focused on the academic aspect of the student life and helping students acheive their potential in school.
