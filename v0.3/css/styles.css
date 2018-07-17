@@ -334,7 +334,7 @@ footer {
     position: fixed;
     top: 0
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:705px){
     #quotearea {
         display: none;
     }
@@ -1052,6 +1052,15 @@ main {
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards
 }
+#quotearea article {
+    display: none;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
 
 #info h3,
 #info h4 {
@@ -1059,7 +1068,11 @@ main {
 }
 
 .visable {
-    display: block!important
+    display: block!important;
+}.visable_f {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
 }
 
 .pagetitle {

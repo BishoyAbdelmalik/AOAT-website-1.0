@@ -43,13 +43,31 @@
 
         <div class="pagetitle container-fluid lockcontent">
         </div>
-        <section id="quotearea" class="container-fluid lockcontent flex_b">
+        <section id="quotearea" class="container-fluid lockcontent">
+            <article class="Curriculum">
             <img class="quoteimg" src="images/academics/academic_main.jpg" />
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     AOAT is a small learning community that is art-centered and focused on a technology-based education. Students participating in the Academy's four-year program are trained in Graphic Design, Web Design and Illustration aspects of the Commercial Art profession. Through its rigorous interdisciplinary curriculum, AOAT delivers connected and engaging academic courses that meet all the A-G requirements and provides access to honors sections and Advanced Placement classes. Our program also focuses on transferrable skills that are critical for student success during high school and after graduation, including communication skills, teamwork, problem solving, critical thinking, and time management. Dress for Success on Mondays. AOAT's family relationships between students and teachers also nurture student motivation, and the desire to succeed both at school and in life.
                 </p>
             </div>
+            </article>
+            <article class="Career">
+            <img class="quoteimg" src="images/academics/academic_main.jpg" />
+            <div class="quote flex_b">
+                <p class="justify flex_b">
+                    AOAT is a small learning community that is art-centered and focused on a technology-based education. Students participating in the Academy's four-year program are trained in Graphic Design, Web Design and Illustration aspects of the Commercial Art profession. Through its rigorous interdisciplinary curriculum, AOAT delivers connected and engaging academic courses that meet all the A-G requirements and provides access to honors sections and Advanced Placement classes. Our program also focuses on transferrable skills that are critical for student success during high school and after graduation, including communication skills, teamwork, problem solving, critical thinking, and time management. Dress for Success on Mondays. AOAT's family relationships between students and teachers also nurture student motivation, and the desire to succeed both at school and in life.
+                </p>
+            </div>
+            </article> 
+            <article class="internship">
+            <img class="quoteimg" src="images/academics/academic_main.jpg" />
+            <div class="quote flex_b">
+                <p class="justify flex_b">
+                    AOAT is a small learning community that is art-centered and focused on a technology-based education. Students participating in the Academy's four-year program are trained in Graphic Design, Web Design and Illustration aspects of the Commercial Art profession. Through its rigorous interdisciplinary curriculum, AOAT delivers connected and engaging academic courses that meet all the A-G requirements and provides access to honors sections and Advanced Placement classes. Our program also focuses on transferrable skills that are critical for student success during high school and after graduation, including communication skills, teamwork, problem solving, critical thinking, and time management. Dress for Success on Mondays. AOAT's family relationships between students and teachers also nurture student motivation, and the desire to succeed both at school and in life.
+                </p>
+            </div>
+            </article>
         </section>
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
@@ -119,21 +137,7 @@
                     </section>
 
                 </article>
-<!--
-                <article id="Peer">
-                    <section class="flex_b ">
-                        <section class="flex_b">
-                            <div>
-                                <h3>Peer Mentors</h3>
-                                <p class="justify">
-                                    Each year the 11th and 12th grade students are invited to participate in our Peer Mentor program, and are matched with a 9th or 10th grader who has self-selected to receive this support. The mentors and mentees meet during lunch once a week, and can either help with homework, tests, or personal issues that the younger students would like to talk about.
-                                </p>
-                            </div>
-                        </section>
-                        <img class=" img" src="images/clubs/mentor.jpg" style="margin-left: 14px;margin-bottom: 9px;">
-                    </section>
-                </article>
--->
+
                 <article id="Curriculum">
                     <h3>AOAT Curriculum</h3>
                     <section id="curriculum_main">

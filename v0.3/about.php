@@ -26,24 +26,54 @@
         <div class="banner homeimage aboutAOAT landing" id="about">
             <div class="pagetitle absolute-text bannertitle">
                 <h1>About</h1>
-                <!--
-<div class="arrow bounce">
-    <button class="fa fa-arrow-down fa-2x " onClick="runclick();" href="#"></button>
 
-</div>
--->
             </div>
 
 
         </div>
 
-        <section id="quotearea" class="container-fluid lockcontent flex_b">
+        <section id="quotearea" class="container-fluid lockcontent">
+            <article class="vision">
             <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
                 </p>
             </div>
+            </article>     
+            <article class="mission">
+            <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
+            <div class="quote flex_b">
+                <p class="justify flex_b">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
+                </p>
+            </div>
+            </article>
+            <article class="CPA">
+            <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
+            <div class="quote flex_b">
+                <p class="justify flex_b">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
+                </p>
+            </div>
+            </article>
+            <article class="Advisory">
+            <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
+            <div class="quote flex_b">
+                <p class="justify flex_b">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
+                </p>
+            </div>
+            </article>  
+            <article class="Partners">
+            <img class="quoteimg" src="images/academics/intern/intern3.jpg" />
+            <div class="quote flex_b">
+                <p class="justify flex_b">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
+                </p>
+            </div>
+            </article>
+        
         </section>
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
@@ -55,9 +85,9 @@
             </div>
             <div id="info">
                 <article id="vision">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
-
-</p>
+                    <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
+                    </p>
                      <div>
                         <h3>AOAT offers:</h3>
                         <ul>

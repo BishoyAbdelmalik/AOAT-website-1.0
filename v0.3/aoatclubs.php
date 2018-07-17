@@ -40,12 +40,23 @@
 <h2></h2>-->
         </div>
         <section id="quotearea" class="container-fluid lockcontent flex_b">
+            <article class="art">
             <img class="quoteimg" src="images/clubs/art_joine.jpg" />
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     AOAT offers many different clubs for the students to get involved and get to help the comunity in variety of ways. Some of these clubs focus on artistic activities and help the comunity in a creative and unique ways. Other clubs are focused on the academic aspect of the student life and helping students acheive their potential in school.
                 </p>
             </div>
+            </article>
+            <article class="peer">
+                <img class="quoteimg" src="images/clubs/art_joine.jpg" />
+                <div class="quote flex_b">
+                    <p class="justify flex_b">
+                        AOAT offers many different clubs for the students to get involved and get to help the comunity in variety of ways. Some of these clubs focus on artistic activities and help the comunity in a creative and unique ways. Other clubs are focused on the academic aspect of the student life and helping students acheive their potential in school.
+                    </p>
+                </div>
+            </article>
+
         </section>
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
@@ -98,9 +109,9 @@
                             <div>
                                 <h3>Peer Mentor</h3>
                                 <p class="justify">
-                                    The Mentor program is a program that brings upper classmen and lower classmen together every week for mentoring sessions, where juniors and sniors get together with their mentees (freshmen and sophmores) to give helpful advice for their daily school lives. As well as providing assistance with homework or personal problems.
-
+                                    The Mentor program is a program that brings upper classmen and lower classmen together every week for mentoring sessions, where juniors and sniors get together with their mentees to give helpful advice for their daily school lives. Each year the 11th and 12th grade students are invited to participate in our Peer Mentor program, and are matched with a 9th or 10th grader who has self-selected to receive this support. The mentors and mentees meet during lunch once a week, and can either help with homework, tests, or personal issues that the younger students would like to talk about.
                                 </p>
+                                
                             </div>
                         </div>
 <!--                        <img class="img" src="images/clubs/mentor.jpg" />-->
