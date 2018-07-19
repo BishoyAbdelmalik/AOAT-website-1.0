@@ -25,7 +25,7 @@
                 <a href="https://www.flickr.com/photos/109236765@N05/" target="_blank">
                     <img src="/images/logos/flickrSM_Icon.svg">
                 </a>
-                <a href="https://instagram.com" target="_blank">
+                <a href="https://www.instagram.com/the_aoat/" target="_blank">
                     <img src="/images/logos/instagramSM_Icon.svg">
                 </a>
             </div>
