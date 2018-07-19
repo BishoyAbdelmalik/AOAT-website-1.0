@@ -68,6 +68,14 @@
                 </p>
             </div>
             </article>
+            <article class="college">
+            <img class="quoteimg" src="images/academics/csula.jpg" />
+            <div class="quote flex_b">
+                <p class="justify flex_b">
+                    AOAT is a small learning community that is art-centered and focused on a technology-based education. Students participating in the Academy's four-year program are trained in Graphic Design, Web Design and Illustration aspects of the Commercial Art profession. Through its rigorous interdisciplinary curriculum, AOAT delivers connected and engaging academic courses that meet all the A-G requirements and provides access to honors sections and Advanced Placement classes. Our program also focuses on transferrable skills that are critical for student success during high school and after graduation, including communication skills, teamwork, problem solving, critical thinking, and time management. Dress for Success on Mondays. AOAT's family relationships between students and teachers also nurture student motivation, and the desire to succeed both at school and in life.
+                </p>
+            </div>
+            </article>
         </section>
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
@@ -99,6 +107,20 @@
                         </div>
 <!--                        <img class="img" src="images/academics/mock/mock2.jpg" />-->
                     </section>
+                </article>
+                <article id="college">
+                    <section class="flex_b">
+                        <div class="flex_b">
+                            <div>
+                                <h3>College Preperation</h3>
+                                <p class="justify">
+                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
+
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    
                 </article>
                 <article id="internship">
                     <h3>Internships</h3>

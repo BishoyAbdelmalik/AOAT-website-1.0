@@ -26,8 +26,9 @@
         <div class="container-fluid lockcontent"></div>
     </div>
     <div class="pagetitle container-fluid lockcontent" style="text-align:  center;">
-        <h1>Contact Us</h1>
-
+        <h1 style="
+                   font-family: 'Oswald', sans-serif;
+                   ">Contact Us</h1>
     </div>
     <main class="container-fluid lockcontent">
 
@@ -58,21 +59,32 @@
                 </div>
                 <div class="part2 flex wrap">
                     <div>
-                        <input type="checkbox" id="teach" name="teacher" value="1">
-                        <label class="part2_label" for="teach">Teacher</label>
+                        <input type="checkbox" id="parent" name="parent" value="1">
+                        <label class="part2_label" for="parent">Parent </label>
                     </div>
                     <div>
                         <input type="checkbox" id="student" name="student" value="1">
                         <label class="part2_label" for="student">Student</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="parent" name="parent" value="1">
-                        <label class="part2_label" for="parent">Parent </label>
+                        <input type="checkbox" id="teach" name="teacher" value="1">
+                        <label class="part2_label" for="teach">Teacher</label>
                     </div>
-                    <div class="other flex row">
-                        <label class="part2_label" for="other"><span>Other: </span></label>
-                        <input type="text" class="email" id="other" name="other">
+                    <div>
+                        <input type="checkbox" id="business" name="business" value="1">
+                        <label class="part2_label" for="business">Business</label>
                     </div>
+                    <div>
+                        <input type="checkbox" id="Partner" name="Partner" value="1">
+                        <label class="part2_label" for="Partner">Partner</label>
+                    </div>
+                      <div>
+                          <input type="checkbox" id="other" name="other" value="1">
+                          <label class="part2_label" for="other">Other</label>
+                    </div>
+                    
+                    
+                    
 
                 </div>
                 <div>
