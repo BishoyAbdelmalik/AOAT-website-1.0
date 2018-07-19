@@ -78,14 +78,10 @@
                         <input type="checkbox" id="Partner" name="Partner" value="1">
                         <label class="part2_label" for="Partner">Partner</label>
                     </div>
-                      <div>
-                          <input type="checkbox" id="other" name="other" value="1">
-                          <label class="part2_label" for="other">Other</label>
+                    <div>
+                        <input type="checkbox" id="people" name="people" value="1">
+                        <label class="part2_label" for="people">Other</label>
                     </div>
-                    
-                    
-                    
-
                 </div>
                 <div>
                     <div style="color: #006fb7;" class="flex column body">

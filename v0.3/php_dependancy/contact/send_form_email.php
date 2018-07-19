@@ -1,22 +1,26 @@
 <?php
-$to      = 'mrboushy@gmail.com';
+$to= 'info@theaoat.org';
 
 $error=array();
 $first_name=trim($_POST[first_name]);
 $last_name=trim($_POST[last_name]);
 $email=trim($_POST[email]);
 $number=trim($_POST[numb]);
-$other=trim($_POST[other]);
 $msg=$_POST[paragraph_text];
 $teacher="";
 $Parent="";
 $student="";
-if ($_POST[teacher]){$teacher="Teacher";}
-if ($_POST[student]){$student="Student";}
+$Business="";
+$Partner="";
+$other="";
 if ($_POST[parent]){$Parent="Parent";}
-
-
-$headers = 'From: test@theaoat.org' . "\r\n" .
+if ($_POST[student]){$student="Student";}
+if ($_POST[teacher]){$teacher="Teacher";}
+if ($_POST[business]){$Business="Business";}
+if ($_POST[Partner]){$Partner="Partner";}
+if ($_POST[people]){$other="Other";}
+$iam=$teacher . $student . $Parent .$Business.$Partner.$other;
+$headers = 'From: webmaster@theaoat.org' . "\r\n" .
     'Reply-To: '.$email.' '. "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
@@ -39,18 +43,18 @@ if(!isset($email)||is_null($email) || $email==""){array_push($error,"Email field
 if(isset($number)){if(is_numeric($number)){if(strlen($number)<11 && strlen($number)>5){}else{array_push($error,"The phone number is not valid");}}}
 if (!isset($msg)){array_push($error," Message field is required");}
 
-if ($teacher || $Parent || $student || $other ){
+if ($iam){
     
 }else {
     array_push($error,"You have to select who you are");
 }
 if(!isset($msg)||is_null($msg) || $msg==""){array_push($error,"What is your message?");}
 if (!$error){
-    $subject= "Form Email";
+    $subject= "Website Form";
     $message = 'First Name: '. $first_name . "\r\n";
     $message .= 'Last Name: '. $last_name . "\r\n";
     $message .= 'Phone Number: '. $number . "\r\n";
-    $message .= 'I am: '. $teacher . $student . $Parent . $other . "\r\n"."\r\n"."\r\n";
+    $message .= 'I am: '. $iam. "\r\n"."\r\n"."\r\n";
     $message .= $msg;
     
     
