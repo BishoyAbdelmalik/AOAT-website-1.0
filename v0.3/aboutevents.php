@@ -35,7 +35,7 @@
         </div>
         <section id="quotearea" class="container-fluid lockcontent flex_b">
             <article class="trips">
-            <img class="quoteimg" src="images/events/MOCA_2.jpg" />
+            <img class="quoteimg" src="images/events/moca_sign.jpg" />
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     AOAT provides many opportunities for students to explore their community, from field trips to museums, to volunteering, to career connected visits. We also bring professionals to campus to share their insights about current issues, post-secondary education, and careers. The following are a list of activities that students participate in: Career Exploration Visits, Career Day, College Tours, Museum of Contemporary Art, Museum of Tolerance, Art Club, Annual Homecoming Float, Awards Ceremony, Community Outreach & Volunteer, Day of the Dead Festival, Conferences & Presentations,
@@ -62,7 +62,7 @@
             </div>
             </article>    
             <article class="dayofdead">
-            <img class="quoteimg" src="images/placeholder.jpg" />
+            <img class="quoteimg" src="images/events/dead.jpg" />
             <div class="quote flex_b">
                 <p class="justify flex_b">
                     AOAT provides many opportunities for students to explore their community, from field trips to museums, to volunteering, to career connected visits. We also bring professionals to campus to share their insights about current issues, post-secondary education, and careers. The following are a list of activities that students participate in: Career Exploration Visits, Career Day, College Tours, Museum of Contemporary Art, Museum of Tolerance, Art Club, Annual Homecoming Float, Awards Ceremony, Community Outreach & Volunteer, Day of the Dead Festival, Conferences & Presentations,
@@ -106,6 +106,17 @@
                     <section class="flex_b">
                         <div class="flex_b">
                             <div>
+                                <h3>Career Site Visit</h3>
+                                <p class="justify">
+                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet mi euismod, hendrerit ante at, laoreet libero. Sed sit amet velit quis purus tempor mollis et eget quam. In eu nibh fringilla, aliquet orci eget, sagittis nisi. Aenean ac porta felis. Maecenas neque elit, auctor in convallis vel, vulputate sit amet justo. Nunc et dapibus dolor. Vivamus bibendum lacinia facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin euismod purus sed felis rutrum, vitae sodales nisl ultrices. Cras auctor, tellus id congue ullamcorper, risus nibh pellentesque tellus, id vestibulum quam lacus nec nisl. Nulla maximus mi vel neque ullamcorper"
+
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="flex_b">
+                        <div class="flex_b">
+                            <div>
                                 <h3>Museum of Contemporary Art</h3>
                                 <p class="justify">
                                     Several AOAT teachers belong to the MOCA program Contemporary Art Start that provides two trips to the museum every year. These trips take place in the fall and spring, and are often a reward for students with a grade average of C and above. Students learn about contemporary art, and have the opportunity to explore downtown Los Angeles.
@@ -113,6 +124,7 @@
                             </div>
                         </div>
                     </section>
+                    
 
                 </article>
                 <article id="Career">

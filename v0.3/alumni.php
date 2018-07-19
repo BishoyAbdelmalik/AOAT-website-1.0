@@ -58,7 +58,7 @@
                         <a href="#rosillo" data-toggle="collapse">
                             <h4>Danielle Rocha</h4>
                         </a>
-                        <p><i>Class of ?</i>
+                        <p><i>Class of 2014</i>
                         </p>
                     </div>
                 </div>

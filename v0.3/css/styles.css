@@ -1,10 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Kalam|Raleway);
+@import url(https://fonts.googleapis.com/css?family=Kalam);
 /*@import url(https://fonts.googleapis.com/css?family=Muli);*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
 
 /*@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900');*/
 
 @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400');
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
 
 
 .flex_column,
@@ -16,6 +18,7 @@
 .landing h1 {
     /*    font-family: 'Lato', sans-serif;*/
     font-family: 'Muli', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 200;
     text-transform: uppercase;
     text-shadow: 2px 2px 16px rgba(0, 0, 0, .5)
@@ -426,7 +429,7 @@ footer {
 }
 
 #clubs {
-    background: url(../images/banners/clubs.jpg) top;
+    background: url(../images/banners/clubs.jpg) center;
     background-size: cover
 }
 
@@ -451,7 +454,7 @@ footer {
 }
 
 #alumni {
-    background: url(../images/home/AboutAOAT.jpg);
+    background: url(../images/banners/alumni.jpg)center;
     background-size: cover
 }
 
@@ -1112,4 +1115,7 @@ main {
 
 .white_txt {
     color: #fff
+}
+body{
+    font-family: Raleway, sans-serif;
 }

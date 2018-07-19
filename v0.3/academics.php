@@ -72,6 +72,7 @@
         <section class="flex_b container-fluid lockcontent">
             <div class="sidebuttons flex_b flex_column">
                 <button class="sidebtn btn btn-info" value="#Curriculum">AOAT Curriculum</button>
+                <button class="sidebtn btn btn-info" value="#college">College Preperation</button>
                 <button class="sidebtn btn btn-info" value="#Career">Career Development</button>
                 <button class="sidebtn btn btn-info" value="#internship">Internships</button>
             </div>
