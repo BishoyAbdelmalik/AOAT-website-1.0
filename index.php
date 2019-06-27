@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link async rel="stylesheet" href="css/bootstrap.min.css" />
     <link async rel="stylesheet" href="css/styles.css" />
-    <link async rel="stylesheet" href="dist/styles.css" />
     <title>AOAT | Home</title>
     <style>
         .arrow p {
